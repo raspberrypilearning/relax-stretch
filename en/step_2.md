@@ -1,3 +1,3 @@
-## Step title
+## Getting your character ready
 
 + Step content...
