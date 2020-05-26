@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Keep yourself moving, flexible and alert while sitting down. You will create a a program to demonstrate some mindful, relaxing exercises you can carry out while sitting down, and even add a new exercise of your own.
 
 ### What you will make
 
