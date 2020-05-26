@@ -19,8 +19,31 @@ First you are going give character 1 all her setup code such as where on the scr
 
 --- task ---
 
-![up arrow sprite icon](images/up_arrow_sprite.png)
+Select the *character 1* sprite in the **Sprites Pane**
+
+![select character 1 sprite](images/select_character1.png)
+
+Start by adding a `when flag clicked`{:class="block3events"} block
 
 ![character 1 sprite icon](images/character1_sprite.png)
+
+```blocks3
+when flag clicked
+```
+
+--- /task ---
+
+--- task ---
+
+Add a `go to x: y:`{:class="block3motion"} block from the `Motion`{:class="block3motion"} block palette.
+
+Enter an **x value** of 70 and a **y value** of -25 to position *character 1* low down to the right of centre.
+
+![character 1 sprite icon](images/character1_sprite.png)
+
+```blocks3
+when flag clicked
++ go to x: (70) y: (-25)
+```
 
 --- /task ---
