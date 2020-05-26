@@ -19,6 +19,8 @@ First you are going give character 1 all her setup code such as where on the scr
 
 --- task ---
 
+![up arrow sprite icon](images/up_arrow_sprite.png)
 
+![character 1 sprite icon](images/character1_sprite.png)
 
 --- /task ---
