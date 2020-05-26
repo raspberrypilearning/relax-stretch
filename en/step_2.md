@@ -23,7 +23,7 @@ Select the *character 1* sprite in the **Sprites Pane**
 
 ![select character 1 sprite](images/select_character1.png)
 
-Start by adding a `when flag clicked`{:class="block3events"} block
+From the list of `Event`{:class="block3events"} blocks, add a `when flag clicked`{:class="block3events"} block.
 
 ![character 1 sprite icon](images/character1_sprite.png)
 
@@ -44,6 +44,39 @@ Enter an **x value** of 70 and a **y value** of -25 to position *character 1* lo
 ```blocks3
 when flag clicked
 + go to x: (70) y: (-25)
+```
+
+--- /task ---
+
+--- task ---
+
+To make sure *character 1* starts using the right costume, go to the `Looks`{:class="block3looks"} block palette and add a `switch costume to`{:class="block3looks"} block.
+
+Set the costume to `at rest`{:class="block3looks"}.
+
+![character 1 sprite icon](images/character1_sprite.png)
+
+```blocks3
+when flag clicked
+go to x: (70) y: (-25)
++ switch costume to (at rest v)
+```
+
+--- /task ---
+
+The last thing you'll do to prepare your *character 1* is to add a short wait so that the first exercise doesn't start too suddenly.
+
+--- task ---
+
+Add a `Control`{:class="block3looks"} block to make *character 1* `wait for 2 seconds`{:class="block3looks"} before anything else happens.
+
+![character 1 sprite icon](images/character1_sprite.png)
+
+```blocks3
+when flag clicked
+go to x: (70) y: (-25)
+switch costume to (at rest v)
++ wait (2) seconds
 ```
 
 --- /task ---
