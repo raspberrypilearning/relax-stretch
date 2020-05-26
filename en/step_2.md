@@ -14,3 +14,11 @@ In the starter project, you should see a character sprite along with two arrow, 
 ![starter project](images/starter_project.png)
 
 --- /task ---
+
+First you are going give character 1 all her setup code such as where on the screen start.
+
+--- task ---
+
+
+
+--- /task ---
