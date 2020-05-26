@@ -1,11 +1,15 @@
 ## Introduction
 
-Keep yourself moving, flexible and alert while sitting down. You will create a a program to demonstrate some mindful, relaxing exercises you can carry out while sitting down, and even add a new exercise of your own.
+Keep yourself moving, flexible and alert while sitting down by performing regular, relaxing exercises. Write a program to help you and others stay healthy while working.
 
 ### What you will make
 
+You will create a a program to demonstrate some mindful, relaxing exercises you can carry out while sitting down, and even add a new exercise of your own.
+
 --- no-print ---
-Add instructions for using the embedded content here.
+Click on the green flag to start the exercise routines.
+
+Click on the **up** or **down** arrows to change the number of times each exercise repeats.
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/399135243/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -22,17 +26,15 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A computer
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ Scratch 3 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ [rpf.io/project-name-go](http://rpf.io/sit-stretch-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -41,8 +43,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How to use a conditional statement to control a variable's range
++ How to use text to speech
 
 --- /collapse ---
 
@@ -51,8 +53,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+Here is a link to the solution to this project [rpf.io/p/en/serene-scene-get](http://rpf.io/p/en/sit-stretch-get).
 
 --- /collapse ---
