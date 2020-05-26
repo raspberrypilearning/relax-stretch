@@ -8,7 +8,7 @@ Keep yourself moving, flexible and alert while sitting down. You will create a a
 Add instructions for using the embedded content here.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe src="https://scratch.mit.edu/projects/399135243/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 --- /no-print ---
 
