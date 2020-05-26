@@ -18,7 +18,7 @@ Click on the **up** or **down** arrows to change the number of times each exerci
 
 --- print-only ---
 
-![completed project](images/finished_project.png)
+![completed project](images/finshed_project.png)
 
 --- /print-only ---
 
