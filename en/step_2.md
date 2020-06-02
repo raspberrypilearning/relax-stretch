@@ -21,15 +21,11 @@ First of all, you are going give **character 1** a name. In this project, she wi
 
 Select the **character 1** sprite in the **Sprites Pane**
 
-![select character 1 sprite](images/select_character1.png)
+Click on the _dialogue box_ showing the sprite name, and replace **character 1** with the name of your choice.
 
-From the list of `Event`{:class="block3events"} blocks, add a `when flag clicked`{:class="block3events"} block.
+![select character 1 sprite name](images/select_character1_name.png)
 
-![character 1 sprite icon](images/character1_sprite.png)
-
-```blocks3
-when flag clicked
-```
+Click anywhere outside of the _dialogue box_ and you will see the name has now changed.
 
 --- /task ---
 
@@ -53,7 +49,7 @@ when flag clicked
 
 Add a `go to x: y:`{:class="block3motion"} block from the `Motion`{:class="block3motion"} block palette.
 
-Enter an **x value** of 70 and a **y value** of -25 to position **character 1** low down to the right of centre.
+Enter an **x value** of 70 and a **y value** of -25 to position **Nadia** low down to the right of centre.
 
 ![character 1 sprite icon](images/character1_sprite.png)
 
@@ -66,7 +62,7 @@ when flag clicked
 
 --- task ---
 
-To make sure **character 1** starts using the right costume, go to the `Looks`{:class="block3looks"} block palette and add a `switch costume to`{:class="block3looks"} block.
+To make sure **Nadia** starts using the right costume, go to the `Looks`{:class="block3looks"} block palette and add a `switch costume to`{:class="block3looks"} block.
 
 Set the costume to `at rest`{:class="block3looks"}.
 
@@ -80,11 +76,11 @@ go to x: (70) y: (-25)
 
 --- /task ---
 
-The last thing you'll do to prepare your **character 1** is to add a short wait so that the first exercise doesn't start too suddenly.
+The last thing you'll do to prepare your **Nadia** is to add a short wait so that the first exercise doesn't start too suddenly.
 
 --- task ---
 
-Add a `Control`{:class="block3looks"} block to make **character 1** `wait for 2 seconds`{:class="block3looks"} before anything else happens.
+Add a `Control`{:class="block3looks"} block to make **Nadia** `wait for 2 seconds`{:class="block3looks"} before anything else happens.
 
 ![character 1 sprite icon](images/nadia_sprite.png)
 
