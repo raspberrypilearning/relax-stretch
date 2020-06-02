@@ -58,6 +58,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
 
-Here is a link to the solution to this project [rpf.io/p/en/serene-scene-get](http://rpf.io/p/en/sit-stretch-get).
+Here is a link to the completed project [rpf.io/p/en/sit-stretch-get](http://rpf.io/p/en/sit-stretch-get).
 
 --- /collapse ---
