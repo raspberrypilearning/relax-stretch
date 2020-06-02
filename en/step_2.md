@@ -49,7 +49,7 @@ Add a `go to x: y:`{:class="block3motion"} block from the `Motion`{:class="block
 
 Enter an **x value** of 70 and a **y value** of -25 to position **Nadia** low down to the right of centre.
 
-![character 1 sprite icon](images/character1_sprite.png)
+![character 1 sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ To make sure **Nadia** starts using the right costume, go to the `Looks`{:class=
 
 Set the costume to `at rest`{:class="block3looks"}.
 
-![character 1 sprite icon](images/nadia_sprites2 and image.png)
+![character 1 sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
