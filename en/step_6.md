@@ -126,7 +126,11 @@ Make up a block for the condition, `repetitions`{:class="block3variables"} block
 
 <(repetitions)>[1]>
 
+<(repetitions)<[1]>
+
 Add this _condition_ to your `if... then... else...`{:class="block3control"} block.
+
+![Down arrow sprite icon](images/down_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
