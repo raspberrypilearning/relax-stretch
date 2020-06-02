@@ -179,6 +179,6 @@ end
 
 --- /task ---
 
-Test your new code by running the program and clicking the two arrows to raise or reuce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for this by _ticking_ the variable's checkbox in the `variables`{:class="block3variables"} palette.
+Test your new code by running the program and clicking the two arrows to raise or reuce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for this by _ticking_ the variable's checkbox in the `variables`{:class="block3variables"} palette, so that you can see the value of `repetitions`{:class="block3variables"} changing.
 
 ![Making the repetition variable display on the stage](images/untickRepetitionsVariable.png)
