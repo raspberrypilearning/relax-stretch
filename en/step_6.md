@@ -48,7 +48,7 @@ In first empty field, add a rounded `repetitions`{:class="block3variables"} bloc
 In the remaining empty field, add the number `5`.
 
 ```blocks3
-<(repetions ::variables)<(5 +)>
+<(repetions ::variables)<[5 +]>
 ```
 
 Now add this block into the hexagonal field of your `if... then... else...`{:class="block3control"} block.
@@ -57,7 +57,7 @@ Now add this block into the hexagonal field of your `if... then... else...`{:cla
 
 ```blocks3
 when this sprite clicked
-if <(repetions ::variables)<(5) ::operators +> then
+if <(repetions ::variables)<[5] ::operators +> then
 else
 end
 ```
