@@ -31,9 +31,7 @@ When the finished program is running, the **up arrow** will be clicked to increa
 
 --- task ---
 
-Since the **up arrow** is 
-
-Give the **up arrow** sprite the screen position `x: -140` and `y: 30` by adding a `go to`{:class="block3motion"} block.
+Grab a `forever`{:class="block3control"} loop from the `Control`{:class="block3control"} palette and place it under the `green flag`{:class="block3control"} Event, with the `go to`{:class="block3motion"} block inside.
 
 ![up arrow sprite icon](images/up_arrow_sprite.png)
 

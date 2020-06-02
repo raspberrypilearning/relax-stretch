@@ -74,7 +74,7 @@ go to x: (70) y: (-25)
 
 --- /task ---
 
-The last thing you'll do to prepare your **Nadia** is to add a short wait so that the first exercise doesn't start too suddenly.
+The last thing you'll do to prepare **Nadia** is to add a short wait so that the first exercise doesn't start too suddenly.
 
 --- task ---
 
