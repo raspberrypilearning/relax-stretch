@@ -45,7 +45,7 @@ Now add an instruction to go with the costume change. Here, you will use a `say`
 
 --- task ---
 
-Under the `switch the costume`{:class="block3looks"} block, add a `Losayoks`{:class="block3looks"} block with the text `breathe in`{:class="block3looks"}.
+Under the `switch the costume`{:class="block3looks"} block, add a `say`{:class="block3looks"} block with the text `breathe in`{:class="block3looks"}.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -56,7 +56,7 @@ switch costume to (at rest v)
 wait (2) seconds
 repeat (2)
     switch costume to (breathe in v)
-    say (breathe in) for (2) seconds
+    say (breathe in ::looks)  for (2) seconds
 end
 ```
 
