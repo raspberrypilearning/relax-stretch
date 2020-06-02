@@ -76,7 +76,7 @@ Inside the first empty space of the `if... then... else...`{:class="block3contro
 
 ```blocks3
 when this sprite clicked
-if <(repetitions ::variables)<[5] ::operators +> then
+if <(repetitions ::variables)<[5] ::operators> then
 +     change [repetitions v] by (1)
 else
 end
@@ -94,7 +94,7 @@ Inside the empty space below the `else`{:class="block3control"} of the `if... th
 
 ```blocks3
 when this sprite clicked
-if <(repetitions ::variables)<[5] ::operators +> then
+if <(repetitions ::variables)<[5] ::operators> then
     change [repetitions v] by (1)
 else
 +     say [5 repetitions is the maximum] for (2) seconds
@@ -102,4 +102,8 @@ end
 ```
 
 --- /task ---
+
+Now you'll need to repeat these steps for the **down arrow**, but with a different _conditional statement_, reducing `repetitions`{:class="block3variables"} by `1` and giving a different message if the _condition_ is `false`.
+
+
 
