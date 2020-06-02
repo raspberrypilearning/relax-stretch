@@ -23,7 +23,7 @@ Select the **character 1** sprite in the **Sprites Pane**
 
 Click on the _dialogue box_ showing the sprite name, and replace **character 1** with the name of your choice.
 
-![select character 1 sprite name](images/select_character1_name.png)
+![select character 1 sprite name](images/select_character1_name2.png)
 
 Click anywhere outside of the _dialogue box_ and you will see the name has now changed.
 
