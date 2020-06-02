@@ -15,7 +15,7 @@ In the starter project, you should see a character sprite along with two arrow, 
 
 --- /task ---
 
-First you are going give character 1 all her setup code such as where on the screen start.
+First of all, you are going give **character 1** a name. In this project, she will be **Nadia** but you can use whatever name you like.
 
 --- task ---
 
@@ -26,6 +26,22 @@ Select the **character 1** sprite in the **Sprites Pane**
 From the list of `Event`{:class="block3events"} blocks, add a `when flag clicked`{:class="block3events"} block.
 
 ![character 1 sprite icon](images/character1_sprite.png)
+
+```blocks3
+when flag clicked
+```
+
+--- /task ---
+
+--- /task ---
+
+Next, you will give **Nadia** all her setup code such as where on the screen start.
+
+--- task ---
+
+With the **Nadia** sprite still selected, add a `when flag clicked`{:class="block3events"} block from the list of `Events`{:class="block3events"} palette.
+
+![character 1 sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
