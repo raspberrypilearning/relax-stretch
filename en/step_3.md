@@ -13,3 +13,16 @@ when flag clicked
 ```
 
 --- /task ---
+
+--- task ---
+
+Give the *up arrow* sprite the screen position `x: -140` and `y: 30` by adding a `go to`{:class="block3motion"} block.
+
+![up arrow sprite icon](images/up_arrow_sprite.png)
+
+```blocks3
+when flag clicked
+go to x: (-140) y: (30)
+```
+
+--- /task ---
