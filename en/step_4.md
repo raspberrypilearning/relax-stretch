@@ -66,7 +66,7 @@ Now add another costume change along with its instruction.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} block and set the new costume to `breathe out`.
+Add a `switch costume to`{:class="block3looks"} block and set the new costume to `at rest`.
 
 Under that, add another `say`{:class="block3looks"} block with the text `breathe out`{:class="block3looks"}.
 
@@ -80,10 +80,11 @@ wait (2) seconds
 repeat (2)
     switch costume to (breathe in v)
     say [breathe in]  for (2) seconds
-+     switch costume to (breathe out v)
++     switch costume to (at rest v)
 +     say [breathe out]  for (2) seconds
 end
 ```
 
 --- /task ---
 
+That's the first exercise done. Try clicking the green flag and check that everything works as you expected it to.
