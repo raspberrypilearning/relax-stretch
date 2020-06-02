@@ -31,7 +31,7 @@ When the finished program is running, the **up arrow** will be clicked to increa
 
 --- task ---
 
-Grab a `forever`{:class="block3control"} loop from the `Control`{:class="block3control"} palette and place it under the `green flag`{:class="block3control"} Event, with the `go to`{:class="block3motion"} block inside.
+Grab a `forever`{:class="block3control"} loop from the `Control`{:class="block3control"} palette and place it under the `green flag`{:class="block3events"} Event, with the `go to`{:class="block3motion"} block inside.
 
 ![up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -40,6 +40,25 @@ when flag clicked
 + forever
 go to x: (-140) y: (30)
 + end
+```
+
+--- /task ---
+
+Next, you will do the same for the **down arrow**, placing it in a different position.
+
+--- task ---
+
+Give the **down arrow** a `green flag`{:class="block3events"} *event*, a `forever`{:class="block3control"} loop and a `go to`{:class="block3motion"} block.
+
+Set the position in the `go to`{:class="block3motion"} block to `x: -140` and `y: -40`
+
+![down arrow sprite icon](images/up_down_sprite.png)
+
+```blocks3
+when flag clicked
+forever
+    go to x: (-140) y: (-40)
+end
 ```
 
 --- /task ---
