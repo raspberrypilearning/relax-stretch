@@ -54,7 +54,7 @@ set [repetitions v] to (3)
 go to x: (70) y: (-25)
 switch costume to (at rest v)
 wait (2) seconds
-repeat + (repetitions)
+repeat (repetitions +)
     switch costume to (breathe in v)
     say [breathe in]  for (2) seconds
     switch costume to (at rest v)
@@ -63,3 +63,5 @@ end
 ```
 
 --- /task ---
+
+You can test this works, if you like, by changing the value of `repetitions`{:class="block3variables"} and running the program.
