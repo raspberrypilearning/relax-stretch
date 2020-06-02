@@ -137,3 +137,18 @@ end
 
 --- /task ---
 
+--- task ---
+
+In the first empty block space of the `if... then... else...`{:class="block3control"} block, i.e. `if`{:class="block3control"} the condition is `true`, add a block to reduce the `repetitions`{:class="block3variables"} by `1`.
+
+```blocks3
+when this sprite clicked
+if <(repetitions)>[1]> then
++     change [repetitions v] by (-1)
+else
+end
+```
+
+**Note** that a way to say _reduce by 1_ in Scratch is, _change by -1_.
+
+--- /task ---
