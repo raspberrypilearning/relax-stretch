@@ -88,7 +88,7 @@ Since `repetitions`{:class="block3variables"} can't go above `5`, you can add a 
 
 --- task ---
 
-Inside the empty space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add  the message `5 repetitons is the maximum`{:class="block3variables"} for `2` seconds.
+Inside the empty space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add the message `5 repetitons is the maximum`{:class="block3variables"} for `2` seconds.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -155,5 +155,22 @@ end
 ```
 
 **Note** that a way to say _reduce by 1_ in Scratch is, _change by -1_.
+
+--- /task ---
+
+Finally, add a message for if the **down arrow** is pressed but `repetitions`{:class="block3variables"} is already 1 so can't go any lower.
+
+--- task ---
+
+In the empty block space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add a message, something like `Repetitions can't be lower than 1`{:class="block3variables"} for `2` seconds.
+
+```blocks3
+when this sprite clicked
+if <(repetitions)>[1]> then
+    change [repetitions v] by (-1)
+else
++     say [5 repetitions is the maximum] for (2) seconds
+end
+```
 
 --- /task ---
