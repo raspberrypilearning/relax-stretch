@@ -24,6 +24,8 @@ The next step is to _initialise_ the new `repetitions`{:class="block3variables"}
 
 Make sure that your **Nadia** sprite is selected and from the `Variables`{:class="block3variables"} palette, add a `set repetitions to`{:class="block3variables"} block and set the variable to 3.
 
+![Nadia sprite icon](images/nadia_sprite.png)
+
 ```blocks3
 when flag clicked
 + set [repetitions v] to (3)
@@ -47,6 +49,8 @@ The next step is to use the new variable to direct the number of times the exerc
 --- task ---
 
 Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} loop so that whatever the value of `repetitions`{:class="block3variables"} is will also be the number of times the exercise repeats.
+
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
