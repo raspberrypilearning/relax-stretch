@@ -48,11 +48,11 @@ Next, you will do the same for the **down arrow**, placing it in a different pos
 
 --- task ---
 
-Give the **down arrow** a `green flag`{:class="block3events"} *event*, a `forever`{:class="block3control"} loop and a `go to`{:class="block3motion"} block.
+Give the **down arrow** sprite a `green flag`{:class="block3events"} *event*, a `forever`{:class="block3control"} loop and a `go to`{:class="block3motion"} block.
 
 Set the position in the `go to`{:class="block3motion"} block to `x: -140` and `y: -40`
 
-![down arrow sprite icon](images/up_down_sprite.png)
+![down arrow sprite icon](images/down_arrow_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -62,3 +62,5 @@ end
 ```
 
 --- /task ---
+
+Later, you'll add code to make these two buttons control the number of exercise repetitions but first, you'll code your first exercise routine.
