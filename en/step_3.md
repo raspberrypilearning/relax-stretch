@@ -40,8 +40,8 @@ Give the **up arrow** sprite the screen position `x: -140` and `y: 30` by adding
 ```blocks3
 when flag clicked
 + forever
-    go to x: (-140) y: (30)
-end
+go to x: (-140) y: (30)
++ end
 ```
 
 --- /task ---
