@@ -19,7 +19,7 @@ First you are going give character 1 all her setup code such as where on the scr
 
 --- task ---
 
-Select the *character 1* sprite in the **Sprites Pane**
+Select the **character 1** sprite in the **Sprites Pane**
 
 ![select character 1 sprite](images/select_character1.png)
 
@@ -37,7 +37,7 @@ when flag clicked
 
 Add a `go to x: y:`{:class="block3motion"} block from the `Motion`{:class="block3motion"} block palette.
 
-Enter an **x value** of 70 and a **y value** of -25 to position *character 1* low down to the right of centre.
+Enter an **x value** of 70 and a **y value** of -25 to position **character 1** low down to the right of centre.
 
 ![character 1 sprite icon](images/character1_sprite.png)
 
@@ -50,7 +50,7 @@ when flag clicked
 
 --- task ---
 
-To make sure *character 1* starts using the right costume, go to the `Looks`{:class="block3looks"} block palette and add a `switch costume to`{:class="block3looks"} block.
+To make sure **character 1** starts using the right costume, go to the `Looks`{:class="block3looks"} block palette and add a `switch costume to`{:class="block3looks"} block.
 
 Set the costume to `at rest`{:class="block3looks"}.
 
@@ -64,11 +64,11 @@ go to x: (70) y: (-25)
 
 --- /task ---
 
-The last thing you'll do to prepare your *character 1* is to add a short wait so that the first exercise doesn't start too suddenly.
+The last thing you'll do to prepare your **character 1** is to add a short wait so that the first exercise doesn't start too suddenly.
 
 --- task ---
 
-Add a `Control`{:class="block3looks"} block to make *character 1* `wait for 2 seconds`{:class="block3looks"} before anything else happens.
+Add a `Control`{:class="block3looks"} block to make **character 1** `wait for 2 seconds`{:class="block3looks"} before anything else happens.
 
 ![character 1 sprite icon](images/character1_sprite.png)
 

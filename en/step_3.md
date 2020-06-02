@@ -4,7 +4,7 @@ The next step is to *initialise* the arrow button sprites in the same way you ha
 
 --- task ---
 
-Select the *up arrow* sprite in the **Sprites Pane** and give it a `when flag clicked`{:class="block3events"} block.
+Select the **up arrow** sprite in the **Sprites Pane** and give it a `when flag clicked`{:class="block3events"} block.
 
 ![up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -16,7 +16,7 @@ when flag clicked
 
 --- task ---
 
-Give the *up arrow* sprite the screen position `x: -140` and `y: 30` by adding a `go to`{:class="block3motion"} block.
+Give the **up arrow** sprite the screen position `x: -140` and `y: 30` by adding a `go to`{:class="block3motion"} block.
 
 ![up arrow sprite icon](images/up_arrow_sprite.png)
 
