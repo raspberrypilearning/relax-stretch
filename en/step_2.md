@@ -54,7 +54,7 @@ To make sure **character 1** starts using the right costume, go to the `Looks`{:
 
 Set the costume to `at rest`{:class="block3looks"}.
 
-![character 1 sprite icon](images/character1_sprite.png)
+![character 1 sprite icon](images/nadia_sprites2 and image.png)
 
 ```blocks3
 when flag clicked
@@ -70,7 +70,7 @@ The last thing you'll do to prepare your **character 1** is to add a short wait 
 
 Add a `Control`{:class="block3looks"} block to make **character 1** `wait for 2 seconds`{:class="block3looks"} before anything else happens.
 
-![character 1 sprite icon](images/character1_sprite.png)
+![character 1 sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
