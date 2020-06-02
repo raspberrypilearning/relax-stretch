@@ -4,21 +4,26 @@ Now it is time to code your arrow buttons so you can use them to change the valu
 
 --- task ---
 
-Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} loop so that whatever the value of `repetitions`{:class="block3variables"} is will also be the number of times the exercise repeats.
+Leaving the existing code exactly as it is, add a new script starting with the `Events`{:class="block3events"} block, `when this sprite clicked`{:class="block3events"}.
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Up arrow sprite icon](images/up_arrow_sprite.png)
 
 ```blocks3
-when flag clicked
-set [repetitions v] to (3)
-go to x: (70) y: (-25)
-switch costume to (at rest v)
-wait (2) seconds
-repeat (repetitions ::variables +)
-    switch costume to (breathe in v)
-    say [breathe in]  for (2) seconds
-    switch costume to (at rest v)
-    say [breathe out]  for (2) seconds
+when this sprite clicked
+```
+
+--- /task ---
+
+--- task ---
+
+Now add an `if... then... else...`{:class="block3control"} block from the `Control`{:class="block3control"} palette
+
+![Up arrow sprite icon](images/up_arrow_sprite.png)
+
+```blocks3
+when this sprite clicked
++ if <> then
+else
 end
 ```
 
