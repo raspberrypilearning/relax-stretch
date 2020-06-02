@@ -35,7 +35,7 @@ Next, you will give **Nadia** all her setup code such as where on the screen sta
 
 With the **Nadia** sprite still selected, add a `when flag clicked`{:class="block3events"} block from the list of `Events`{:class="block3events"} palette.
 
-![character 1 sprite icon](images/nadia_sprite.png)
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -49,7 +49,7 @@ Add a `go to x: y:`{:class="block3motion"} block from the `Motion`{:class="block
 
 Enter an **x value** of 70 and a **y value** of -25 to position **Nadia** low down to the right of centre.
 
-![character 1 sprite icon](images/nadia_sprite.png)
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ To make sure **Nadia** starts using the right costume, go to the `Looks`{:class=
 
 Set the costume to `at rest`{:class="block3looks"}.
 
-![character 1 sprite icon](images/nadia_sprite.png)
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -80,7 +80,7 @@ The last thing you'll do to prepare **Nadia** is to add a short wait so that the
 
 Add a `Control`{:class="block3looks"} block to make **Nadia** `wait for 2 seconds`{:class="block3looks"} before anything else happens.
 
-![character 1 sprite icon](images/nadia_sprite.png)
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
