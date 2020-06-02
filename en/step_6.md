@@ -124,9 +124,10 @@ end
 
 Make up a block for the condition, `repetitions`{:class="block3variables"} block `is greater than 1`{:class="block3operators"}.
 
-<(repetitions)>[1]>
 
-<(repetitions)<[1]>
+```blocks3
+<(repetitions)>[1]>
+```
 
 Add this _condition_ to your `if... then... else...`{:class="block3control"} block.
 
