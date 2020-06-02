@@ -9,7 +9,7 @@ Leaving the existing code exactly as it is, add a new script starting with the `
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
 ```blocks3
-when this sprite clicked
++ when this sprite clicked
 ```
 
 --- /task ---
@@ -23,6 +23,42 @@ Now add an `if... then... else...`{:class="block3control"} block from the `Contr
 ```blocks3
 when this sprite clicked
 + if <> then
+else
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Now add an `if... then... else...`{:class="block3control"} block from the `Control`{:class="block3control"} palette
+
+![Up arrow sprite icon](images/up_arrow_sprite.png)
+
+```blocks3
+when this sprite clicked
+if <> then
+else
+end
+```
+
+--- /task ---
+
+The first thing you will add to the conditional `if... then... else...`{:class="block3control"} block is the _conditional statement_, `if`{:class="block3control"} block `repetitions`{:class="block3variables"} block `is less than 5`{:class="block3operators"}.
+
+--- task ---
+
+Start by grabbing a `less than`{:class="block3operators"} block from the green `Operators`{:class="block3operators"} palette.
+
+```blocks3
++ <()<()>
+```
+
+![Up arrow sprite icon](images/up_arrow_sprite.png)
+
+```blocks3
+when this sprite clicked
+if <> then
 else
 end
 ```
