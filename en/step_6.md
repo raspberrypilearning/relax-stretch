@@ -173,7 +173,7 @@ when this sprite clicked
 if <(repetitions)>[1]> then
     change [repetitions v] by (-1)
 else
-+     say [5 repetitions is the maximum] for (2) seconds
++     say [Repetitions can't be lower than 1] for (2) seconds
 end
 ```
 
