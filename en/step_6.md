@@ -124,13 +124,13 @@ end
 
 Make up a block for the condition, `repetitions`{:class="block3variables"} block `is greater than 1`{:class="block3operators"}.
 
-<(repetitions ::variables)<[5] ::operators>
+<(repetitions)>[1]>
 
 Add this _condition_ to your `if... then... else...`{:class="block3control"} block.
 
 ```blocks3
 when this sprite clicked
-if <<(repetitions ::variables)<[5] ::operators +>> then
+if <(repetitions)>[1] ::operators +> then
 else
 end
 ```
