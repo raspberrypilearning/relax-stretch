@@ -56,7 +56,32 @@ switch costume to (at rest v)
 wait (2) seconds
 repeat (2)
     switch costume to (breathe in v)
-    say (breathe in ::looks)  for (2) seconds
++     say [breathe in]  for (2) seconds
+end
+```
+
+--- /task ---
+
+Now add another costume change along with its instruction.
+
+--- task ---
+
+Add a `switch costume to`{:class="block3looks"} block and set the new costume to `breathe out`.
+
+Under that, add another `say`{:class="block3looks"} block with the text `breathe out`{:class="block3looks"}.
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+when flag clicked
+go to x: (70) y: (-25)
+switch costume to (at rest v)
+wait (2) seconds
+repeat (2)
+    switch costume to (breathe in v)
+    say [breathe in]  for (2) seconds
++     switch costume to (breathe out v)
++     say [breathe out]  for (2) seconds
 end
 ```
 
