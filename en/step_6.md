@@ -105,5 +105,35 @@ end
 
 Now you'll need to repeat these steps for the **down arrow**, but with a different _conditional statement_, reducing `repetitions`{:class="block3variables"} by `1` and giving a different message if the _condition_ is `false`.
 
+--- task ---
 
+Select the **down arrow** sprite, add a `when this sprite clicked`{:class="block3events"} event and an `if... then... else...`{:class="block3control"} block.
+
+![Down arrow sprite icon](images/down_arrow_sprite.png)
+
+```blocks3
+when this sprite clicked
+if <> then
+else
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Make up a block for the condition, `repetitions`{:class="block3variables"} block `is greater than 1`{:class="block3operators"}.
+
+<(repetitions ::variables)<[5] ::operators>
+
+Add this _condition_ to your `if... then... else...`{:class="block3control"} block.
+
+```blocks3
+when this sprite clicked
+if <<(repetitions ::variables)<[5] ::operators +>> then
+else
+end
+```
+
+--- /task ---
 
