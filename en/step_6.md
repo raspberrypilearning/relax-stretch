@@ -51,12 +51,13 @@ In the remaining empty field, add the number `5`.
 <(repetions ::variables)<(5 +)>
 ```
 
+Now add this block into the hexagonal field of your `if... then... else...`{:class="block3control"} block.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
-if <> then
+if <(repetions ::variables)<(5) ::operators +> then
 else
 end
 ```
