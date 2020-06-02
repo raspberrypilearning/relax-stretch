@@ -29,8 +29,6 @@ Click anywhere outside of the _dialogue box_ and you will see the name has now c
 
 --- /task ---
 
---- /task ---
-
 Next, you will give **Nadia** all her setup code such as where on the screen start.
 
 --- task ---
