@@ -146,6 +146,8 @@ end
 
 In the first empty block space of the `if... then... else...`{:class="block3control"} block, i.e. `if`{:class="block3control"} the condition is `true`, add a block to reduce the `repetitions`{:class="block3variables"} by `1`.
 
+![Down arrow sprite icon](images/down_arrow_sprite.png)
+
 ```blocks3
 when this sprite clicked
 if <(repetitions)>[1]> then
@@ -164,6 +166,8 @@ Finally, add a message for if the **down arrow** is pressed but `repetitions`{:c
 
 In the empty block space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add a message, something like `Repetitions can't be lower than 1`{:class="block3variables"} for `2` seconds.
 
+![Down arrow sprite icon](images/down_arrow_sprite.png)
+
 ```blocks3
 when this sprite clicked
 if <(repetitions)>[1]> then
@@ -174,3 +178,7 @@ end
 ```
 
 --- /task ---
+
+Test your new code by running the program and clicking the two arrows to raise or reuce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for this by _ticking_ the variable's checkbox in the `variables`{:class="block3variables"} palette.
+
+![Making the repetition variable display on the stage](images/untickRepetitionsVariable.png)
