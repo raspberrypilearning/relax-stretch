@@ -62,7 +62,7 @@ Switch the costume to `head right`.
 
 ```blocks3
 repeat (repetitions)
-    speak [roll your neck to the right] :: extension
+    speak [roll your neck to the right] :: tts
 +     switch costume to (head right v)
 end
 ```
@@ -79,7 +79,7 @@ Add a half second `wait`{:class="control"}.
 
 ```blocks3
 repeat (repetitions)
-    speak [roll your neck to the right] :: extension
+    speak [roll your neck to the right] :: tts
     switch costume to (head right v)
 +     wait (0.5) seconds
 end
