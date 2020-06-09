@@ -29,4 +29,4 @@ You could use a new `variable`{:class="block3variables"} to control the `wait`{:
 
 --- /print-only ---
 
-What else would you improve?
+What do you want to improve?
