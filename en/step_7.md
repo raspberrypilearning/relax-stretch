@@ -98,6 +98,7 @@ Add `text to speech`{:class="block3extensions"} instruction, `and around to the 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
+
 repeat (repetitions)
     speak [roll your neck to the right] :: extension
     switch costume to (head right v)
@@ -129,6 +130,39 @@ repeat (repetitions)
 +     speak [and back to centre] :: extension
 +     switch costume to (at rest v)
 +     wait (0.5) seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Now join your new exercise routine to the code you already had.
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+when flag clicked
+set [repetitions v] to (3)
+go to x: (70) y: (-25)
+switch costume to (at rest v)
+wait (2) seconds
+repeat (repetitions ::variables +)
+    switch costume to (breathe in v)
+    say [breathe in]  for (2) seconds
+    switch costume to (at rest v)
+    say [breathe out]  for (2) seconds
+end
++ repeat (repetitions)
+    speak [roll your neck to the right] :: extension
+    switch costume to (head right v)
+    wait (0.5) seconds
+    speak [and round to the left] :: extension
+    switch costume to (head left v)
+    wait (0.5) seconds
+    speak [and back to centre] :: extension
+    switch costume to (at rest v)
+    wait (0.5) seconds
 end
 ```
 
