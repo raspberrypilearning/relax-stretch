@@ -46,7 +46,8 @@ Set the text to `roll your neck to the right`.
 
 ```blocks3
 repeat (repetitions)
-speak [roll your neck to the right] :: extension
++     speak [roll your neck to the right] :: extension
+end
 ```
 
 --- /task ---
@@ -61,8 +62,27 @@ Switch the costume to `head right`.
 
 ```blocks3
 repeat (repetitions)
-speak [roll your neck to the right] :: extension
-switch costume to (head right v)
+    speak [roll your neck to the right] :: extension
++     switch costume to (head right v)
+end
+```
+
+--- /task ---
+
+Since the `text to speech`{:class="block3extensions"} is read out more quickly than the `say`{:class="block3looks"} block which lasts 2 seconds, you'll need to add a short `wait`{:class="block3control"}.
+
+--- task ---
+
+Add a half second `wait`{:class="control"}.
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+repeat (repetitions)
+    speak [roll your neck to the right] :: extension
+    switch costume to (head right v)
++     wait (0.5) seconds
+end
 ```
 
 --- /task ---
