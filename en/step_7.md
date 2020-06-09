@@ -15,3 +15,21 @@ repeat (repetitions)
 ```
 
 --- /task ---
+
+--- task ---
+
+For this exercise, you will use `text to speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so the exercise instructions will be said out loud by the computer.
+
+Click on the extensions button in the bottom left of the Scratch window.
+
+![Extensions button](images/extensionsButton.png)
+
+Choose the `Text to Speech`{:class="block3extensions"} extension.
+
+![Text to speech extension](images/textToSpeechExtension.png)
+
+A new set of `text to speech`{:class="block3extensions"} blocks will appear at the bottom of the existing block palettes.
+
+![Text to speech blocks](images/textToSpeechBlocks.png)
+
+--- /task ---
