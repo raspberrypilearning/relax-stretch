@@ -19,9 +19,6 @@ It's completely up to you.
 You could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} instructions using similar controls to the arrows that control the number of repetitions.
 
 --- no-print ---
-Click on the green flag to start the exercise routines.
-
-Click on the **up** or **down** arrows to change the number of times each exercise repeats.
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/403401778/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -34,4 +31,4 @@ Click on the **up** or **down** arrows to change the number of times each exerci
 
 --- /print-only ---
 
-What else could you change?
+What else would you improve?
