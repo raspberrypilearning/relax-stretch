@@ -19,7 +19,7 @@ You could use a new `variable`{:class="block3variables"} to control the `wait`{:
 --- no-print ---
 
 <div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/403401778/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  <iframe src="https://scratch.mit.edu/projects/403436186/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 --- /no-print ---
 
