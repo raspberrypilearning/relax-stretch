@@ -86,3 +86,50 @@ end
 ```
 
 --- /task ---
+
+These three blocks together; `text to speech`{:class="block3extensions"}, `switch costume`{:class="block3looks"} and `wait`{:class="control"}; will make each step of the exercise. Let's add the next step.
+
+--- task ---
+
+Add `text to speech`{:class="block3extensions"} instruction, `and around to the left`.
+
+`Switch the costume`{:class="block3looks"} to `head left` and `wait`{:class="control"} for half a second.
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+repeat (repetitions)
+    speak [roll your neck to the right] :: extension
+    switch costume to (head right v)
+    wait (0.5) seconds
++     speak [and round to the left] :: extension
++     switch costume to (head left v)
++     wait (0.5) seconds
+end
+```
+
+--- /task ---
+
+And the last step of the exercise.
+
+--- task ---
+
+Add the instruction, `and back to centre`, `switch the costume`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds.
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+repeat (repetitions)
+    speak [roll your neck to the right] :: extension
+    switch costume to (head right v)
+    wait (0.5) seconds
+    speak [and round to the left] :: extension
+    switch costume to (head left v)
+    wait (0.5) seconds
++     speak [and back to centre] :: extension
++     switch costume to (at rest v)
++     wait (0.5) seconds
+end
+```
+
+--- /task ---
