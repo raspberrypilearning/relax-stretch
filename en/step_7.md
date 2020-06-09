@@ -46,7 +46,7 @@ Set the text to `roll your neck to the right`.
 
 ```blocks3
 repeat (repetitions)
-+     speak [roll your neck to the right] :: extension
++     speak [roll your neck to the right] :: tts
 end
 ```
 
@@ -100,10 +100,10 @@ Add `text to speech`{:class="block3extensions"} instruction, `and around to the 
 ```blocks3
 
 repeat (repetitions)
-    speak [roll your neck to the right] :: extension
+    speak [roll your neck to the right] :: tts
     switch costume to (head right v)
     wait (0.5) seconds
-+     speak [and round to the left] :: extension
++     speak [and round to the left] :: tts
 +     switch costume to (head left v)
 +     wait (0.5) seconds
 end
@@ -121,13 +121,13 @@ Add the instruction, `and back to centre`, `switch the costume`{:class="block3lo
 
 ```blocks3
 repeat (repetitions)
-    speak [roll your neck to the right] :: extension
+    speak [roll your neck to the right] :: tts 
     switch costume to (head right v)
     wait (0.5) seconds
-    speak [and round to the left] :: extension
+    speak [and round to the left] :: tts 
     switch costume to (head left v)
     wait (0.5) seconds
-+     speak [and back to centre] :: extension
++     speak [and back to centre] :: tts 
 +     switch costume to (at rest v)
 +     wait (0.5) seconds
 end
@@ -154,13 +154,13 @@ repeat (repetitions ::variables)
     say [breathe out]  for (2) seconds
 end
 + repeat (repetitions)
-    speak [roll your neck to the right] :: extension
+    speak [roll your neck to the right] :: tts 
     switch costume to (head right v)
     wait (0.5) seconds
-    speak [and round to the left] :: extension
+    speak [and round to the left] :: tts 
     switch costume to (head left v)
     wait (0.5) seconds
-    speak [and back to centre] :: extension
+    speak [and back to centre] :: tts 
     switch costume to (at rest v)
     wait (0.5) seconds
 end
