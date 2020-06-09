@@ -33,3 +33,20 @@ A new set of `text to speech`{:class="block3extensions"} blocks will appear at t
 ![Text to speech blocks](images/textToSpeechBlocks.png)
 
 --- /task ---
+
+Next, you're ready to start adding the exercise instructions.
+
+--- task ---
+
+Add a `speak`{:class="block3extensions"} block from your new `text to speech`{:class="block3extensions"} blocks.
+
+Set the text to `roll your neck to the right`.
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+repeat (repetitions)
+speak (roll your neck to the right) :: extension
+```
+
+--- /task ---
