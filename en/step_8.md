@@ -30,7 +30,7 @@ Click on the **up** or **down** arrows to change the number of times each exerci
 
 --- print-only ---
 
-![completed project](images/finshed_project.png)
+![completed challenge example](images/challenge_example.png)
 
 --- /print-only ---
 
