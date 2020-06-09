@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-+ [rpf.io/sit-stretch-go](http://rpf.io/sit-stretch-go){:target="_blank"}
++ Here is a link to the [starter file](http://rpf.io/sit-stretch-go){:target="_blank"} that you will need for this project.
 
 --- /collapse ---
 
@@ -58,6 +58,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
 
-Here is a link to the completed project [rpf.io/p/en/sit-stretch-get](http://rpf.io/p/en/sit-stretch-get).
+Here is a link to the [completed project and an example of a completed challenge](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
 
 --- /collapse ---
