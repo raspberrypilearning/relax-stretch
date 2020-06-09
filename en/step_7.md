@@ -46,7 +46,23 @@ Set the text to `roll your neck to the right`.
 
 ```blocks3
 repeat (repetitions)
-speak (roll your neck to the right) :: extension
+speak [roll your neck to the right] :: extension
+```
+
+--- /task ---
+
+--- task ---
+
+Next, add a `Looks`{:class="block3looks"} block to `change the costume`{:class="block3looks"}.
+
+Switch the costume to `head right`.
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+repeat (repetitions)
+speak [roll your neck to the right] :: extension
+switch costume to (head right v)
 ```
 
 --- /task ---
