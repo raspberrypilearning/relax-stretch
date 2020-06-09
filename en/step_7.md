@@ -167,5 +167,3 @@ end
 ```
 
 --- /task ---
-
-Well done! You have programmed a healthy, sit and stretch exercise program to keep yourself and others moving.
