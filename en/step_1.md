@@ -1,10 +1,10 @@
 ## Introduction
 
-Keep yourself moving, flexible and alert while sitting down by performing regular, relaxing exercises. Write a program to help you and others stay healthy while working.
+Keep yourself moving, flexible and alert while sitting down by doing regular, relaxing exercises. Write a program to help you and others stay healthy while sitting.
 
 ### What you will make
 
-You will create a a program to demonstrate some mindful, relaxing exercises you can carry out while sitting down, and even add a new exercise of your own.
+You will create a program to demonstrate some mindful, relaxing exercises you can carry out while sitting down, and even add a new exercise of your own.
 
 --- no-print ---
 Click on the green flag to start the exercise routines.
