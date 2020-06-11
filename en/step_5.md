@@ -10,9 +10,9 @@ In the _dialogue box_ that opens up, give the new variable the name `repetitions
 
 ![Making a new variable dialogue box](images/createRepetitionsVariable.png)
 
-The new variable will appear in the `Variables`{:class="block3variables"} palette and also in the main stage area. 
+The new variable will now appear in the `Variables`{:class="block3variables"} palette and also in the main stage area. 
 
-Untick the box next to `repetitions`{:class="block3variables"} in the block palette to remove the variable dsiplay box from the stage area.
+Untick the box next to `repetitions`{:class="block3variables"} in the block palette to remove the variable display box from the stage area.
 
 ![Untick the repetitions variable](images/untickRepetitionsVariable.png)
 
@@ -22,7 +22,7 @@ The next step is to _initialise_ the new `repetitions`{:class="block3variables"}
 
 --- task ---
 
-Make sure that your **Nadia** sprite is selected and from the `Variables`{:class="block3variables"} palette, add a `set repetitions to`{:class="block3variables"} block and set the variable to 3.
+Make sure that the **Nadia** sprite is selected and from the `Variables`{:class="block3variables"} palette, add a `set repetitions to`{:class="block3variables"} block and set the variable to 3.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -68,4 +68,4 @@ end
 
 --- /task ---
 
-You can test this works, if you like, by changing the value of `repetitions`{:class="block3variables"} and running the program.
+You can check that this works by changing the value of `repetitions`{:class="block3variables"} and running the program.
