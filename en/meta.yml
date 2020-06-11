@@ -11,7 +11,7 @@ steps:
   - title: Getting the arrows ready 
   - title: Exercise 1
   - title: The repetitions variable
-  - title: Arrow button controls
+  - title: Adding control to buttons
   - title: Exercise 2
   - title: "Challenge: Add your own exercise routine"
     challenge: true
