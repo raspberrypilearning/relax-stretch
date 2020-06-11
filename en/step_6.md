@@ -4,6 +4,7 @@ Now it is time to code your arrow buttons so you can use them to change the valu
 
 --- task ---
 
+
 Leave the existing code exactly as it is. Go to `Events`{:class="block3events"} and start a new script starting with an `when this sprite clicked`{:class="block3events"} block.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
@@ -29,7 +30,7 @@ end
 
 --- /task ---
 
-The first thing you will add to the conditional `if... then... else...`{:class="block3control"} block is the _conditional statement_, `if`{:class="block3control"} block ,`repetitions`{:class="block3variables"} block `is less than 5`{:class="block3operators"}.
+The first thing you will add to the conditional `if... then... else...`{:class="block3control"} block are the following: the _conditional statement_ `if`{:class="block3control"} block, the `repetitions`{:class="block3variables"} block, and the `is less than 5`{:class="block3operators"} block.
 
 --- task ---
 
@@ -64,9 +65,9 @@ end
 
 --- /task ---
 
-There are two remaining empty spaces in the `if... then... else...`{:class="block3control"} block. The first is for `if`{:class="block3control"} the _conditional statement_ `repetitions`{:class="block3variables"} block `is less than 5`{:class="block3operators"} is `true`. This will check whether `repetitions`{:class="block3variables"} is equal to 4 or less. 
+The first empty space defines what happens if the _conditional statement_ is `true`, which means that the number of repetitions is less than 5 (that is, equal to or less than 4).
 
-The second empty space is for `if`{:class="block3control"} the _condition_ is `false`. This will check whether `repetitions`{:class="block3variables"} is equal to 5 or more.
+The second empty space defines what happens when the _conditional statement_ is `false`, which means that the number of repetitions is equal to or more than 5.
 
 This means that `repetitions`{:class="block3variables"} can never go above `5`.
 
@@ -86,7 +87,7 @@ end
 
 --- /task ---
 
-Since `repetitions`{:class="block3variables"} cannot go above `5`, you will now add a message for a user. If the user tries to press the up button above 5, the program will say "5 repetitons is the maximum".
+You will now add a message for a user. Since `repetitions`{:class="block3variables"} cannot go above `5`, if the user tries to press the up button above 5, the program will say "5 repetitons is the maximum".
 
 --- task ---
 
@@ -124,8 +125,7 @@ end
 
 --- task ---
 
-Make up a block for the condition. You will need to add a `repetitions`{:class="block3variables"} block to a `is greater than 1`{:class="block3operators"}.
-
+Make a block for the condition. You will need to add a `repetitions`{:class="block3variables"} block to a `is greater than 1`{:class="block3operators"} block.
 
 ```blocks3
 <(repetitions)>[1]>
@@ -146,7 +146,7 @@ end
 
 --- task ---
 
-In the first empty block space of the `if... then... else...`{:class="block3control"} block, i.e. `if`{:class="block3control"} the condition is `true`, add a block to reduce the `repetitions`{:class="block3variables"} by `1`.
+In the first empty space of the `if... then... else...`{:class="block3control"} block, add a block to reduce the `repetitions`{:class="block3variables"} by `1`.
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
@@ -181,6 +181,6 @@ end
 
 --- /task ---
 
-Test your new code by running the program and clicking the two arrows to raise or reduce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for the test. This will mean that you can see the value of `repetitions`{:class="block3variables"} changing. To do this _tick_ the variable's checkbox in the `variables`{:class="block3variables"} palette. 
+Test your new code by running the program and clicking the two arrows to raise or reduce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for the test so you can see the value of `repetitions`{:class="block3variables"} changing. To do this _tick_ the variable's checkbox in the `variables`{:class="block3variables"} palette. 
 
 ![Making the repetition variable display on the stage](images/untickRepetitionsVariable.png)
