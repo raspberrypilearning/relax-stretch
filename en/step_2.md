@@ -29,11 +29,11 @@ Click anywhere outside of the _dialogue box_ and you will see the name has now c
 
 --- /task ---
 
-Next, you will give **Nadia** all her setup code such as where on the screen start.
+Next, you will include all the setup blocks for **Nadia** such she starts on the Stage.
 
 --- task ---
 
-With the **Nadia** sprite still selected, add a `when flag clicked`{:class="block3events"} block from the list of `Events`{:class="block3events"} palette.
+With the **Nadia** sprite still selected, go to `Events`{:class="block3events"} in the Blocks palette and add the `when flag clicked`{:class="block3events"} block.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -45,9 +45,9 @@ when flag clicked
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block from the `Motion`{:class="block3motion"} block palette.
+From the `Motion`{:class="block3motion"} block palette, add a `go to x: y:`{:class="block3motion"} block.
 
-Enter an **x value** of 70 and a **y value** of -25 to position **Nadia** low down to the right of centre.
+Enter an **x value** of 70 and a **y value** of -25. This will position **Nadia** to the bottom right of the Stage.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -60,7 +60,7 @@ when flag clicked
 
 --- task ---
 
-To make sure **Nadia** starts using the right costume, go to the `Looks`{:class="block3looks"} block palette and add a `switch costume to`{:class="block3looks"} block.
+To make sure **Nadia** starts using the correct costume, go to `Looks`{:class="block3looks"} in the Blocks palette and add a `switch costume to`{:class="block3looks"} block.
 
 Set the costume to `at rest`{:class="block3looks"}.
 
@@ -74,11 +74,11 @@ go to x: (70) y: (-25)
 
 --- /task ---
 
-The last thing you'll do to prepare **Nadia** is to add a short wait so that the first exercise doesn't start too suddenly.
+The last thing you will do to prepare **Nadia** is to add a short wait so that the first exercise doesn't start too suddenly.
 
 --- task ---
 
-Add a `Control`{:class="block3looks"} block to make **Nadia** `wait for 2 seconds`{:class="block3looks"} before anything else happens.
+Go to `Control`{:class="block3looks"} block and add a `wait for 2 seconds`{:class="block3looks"} to make **Nadia** wait  before anything else happens.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
