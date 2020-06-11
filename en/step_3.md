@@ -16,7 +16,7 @@ when flag clicked
 
 --- task ---
 
-Give the **up arrow** sprite the screen position `x: -140` and `y: 30` by adding a `go to`{:class="block3motion"} block.
+Give the **up arrow** sprite a position on the Stage. Go to the `go to`{:class="block3motion"} block and type in `x: -140` and `y: 30`.
 
 ![up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -27,7 +27,7 @@ when flag clicked
 
 --- /task ---
 
-When the finished program is running, the **up arrow** will be clicked to increase the number of exercise repetitions. Since it is really easy to accidentally drag the button instead of just clicking it, use a `forever`{:class="block3control"} loop to make sure the sprite jumps straight back to its position.
+When the finished program runs, the **up arrow** will be clicked to increase the number of exercise repetitions. Since it is really easy to accidentally drag the button instead of just clicking it, use a `forever`{:class="block3control"} loop to make sure the sprite jumps straight back to its position.
 
 --- task ---
 
@@ -44,7 +44,7 @@ go to x: (-140) y: (30)
 
 --- /task ---
 
-Next, you will do the same for the **down arrow**, placing it in a different position.
+Next, you will do the same for the **down arrow** but this time you will place the sprite in a different position.
 
 --- task ---
 
