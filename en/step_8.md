@@ -2,7 +2,7 @@
 
 Well done! You have programmed a healthy, sit and stretch exercise program to keep yourself and others moving.
 
-How would you like to improve this project? 
+How would you like to improve your program? 
 
 Here is your chance to add some of your own details and ideas.
 
@@ -14,7 +14,7 @@ Would you use the `say`{:class="block3looks"} or `text to speech`{:class="block3
 
 **You could even add controls to change the speed of the routines.**
 
-You could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} instructions using similar controls to the arrows that control the number of repetitions.
+You could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} instructions. You can use similar controls to the arrows to create controls for the number of repetitions.
 
 --- no-print ---
 
@@ -28,5 +28,3 @@ You could use a new `variable`{:class="block3variables"} to control the `wait`{:
 ![completed challenge example](images/challenge_example.png)
 
 --- /print-only ---
-
-What do you want to improve?
