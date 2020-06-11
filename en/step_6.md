@@ -1,4 +1,4 @@
-## Arrow button controls
+## Adding control to buttons
 
 Now it is time to code your arrow buttons so you can use them to change the value of `repetitions`{:class="block3variables"} while the program is running.
 
