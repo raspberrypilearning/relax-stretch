@@ -137,7 +137,7 @@ end
 
 --- task ---
 
-Now join your new exercise routine to the code you already had.
+Now add your new exercise routine to the code your exisiting code.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
