@@ -1,6 +1,6 @@
 ## Exercise 1
 
-Time to start coding a relaxing, breathing exercise using different sprite costumes.
+It is time to start coding a relaxing, breathing exercise using different sprite costumes.
 
 --- task ---
 
@@ -23,9 +23,9 @@ end
 
 --- task ---
 
-Inside the `repeat`{:class="block3events"} loop, add a `Looks`{:class="block3looks"} block to `switch the costume`{:class="block3looks"}.
+From `Looks`{:class="block3looks"}, ass a `switch the costume`{:class="block3looks"} inside the `repeat`{:class="block3events"} block.
 
-Set the costume to `breathe in`{:class="block3looks"}.
+Select the costume `breathe in`{:class="block3looks"}.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -41,7 +41,7 @@ end
 
 --- /task ---
 
-Now add an instruction to go with the costume change. Here, you will use a `say`{:class="block3looks"} block to display a speech bubble. Later you will use `text to speech`{:class="block3extensions"}
+Now add an instruction to go with the costume change. Here, you will use a `say`{:class="block3looks"} block to display a speech bubble. Later you will use `text to speech`{:class="block3extensions"}.
 
 --- task ---
 
