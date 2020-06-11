@@ -22,7 +22,7 @@ The next step is to _initialise_ the new `repetitions`{:class="block3variables"}
 
 --- task ---
 
-Make sure that the **Nadia** sprite is selected and from the `Variables`{:class="block3variables"} palette, add a `set repetitions to`{:class="block3variables"} block and set the variable to 3.
+Make sure that the **Nadia** sprite is selected. Got to `Variables`{:class="block3variables"}, add a `set repetitions to`{:class="block3variables"} block and set the variable to 3.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
