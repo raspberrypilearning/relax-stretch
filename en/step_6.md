@@ -4,7 +4,7 @@ Now it is time to code your arrow buttons so you can use them to change the valu
 
 --- task ---
 
-Leaving the existing code exactly as it is, add a new script starting with the `Events`{:class="block3events"} block, `when this sprite clicked`{:class="block3events"}.
+Leave the existing code exactly as it is. Go to `Events`{:class="block3events"} and start a new script starting with an `when this sprite clicked`{:class="block3events"} block.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -16,7 +16,7 @@ Leaving the existing code exactly as it is, add a new script starting with the `
 
 --- task ---
 
-Now add an `if... then... else...`{:class="block3control"} block from the `Control`{:class="block3control"} palette
+From `Control`{:class="block3control"}, add an `if... then... else...`{:class="block3control"} block. 
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -29,11 +29,11 @@ end
 
 --- /task ---
 
-The first thing you will add to the conditional `if... then... else...`{:class="block3control"} block is the _conditional statement_, `if`{:class="block3control"} block `repetitions`{:class="block3variables"} block `is less than 5`{:class="block3operators"}.
+The first thing you will add to the conditional `if... then... else...`{:class="block3control"} block is the _conditional statement_, `if`{:class="block3control"} block ,`repetitions`{:class="block3variables"} block `is less than 5`{:class="block3operators"}.
 
 --- task ---
 
-Start by dragging a `less than`{:class="block3operators"} block from the green `Operators`{:class="block3operators"} palette.
+From the green `Operators`{:class="block3operators"} in the Blocks paletter, drag a `less than`{:class="block3operators"} block.
 
 ```blocks3
 <()<()>
@@ -64,7 +64,9 @@ end
 
 --- /task ---
 
-There are two remaining empty spaces in the `if... then... else...`{:class="block3control"} block. The first is for `if`{:class="block3control"} the _conditional statement_ `repetitions`{:class="block3variables"} block `is less than 5`{:class="block3operators"} is `true`, i.e. `repetitions`{:class="block3variables"} equals 4 or less. The second is for `if`{:class="block3control"} the _condition_ is `false`, e.g. `repetitions`{:class="block3variables"} equals 5 or more.
+There are two remaining empty spaces in the `if... then... else...`{:class="block3control"} block. The first is for `if`{:class="block3control"} the _conditional statement_ `repetitions`{:class="block3variables"} block `is less than 5`{:class="block3operators"} is `true`. This will check whether `repetitions`{:class="block3variables"} is equal to 4 or less. 
+
+The second empty space is for `if`{:class="block3control"} the _condition_ is `false`. This will check whether `repetitions`{:class="block3variables"} is equal to 5 or more.
 
 This means that `repetitions`{:class="block3variables"} can never go above `5`.
 
@@ -84,11 +86,11 @@ end
 
 --- /task ---
 
-Since `repetitions`{:class="block3variables"} can't go above `5`, you can add a message for when a user presses the up button `repetitions`{:class="block3variables"} can't go higher.
+Since `repetitions`{:class="block3variables"} cannot go above `5`, you will now add a message for a user. If the user tries to press the up button above 5, the program will say "5 repetitons is the maximum".
 
 --- task ---
 
-Inside the empty space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add the message `5 repetitons is the maximum`{:class="block3variables"} for `2` seconds.
+Inside the empty space below the `else`{:class="block3control"} in the `if... then... else...`{:class="block3control"} block, add the message `5 repetitons is the maximum`{:class="block3variables"} for `2` seconds.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -122,7 +124,7 @@ end
 
 --- task ---
 
-Make up a block for the condition, `repetitions`{:class="block3variables"} block `is greater than 1`{:class="block3operators"}.
+Make up a block for the condition. You will need to add a `repetitions`{:class="block3variables"} block to a `is greater than 1`{:class="block3operators"}.
 
 
 ```blocks3
@@ -160,11 +162,11 @@ end
 
 --- /task ---
 
-Finally, add a message for if the **down arrow** is pressed but `repetitions`{:class="block3variables"} is already 1 so can't go any lower.
+Finally, add a message for if the **down arrow** is pressed but `repetitions`{:class="block3variables"} is already 1 and cannot go any lower.
 
 --- task ---
 
-In the empty block space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add a message, something like `Repetitions can't be lower than 1`{:class="block3variables"} for `2` seconds.
+In the empty block space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add a message. The message  could be `Repetitions can't be lower than 1`{:class="block3variables"} for `2` seconds.
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
@@ -179,6 +181,6 @@ end
 
 --- /task ---
 
-Test your new code by running the program and clicking the two arrows to raise or reuce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for this by _ticking_ the variable's checkbox in the `variables`{:class="block3variables"} palette, so that you can see the value of `repetitions`{:class="block3variables"} changing.
+Test your new code by running the program and clicking the two arrows to raise or reduce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for the test. This will mean that you can see the value of `repetitions`{:class="block3variables"} changing. To do this _tick_ the variable's checkbox in the `variables`{:class="block3variables"} palette. 
 
 ![Making the repetition variable display on the stage](images/untickRepetitionsVariable.png)
