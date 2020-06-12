@@ -20,7 +20,7 @@ repeat (repetitions)
 
 For this exercise, you will use `text to speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be said out loud by the computer.
 
-Click on the extensions button in the bottom left of the Scratch window.
+Click on the 'Choose an Extensions' button in the bottom left of the Scratch window.
 
 ![Extensions button](images/extensionsButton.png)
 
@@ -28,7 +28,7 @@ Choose the `Text to Speech`{:class="block3extensions"} extension.
 
 ![Text to speech extension](images/textToSpeechExtension.png)
 
-A new set of `text to speech`{:class="block3extensions"} blocks will appear at the bottom of the existing block palettes.
+A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
 
 ![Text to speech blocks](images/textToSpeechBlocks.png)
 
@@ -38,7 +38,7 @@ Next, you're ready to start adding the exercise instructions.
 
 --- task ---
 
-Add a `speak`{:class="block3extensions"} block from the new `text to speech`{:class="block3extensions"} blocks.
+Add a `speak`{:class="block3extensions"} block from the new `Text to Speech`{:class="block3extensions"} blocks.
 
 Set the text to `roll your neck to the right`.
 
@@ -69,7 +69,7 @@ end
 
 --- /task ---
 
-Since the `text to speech`{:class="block3extensions"} is read out more quickly than the `say`{:class="block3looks"} block (which lasts 2 seconds), you will need to add a short `wait`{:class="block3control"} block.
+You will need to add a short `wait`{:class="block3control"} block to the `text to speech`{:class="block3extensions"}. This is because it is read out more quickly than the `say`{:class="block3looks"} block (which lasts 2 seconds).
 
 --- task ---
 
@@ -87,11 +87,11 @@ end
 
 --- /task ---
 
-`text to speech`{:class="block3extensions"}, `switch costume`{:class="block3looks"} and `wait`{:class="control"} will create each step of the exercise. Let's add the next step.
+`Text to Speech`{:class="block3extensions"}, `switch costume`{:class="block3looks"} and `wait`{:class="control"} will create each step of the exercise. Let's add the next step.
 
 --- task ---
 
-Add the following `text to speech`{:class="block3extensions"} instruction: "and around to the left".
+Add the following `Text to Speech`{:class="block3extensions"} instruction: "and around to the left".
 
 `Switch the costume`{:class="block3looks"} to `head left` and `wait`{:class="control"} for half a second.
 
@@ -115,7 +115,7 @@ And the last step of the exercise.
 
 --- task ---
 
-Add the instruction, "and back to centre" .Then add `switch the costume`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds.
+Type in the instruction, "and back to centre" .Then add `switch the costume`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -137,7 +137,7 @@ end
 
 --- task ---
 
-Now add your new exercise routine to the code your exisiting code.
+Now add your new exercise routine to your exisiting code.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
