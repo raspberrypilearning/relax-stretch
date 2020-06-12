@@ -10,7 +10,7 @@ Here is your chance to add some of your own details and ideas.
 
 You could use some of Nadia's currently unused costumes or even duplicate an existing costume and edit it to make a new position costume of your own!
 
-Would you use the `say`{:class="block3looks"} or `text to speech`{:class="block3extensions"} for the instructions? It's completely up to you.
+Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} for the instructions? It's completely up to you.
 
 **You could even add controls to change the speed of the routines.**
 
