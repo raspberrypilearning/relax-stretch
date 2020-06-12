@@ -47,7 +47,7 @@ title: What you will learn
 ---
 
 + How to use a conditional statement to control a variable's range
-+ How to use the Text to Speech extension
++ How to use the `Text to Speech`{:class="block3extensions"} extension
 
 --- /collapse ---
 
