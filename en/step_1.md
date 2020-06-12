@@ -1,6 +1,6 @@
 ## Introduction
 
-Keep yourself moving, flexible and alert while sitting down by doing regular, relaxing exercises. Write a program to help you and others stay healthy while sitting.
+Even whilst sitting you can keep yourself moving, flexible and alert by doing regular and relaxing exercises. Write a program to help you and others stay healthy from a seated position.
 
 ### What you will make
 
@@ -9,7 +9,7 @@ You will create a program to demonstrate some mindful, relaxing exercises you ca
 --- no-print ---
 Click on the green flag to start the exercise routines.
 
-Click on the **up** or **down** arrows to change the number of times each exercise repeats.
+Click on the orange **up** or **down** arrows to change the number of times each exercise repeats.
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/403435691/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -47,7 +47,7 @@ title: What you will learn
 ---
 
 + How to use a conditional statement to control a variable's range
-+ How to use text to speech
++ How to use the text to speech extension
 
 --- /collapse ---
 
