@@ -10,9 +10,9 @@ In the _dialogue box_ that opens up, give the new variable the name `repetitions
 
 ![Making a new variable dialogue box](images/createRepetitionsVariable.png)
 
-The new variable will now appear in the `Variables`{:class="block3variables"} palette and also in the main stage area. 
+The new variable will now appear in the `Variables`{:class="block3variables"} palette and also in the Stage. 
 
-Untick the box next to `repetitions`{:class="block3variables"} in the block palette to remove the variable display box from the stage area.
+Untick the box next to `repetitions`{:class="block3variables"} in the block palette to remove the variable display box from the Stage.
 
 ![Untick the repetitions variable](images/untickRepetitionsVariable.png)
 
@@ -22,7 +22,7 @@ The next step is to _initialise_ the new `repetitions`{:class="block3variables"}
 
 --- task ---
 
-Make sure that the **Nadia** sprite is selected. Got to `Variables`{:class="block3variables"}, add a `set repetitions to`{:class="block3variables"} block and set the variable to 3.
+Make sure that the **Nadia** sprite is selected. Go to `Variables`{:class="block3variables"}, add a `set repetitions to`{:class="block3variables"} block and set the variable to `3`.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -48,7 +48,7 @@ The next step is to use the new variable to direct the number of times the exerc
 
 --- task ---
 
-Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} loop so that whatever the value of `repetitions`{:class="block3variables"} is will also be the number of times the exercise repeats.
+Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} loop.  This means that the value of `repetitions`{:class="block3variables"} will match the number of times the exercise repeats.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -68,4 +68,4 @@ end
 
 --- /task ---
 
-You can check that this works by changing the value of `repetitions`{:class="block3variables"} and running the program.
+One way to check that this program works is by changing the value of `repetitions`{:class="block3variables"} and running the program.
