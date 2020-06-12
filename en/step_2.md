@@ -3,7 +3,7 @@
 --- task ---
 Open the Scratch starter project.
 
-**Online**: open the starter project at [rpf.io/skiingon](http://rpf.io/skiingon){:target="_blank"}.
+**Online**: open the starter project at [rpf.io/sit-stretch-go](http://rpf.io/sit-stretch-go){:target="_blank"}.
 
 **Offline**: open the [starter project](http://rpf.io/sit-stretch-go){:target="_blank"} in the offline editor.
 
@@ -29,7 +29,7 @@ Click anywhere outside of the _dialogue box_ and you will see the name has now c
 
 --- /task ---
 
-Next, you will include all the setup blocks for **Nadia** such she starts on the Stage.
+Next, you will include all the setup blocks for **Nadia** so they are positioned on the Stage.
 
 --- task ---
 
@@ -47,7 +47,7 @@ when flag clicked
 
 From the `Motion`{:class="block3motion"} block palette, add a `go to x: y:`{:class="block3motion"} block.
 
-Enter an **x value** of 70 and a **y value** of -25. This will position **Nadia** to the bottom right of the Stage.
+For **x**, enter an value of '70' and for **y**, enter a value of '-25'. This will position **Nadia** to the bottom right of the Stage.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -60,7 +60,7 @@ when flag clicked
 
 --- task ---
 
-To make sure **Nadia** starts using the correct costume, go to `Looks`{:class="block3looks"} in the Blocks palette and add a `switch costume to`{:class="block3looks"} block.
+At thestart,**Nadia** needs to use the correct costume. Go to `Looks`{:class="block3looks"} in the Blocks palette and add a `switch costume to`{:class="block3looks"} block.
 
 Set the costume to `at rest`{:class="block3looks"}.
 
@@ -74,11 +74,11 @@ go to x: (70) y: (-25)
 
 --- /task ---
 
-The last thing you will do to prepare **Nadia** is to add a short wait so that the first exercise doesn't start too suddenly.
+The last thing you will do to prepare **Nadia** for the start is to add a short wait so that the first exercise doesn't begin too suddenly.
 
 --- task ---
 
-Go to `Control`{:class="block3looks"} block and add a `wait for 2 seconds`{:class="block3looks"} to make **Nadia** wait  before anything else happens.
+Go to `Control`{:class="block3looks"} block and add a `wait for 2 seconds`{:class="block3looks"} to make **Nadia** wait  for  2 seconds before anything else happens.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
