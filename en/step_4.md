@@ -68,7 +68,7 @@ Now add another costume change along with its instruction.
 
 Add a `switch costume to`{:class="block3looks"} block and set the new costume to `at rest`.
 
-Under that, add another `say`{:class="block3looks"} block with the text "breathe out".
+Under that, add another `say`{:class="block3looks"} block and type in the text "breathe out".
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
