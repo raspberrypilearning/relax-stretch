@@ -47,7 +47,7 @@ title: What you will learn
 ---
 
 + How to use a conditional statement to control a variable's range
-+ How to use the text to speech extension
++ How to use the Text to Speech extension
 
 --- /collapse ---
 
