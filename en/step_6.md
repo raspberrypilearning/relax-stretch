@@ -30,29 +30,29 @@ end
 
 --- /task ---
 
-The first thing you will add to the conditional `if... then... else...`{:class="block3control"} block are the following: the _conditional statement_ `if`{:class="block3control"} block, the `repetitions`{:class="block3variables"} block, and the `is less than 5`{:class="block3operators"} block.
+You need  to control the number of times an exercise can be repeated. In order to do  this, add to the _conditional statement_ `if...`{:class="block3control"} a `repetitions`{:class="block3variables"} block and a `is less than 5`{:class="block3operators"} block. 
 
 --- task ---
 
-From the green `Operators`{:class="block3operators"} in the Blocks paletter, drag a `less than`{:class="block3operators"} block.
+From the green `Operators`{:class="block3operators"} in the Blocks palette, drag a `less than`{:class="block3operators"}. Look carefully for the `<` operator.
 
 ```blocks3
 <()<()>
 ```
 
-In first empty field, add a rounded `repetitions`{:class="block3variables"} block.
+In the first empty field, add a rounded `repetitions`{:class="block3variables"} block.
 
 ```blocks3
 <(repetitions)<()>
 ```
 
-In the remaining empty field, add the number `5`.
+In the last empty field, add the number `5`.
 
 ```blocks3
 <(repetitions ::variables)<[5]>
 ```
 
-Now add this block into the hexagonal field of your `if... then... else...`{:class="block3control"} block.
+Now add this block into the hexagonal field of the `if... then... else...`{:class="block3control"} block.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -65,11 +65,11 @@ end
 
 --- /task ---
 
-The first empty space defines what happens if the _conditional statement_ is `true`, which means that the number of repetitions is less than 5 (that is, equal to or less than 4).
+The first empty space (`if...`{:class="block3control"}) defines what happens if the _conditional statement_ is `true`. It is true if the number of repetitions is less than 5 (i.e. equal to or less than 4).
 
-The second empty space defines what happens when the _conditional statement_ is `false`, which means that the number of repetitions is equal to or more than 5.
+The second empty space (`else...`{:class="block3control"}) defines what happens when the _conditional statement_ is `false`. It is false if the number of repetitions is equal to or more than 5.
 
-This means that `repetitions`{:class="block3variables"} can never go above `5`.
+This will mean that `repetitions`{:class="block3variables"} can never go above `5`.
 
 --- task ---
 
@@ -87,11 +87,11 @@ end
 
 --- /task ---
 
-You will now add a message for a user. Since `repetitions`{:class="block3variables"} cannot go above `5`, if the user tries to press the up button above 5, the program will say "5 repetitons is the maximum".
+The program will now stop `repetitions`{:class="block3variables"} from going above `5`. You need to add a message for a user.  If they try to press the up button above 5, the program will say "5 repetitons is the maximum".
 
 --- task ---
 
-Inside the empty space below the `else`{:class="block3control"} in the `if... then... else...`{:class="block3control"} block, add the message `5 repetitons is the maximum`{:class="block3variables"} for `2` seconds.
+Inside the `if... then... else...`{:class="block3control"} block, below the `else`{:class="block3control"} add a say {:class="block3Looks"} block with the message "5 repetitons is the maximum" for `2` seconds.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -125,13 +125,13 @@ end
 
 --- task ---
 
-Make a block for the condition. You will need to add a `repetitions`{:class="block3variables"} block to a `is greater than 1`{:class="block3operators"} block.
+Make a block for the condition. You will need to add a `repetitions`{:class="block3variables"} block to a `is greater than 1`{:class="block3operators"} block. Look carefully for the `>` operator.
 
 ```blocks3
 <(repetitions)>[1]>
 ```
 
-Add this _condition_ to your `if... then... else...`{:class="block3control"} block.
+Add this new _condition_ to your `if... then... else...`{:class="block3control"} block.
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
@@ -166,7 +166,7 @@ Finally, add a message for if the **down arrow** is pressed but `repetitions`{:c
 
 --- task ---
 
-In the empty block space below the `else`{:class="block3control"} of the `if... then... else...`{:class="block3control"} block, add a message. The message  could be `Repetitions can't be lower than 1`{:class="block3variables"} for `2` seconds.
+In the `if... then... else...`{:class="block3control"} block, below `else`{:class="block3control"} add a say {:class="block3Looks"} block with the message "Repetitions can't be lower than 1" for `2` seconds.
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
@@ -181,6 +181,6 @@ end
 
 --- /task ---
 
-Test your new code by running the program and clicking the two arrows to raise or reduce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for the test so you can see the value of `repetitions`{:class="block3variables"} changing. To do this _tick_ the variable's checkbox in the `variables`{:class="block3variables"} palette. 
+Test your new code by running the program and clicking the two arrows to raise or reduce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for the test so you can see the value of `repetitions`{:class="block3variables"} changing. To do this, _tick_ the variable's checkbox in the `variables`{:class="block3variables"} palette. 
 
 ![Making the repetition variable display on the stage](images/untickRepetitionsVariable.png)
