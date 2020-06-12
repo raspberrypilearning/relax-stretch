@@ -23,7 +23,7 @@ end
 
 --- task ---
 
-From `Looks`{:class="block3looks"}, ass a `switch the costume`{:class="block3looks"} inside the `repeat`{:class="block3events"} block.
+From `Looks`{:class="block3looks"}, add a `switch the costume`{:class="block3looks"} block inside the `repeat`{:class="block3events"} block.
 
 Select the costume `breathe in`{:class="block3looks"}.
 
@@ -45,7 +45,7 @@ Now add an instruction to go with the costume change. Here, you will use a `say`
 
 --- task ---
 
-Under the `switch the costume`{:class="block3looks"} block, add a `say`{:class="block3looks"} block with the text `breathe in`{:class="block3looks"}.
+From `Looks`{:class="block3looks"}, select a `say`{:class="block3looks"} block and type in the text "breathe in". Add it below the `switch the costume`{:class="block3looks"} block.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -68,7 +68,7 @@ Now add another costume change along with its instruction.
 
 Add a `switch costume to`{:class="block3looks"} block and set the new costume to `at rest`.
 
-Under that, add another `say`{:class="block3looks"} block with the text `breathe out`{:class="block3looks"}.
+Under that, add another `say`{:class="block3looks"} block with the text "breathe out".
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
