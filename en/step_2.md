@@ -31,36 +31,21 @@ Next, you will give **Nadia** setup blocks such as `position`{:class="block3moti
 
 --- task ---
 
-With the **Nadia** sprite still selected, go to `Events`{:class="block3events"} in the Blocks palette and add the `when flag clicked`{:class="block3events"} block.
+With the **Nadia** sprite still selected, add a `when flag clicked`{:class="block3events"} block.
 
-From the `Motion`{:class="block3motion"} block palette, add a `go to x: y:`{:class="block3motion"} block.
+Below that, add a `go to x: y:`{:class="block3motion"} block with **x** set to `70` and **y** to `-25`. 
 
-For **x**, enter an value of `70` and for **y**, enter a value of `-25`. This will position **Nadia** to the bottom right of the Stage.
+Add a `switch costume to`{:class="block3looks"} block, setting the costume to `at rest`{:class="block3looks"}.
 
-![Nadia sprite icon](images/nadia_sprite.png)
-
-```blocks3
-when flag clicked
-go to x: (70) y: (-25)
-```
-
---- /task ---
-
---- task ---
-
-At the start, **Nadia** needs to use the correct costume. Go to `Looks`{:class="block3looks"} in the Blocks palette and add a `switch costume to`{:class="block3looks"} block.
-
-Set the costume to `at rest`{:class="block3looks"}.
-
-Add a `wait for 2 seconds`{:class="block3looks"} so that the first exercise doesn't begin too suddenly.
+Lastly, add a `wait for 2 seconds`{:class="block3looks"} so that the first exercise doesn't begin too suddenly.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
 go to x: (70) y: (-25)
-+ switch costume to (at rest v)
-+ wait (2) seconds
+switch costume to (at rest v)
+wait (2) seconds
 ```
 
 --- /task ---
