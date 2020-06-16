@@ -9,19 +9,19 @@ Open the Scratch starter project.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a character sprite along with two arrow, one up and one down.
+In the starter project, you should see a character sprite along with two arrows, one up and one down.
 
 ![starter project](images/starter_project.png)
 
 --- /task ---
 
-First of all, you are going give **character 1** a name. In this project, she will be **Nadia** but you can use whatever name you like.
+Let's give **character 1** a name.
 
 --- task ---
 
-Select the **character 1** sprite in the **Sprites Pane**
+Select the **character 1** sprite.
 
-Click on the _dialogue box_ showing the sprite name, and replace **character 1** with the name of your choice.
+Click on the _dialogue box_ showing the sprite name, and replace **character 1** with the name of your choice, e.g. **Nadia**.
 
 ![select character 1 sprite name](images/select_character1_name2.png)
 
