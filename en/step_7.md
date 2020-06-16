@@ -110,7 +110,13 @@ end
 
 Now add your new exercise routine to your exisiting code.
 
+--- no-print ---
+
 ![Joining new code to existing](images/joinCode.gif)
+
+--- /no-print ---
+
+--- print-only ---
 
 ```blocks3
 when flag clicked
@@ -136,5 +142,7 @@ end
     wait (0.5) seconds
 end
 ```
+
+--- /print-only ---
 
 --- /task ---
