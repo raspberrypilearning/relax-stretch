@@ -12,7 +12,7 @@ Click on the green flag to start the exercise routines.
 Click on the orange **up** or **down** arrows to change the number of times each exercise repeats.
 
 <div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/403435691/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  <iframe src="https://scratch.mit.edu/projects/405322095/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 --- /no-print ---
 
