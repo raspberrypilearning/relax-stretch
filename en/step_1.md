@@ -58,6 +58,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
 
-Here is a link to the [completed project and an example of a completed challenge](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
+You can find the completed project [here](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
 
 --- /collapse ---
