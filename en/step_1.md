@@ -47,6 +47,7 @@ title: What you will learn
 ---
 
 + How to use a conditional statement to control a variable
++ How to use a variable to control the number of repetitions
 + How to use the `Text to Speech`{:class="block3extensions"} extension
 
 --- /collapse ---
