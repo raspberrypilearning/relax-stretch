@@ -63,7 +63,7 @@ Now, `repetitions`{:class="block3variables"} should only go up `1` `if`{:class="
 
 --- task ---
 
-Add a say {:class="block3Looks"} block with the message "5 repetitons is the maximum" for `2` seconds.
+Add a say {:class="block3Looks"} block with the message "5 repetitons is the maximum" for `2` seconds below the `else`{:class="block3control"}.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -78,67 +78,19 @@ end
 
 --- /task ---
 
-Now you'll need to repeat these steps for the **down arrow**, but with a different _conditional statement_, reducing `repetitions`{:class="block3variables"} by `1` and giving a different message if the _condition_ is `false`.
+Now you'll need to do the same for the **down arrow**, but using a different condition and **reducing** `repetitions`{:class="block3variables"} by 1 each time.
+
+**Note** that a way to say **reduce by 1** in Scratch is, `change by`{:class="block3variables"} `-1`.
 
 --- task ---
 
 Select the **down arrow** sprite, add a `when this sprite clicked`{:class="block3events"} event and an `if... then... else...`{:class="block3control"} block.
 
-![Down arrow sprite icon](images/down_arrow_sprite.png)
+Add the _condition_, `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
 
-```blocks3
-when this sprite clicked
-if <> then
-else
-end
-```
+If the _condition_ is _true_, `change repetitions by`{:class="block3variables"} `-1`
 
---- /task ---
-
---- task ---
-
-Make a block for the condition. You will need to add a `repetitions`{:class="block3variables"} block to a `is greater than 1`{:class="block3operators"} block. Look carefully for the `>` operator.
-
-```blocks3
-<(repetitions)>[1]>
-```
-
-Add this new _condition_ to your `if... then... else...`{:class="block3control"} block.
-
-![Down arrow sprite icon](images/down_arrow_sprite.png)
-
-```blocks3
-when this sprite clicked
-if <(repetitions)>[1] ::operators +> then
-else
-end
-```
-
---- /task ---
-
---- task ---
-
-In the first empty space of the `if... then... else...`{:class="block3control"} block, add a block to reduce the `repetitions`{:class="block3variables"} by `1`.
-
-![Down arrow sprite icon](images/down_arrow_sprite.png)
-
-```blocks3
-when this sprite clicked
-if <(repetitions)>[1]> then
-+     change [repetitions v] by (-1)
-else
-end
-```
-
-**Note** that a way to say _reduce by 1_ in Scratch is, _change by -1_.
-
---- /task ---
-
-Finally, add a message for if the **down arrow** is pressed but `repetitions`{:class="block3variables"} is already 1 and cannot go any lower.
-
---- task ---
-
-In the `if... then... else...`{:class="block3control"} block, below `else`{:class="block3control"} add a say {:class="block3Looks"} block with the message "Repetitions can't be lower than 1" for `2` seconds.
+If the _condition_ is _false_, `say`{:class="block3Looks"} `Repetitions can't be lower than 1` for `2` seconds.
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
@@ -147,12 +99,12 @@ when this sprite clicked
 if <(repetitions)>[1]> then
     change [repetitions v] by (-1)
 else
-+     say [Repetitions can't be lower than 1] for (2) seconds
+    say [Repetitions can't be lower than 1] for (2) seconds
 end
 ```
 
 --- /task ---
 
-Test your new code by running the program and clicking the two arrows to raise or reduce the number of repetitions. You may want to display the `repetitions`{:class="block3variables"} variable for the test so you can see the value of `repetitions`{:class="block3variables"} changing. To do this, _tick_ the variable's checkbox in the `variables`{:class="block3variables"} palette. 
+Test your new code by running the program and clicking the two arrows to raise or reduce the number of repetitions. 
 
-![Making the repetition variable display on the stage](images/untickRepetitionsVariable.png)
+Does `repetitions`{:class="block3variables"} stay between 1 and 5?
