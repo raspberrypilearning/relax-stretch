@@ -44,7 +44,7 @@ end
 
 Now, when the program starts, `repetitions`{:class="block3variables"} will be set to `3`.
 
-The next step is to use the new variable to direct the number of times the exercise repeats. 
+The next step is to use the new variable to control the number of times the exercise repeats. 
 
 --- task ---
 

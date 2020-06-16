@@ -39,7 +39,6 @@ title: What you will need
 
 + Here is a link to the [starter file](http://rpf.io/sit-stretch-go){:target="_blank"} that you will need for this project.
 
-
 --- /collapse ---
 
 --- collapse ---
@@ -47,7 +46,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use a conditional statement to control a variable's range
++ How to use a conditional statement to control a variable
 + How to use the `Text to Speech`{:class="block3extensions"} extension
 
 --- /collapse ---
