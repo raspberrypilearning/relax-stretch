@@ -4,23 +4,23 @@ Next, you'll create a variable that will eventually allow a _user_ to control th
 
 --- task ---
 
-Go to the `Variables`{:class="block3variables"} blocks and click `Make a Variable` and name it `repetitions`.
+Go to the `Variables`{:class="block3variables"} blocks, click `Make a Variable` and name it `repetitions`.
 
 ![Making a new variable dialogue box](images/createRepetitionsVariable.png)
 
 The new variable will now appear in the `Variables`{:class="block3variables"} blocks section and also in the Stage. 
 
-Untick the box next to `repetitions`{:class="block3variables"} to remove the variable display box from the Stage.
+Untick the box next to `repetitions`{:class="block3variables"} to *hide* it in the Stage area.
 
 ![Untick the repetitions variable](images/untickRepetitionsVariable.png)
 
 --- /task ---
 
-The next step is to _set_ the value of `repetitions`{:class="block3variables"} when the program starts.
+The next step is to set the value of `repetitions`{:class="block3variables"} when the program starts.
 
 --- task ---
 
-Make sure that the **Nadia** sprite is selected. Go to `Variables`{:class="block3variables"}, add a `set repetitions to`{:class="block3variables"} block and set the variable to `3`.
+With the **Nadia** sprite selected, add a `set repetitions to`{:class="block3variables"} block and set the value to `3`.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -40,13 +40,11 @@ end
 
 --- /task ---
 
-Now, when the program starts, `repetitions`{:class="block3variables"} will be set to `3`.
-
-The next step is to use the new variable to control the number of times the exercise repeats. 
+Now let's use `repetitions`{:class="block3variables"} to control the number of times the exercise repeats. 
 
 --- task ---
 
-Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} loop.  This means that the value of `repetitions`{:class="block3variables"} will match the number of times the exercise repeats.
+Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} loop.  
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
