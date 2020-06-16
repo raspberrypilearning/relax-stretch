@@ -1,5 +1,5 @@
-## What next?
+## Share your project
 
-If you are following along with the Being Mindful pathway then try out the next project [Focus  on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize).
+Remember you can share your completed Scratch project with your friends and family, by following the instructions below.
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch).
+[[[share-scratch]]]
