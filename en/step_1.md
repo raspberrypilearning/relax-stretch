@@ -46,8 +46,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use a conditional statement to control a variable
-+ How to use a variable to control the number of repetitions
++ How to use a `condition`{:class="block3control"} to control a `variable`{:class="block3variables"}
++ How to use a `variable`{:class="block3variables"} to control the number of `repetitions`{:class="block3control"}
 + How to use the `Text to Speech`{:class="block3extensions"} extension
 
 --- /collapse ---

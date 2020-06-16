@@ -25,11 +25,9 @@ Click on the _dialogue box_ showing the sprite name, and replace **character 1**
 
 ![select character 1 sprite name](images/select_character1_name2.png)
 
-Click anywhere outside of the _dialogue box_ and you will see the name has now changed.
-
 --- /task ---
 
-Next, you will include all the setup blocks for **Nadia** so they are positioned on the Stage.
+Next, you will give **Nadia** setup blocks such as `position`{:class="block3motion"} on the Stage.
 
 --- task ---
 
