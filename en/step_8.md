@@ -14,7 +14,7 @@ Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3
 
 **You could even add controls to change the speed of the routines.**
 
-You could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} instructions. You can use similar controls to the arrows to create controls for the number of repetitions.
+You could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} instructions. You could make something similar to the arrows being used to control the number of repetitions.
 
 --- no-print ---
 
