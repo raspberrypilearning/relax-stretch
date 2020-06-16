@@ -6,7 +6,7 @@ Now let's code the arrow buttons to change the value of `repetitions`{:class="bl
 
 Leaving the existing code as it is. Grab a `when this sprite clicked`{:class="block3events"} block.
 
-Add a `change repetitions by 1` variable block below that.
+Add a `change repetitions by 1`{:class="block3variables"} variable block below that.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -15,32 +15,44 @@ when this sprite clicked
 change [repetitions v] by (1)
 ```
 
-
 --- /task ---
+
+Click the green flag to test that `repetitions`{:class="block3variables"} goes up each time you click it.
+
+Keep going. Does `repetitions`{:class="block3variables"} ever stop going up?
+
+You don't wan the exercise repeating 10,000 times, so let's add some code to stop `repetitions`{:class="block3variables"} going higher than 5.
 
 --- task ---
 
-From `Control`{:class="block3control"}, add an `if... then... else...`{:class="block3control"} block. 
+Add an `if... then... else...`{:class="block3control"} block, placing your `change repetitions by 1`{:class="block3variables"} in the space below `then`{:class="block3control"} . 
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
 + if <> then
+    change [repetitions v] by (1)
 else
-end
++ end
 ```
 
 --- /task ---
 
-You need  to control the number of times an exercise can be repeated. In order to do  this, add to the _conditional statement_ `if...`{:class="block3control"} a `repetitions`{:class="block3variables"} block and a `is less than 5`{:class="block3operators"} block. 
+You are going to add the _condition_ `if...`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than 5`{:class="block3operators"}.
 
 --- task ---
 
-From the green `Operators`{:class="block3operators"} in the Blocks palette, drag a `less than`{:class="block3operators"}. Look carefully for the `<` operator.
+Drag a `less than`{:class="block3operators"} operator into top space of the `if... then... else...`{:class="block3control"} block.
+
+Add a rounded `repetitions`{:class="block3variables"} block before the `<` and type the number `5` after it.
 
 ```blocks3
-<()<()>
+when this sprite clicked
+if <(repetitions ::variables)<[5] ::operators +> then
+    change [repetitions v] by (1)
+else
+end
 ```
 
 In the first empty field, add a rounded `repetitions`{:class="block3variables"} block.
