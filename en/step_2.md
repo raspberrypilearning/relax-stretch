@@ -37,7 +37,7 @@ Below that, add a `go to x: y:`{:class="block3motion"} block with **x** set to `
 
 Add a `switch costume to`{:class="block3looks"} block, setting the costume to `at rest`{:class="block3looks"}.
 
-Lastly, add a `wait for 2 seconds`{:class="block3looks"} so that the first exercise doesn't begin too suddenly.
+Lastly, add a `wait for 2 seconds`{:class="block3control"} so that the first exercise doesn't begin too suddenly.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
