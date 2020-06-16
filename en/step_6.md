@@ -63,7 +63,7 @@ Now, `repetitions`{:class="block3variables"} should only go up `1` `if`{:class="
 
 --- task ---
 
-Add a `say`{:class="block3Looks"} block with the message `5 repetitons is the maximum` for `2` seconds below the `else`{:class="block3control"}.
+Add a `say`{:class="block3looks"} block with the message `5 repetitons is the maximum` for `2` seconds below the `else`{:class="block3control"}.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -90,7 +90,7 @@ Add the _condition_, `if`{:class="block3control"} `repetitions`{:class="block3va
 
 If the _condition_ is _true_, `change repetitions by`{:class="block3variables"} `-1`
 
-If the _condition_ is _false_, `say`{:class="block3Looks"} `Repetitions can't be lower than 1` for `2` seconds.
+If the _condition_ is _false_, `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds.
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
