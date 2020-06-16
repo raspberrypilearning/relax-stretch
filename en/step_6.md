@@ -63,7 +63,7 @@ Now, `repetitions`{:class="block3variables"} should only go up `1` `if`{:class="
 
 --- task ---
 
-Add a say {:class="block3Looks"} block with the message "5 repetitons is the maximum" for `2` seconds below the `else`{:class="block3control"}.
+Add a `say`{:class="block3Looks"} block with the message `5 repetitons is the maximum` for `2` seconds below the `else`{:class="block3control"}.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
