@@ -25,8 +25,6 @@ wait (2) seconds
 
 --- /task ---
 
---- /task ---
-
 Now add another costume change.
 
 --- task ---
@@ -50,4 +48,8 @@ end
 
 --- /task ---
 
-That's the first exercise done. Try clicking the green flag and check that everything works as you expected it to.
+That's the first exercise done. 
+
+Test your script so far by clicking the green flag. 
++ Did the costume change to look like breathing? 
++ Did it repeat the routine twice?
