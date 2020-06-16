@@ -33,34 +33,26 @@ Next, you will give **Nadia** setup blocks such as `position`{:class="block3moti
 
 With the **Nadia** sprite still selected, go to `Events`{:class="block3events"} in the Blocks palette and add the `when flag clicked`{:class="block3events"} block.
 
-![Nadia sprite icon](images/nadia_sprite.png)
-
-```blocks3
-when flag clicked
-```
-
---- /task ---
-
---- task ---
-
 From the `Motion`{:class="block3motion"} block palette, add a `go to x: y:`{:class="block3motion"} block.
 
-For **x**, enter an value of '70' and for **y**, enter a value of '-25'. This will position **Nadia** to the bottom right of the Stage.
+For **x**, enter an value of `70` and for **y**, enter a value of `-25`. This will position **Nadia** to the bottom right of the Stage.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
-+ go to x: (70) y: (-25)
+go to x: (70) y: (-25)
 ```
 
 --- /task ---
 
 --- task ---
 
-At thestart,**Nadia** needs to use the correct costume. Go to `Looks`{:class="block3looks"} in the Blocks palette and add a `switch costume to`{:class="block3looks"} block.
+At the start, **Nadia** needs to use the correct costume. Go to `Looks`{:class="block3looks"} in the Blocks palette and add a `switch costume to`{:class="block3looks"} block.
 
 Set the costume to `at rest`{:class="block3looks"}.
+
+Add a `wait for 2 seconds`{:class="block3looks"} so that the first exercise doesn't begin too suddenly.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -68,22 +60,6 @@ Set the costume to `at rest`{:class="block3looks"}.
 when flag clicked
 go to x: (70) y: (-25)
 + switch costume to (at rest v)
-```
-
---- /task ---
-
-The last thing you will do to prepare **Nadia** for the start is to add a short wait so that the first exercise doesn't begin too suddenly.
-
---- task ---
-
-Go to `Control`{:class="block3looks"} block and add a `wait for 2 seconds`{:class="block3looks"} to make **Nadia** wait  for  2 seconds before anything else happens.
-
-![Nadia sprite icon](images/nadia_sprite.png)
-
-```blocks3
-when flag clicked
-go to x: (70) y: (-25)
-switch costume to (at rest v)
 + wait (2) seconds
 ```
 
