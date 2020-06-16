@@ -10,10 +10,6 @@ Go to the `Variables`{:class="block3variables"} blocks, click `Make a Variable` 
 
 The new variable will now appear in the `Variables`{:class="block3variables"} blocks section and also in the Stage. 
 
-Untick the box next to `repetitions`{:class="block3variables"} to *hide* it in the Stage area.
-
-![Untick the repetitions variable](images/untickRepetitionsVariable.png)
-
 --- /task ---
 
 The next step is to set the value of `repetitions`{:class="block3variables"} when the program starts.

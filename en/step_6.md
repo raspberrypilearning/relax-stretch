@@ -1,17 +1,20 @@
 ## Adding control to buttons
 
-Now it is time to code your arrow buttons so you can use them to change the value of `repetitions`{:class="block3variables"} while the program is running.
+Now let's code the arrow buttons to change the value of `repetitions`{:class="block3variables"} whenever they are clicked.
 
 --- task ---
 
+Leaving the existing code as it is. Grab a `when this sprite clicked`{:class="block3events"} block.
 
-Leave the existing code exactly as it is. Go to `Events`{:class="block3events"} and start a new script starting with an `when this sprite clicked`{:class="block3events"} block.
+Add a `change repetitions by 1` variable block below that.
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
 ```blocks3
-+ when this sprite clicked
+when this sprite clicked
+change [repetitions v] by (1)
 ```
+
 
 --- /task ---
 
