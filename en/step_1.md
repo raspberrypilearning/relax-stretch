@@ -57,8 +57,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
-
 You can find the completed project [here](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
 
 --- /collapse ---
