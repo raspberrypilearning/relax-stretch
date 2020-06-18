@@ -46,7 +46,7 @@ You are going to add the **condition** `if`{:class="block3control"} `repetitions
 From `Operators`{:class="block3operators"}, select a `less than`{:class="block3operators"} operator.
 
 ```
-[]<[] ::operators +
+[]<[] ::operators
 ```
 
 Place the block in to the top space of the `if... then... else...`{:class="block3control"} block.
