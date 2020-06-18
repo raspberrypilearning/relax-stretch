@@ -9,7 +9,7 @@ Open the Scratch starter project.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a character sprite along with two arrows, one up and one down.
+In the starter project, you should see a character sprite along with two arrows: up and down.
 
 ![starter project](images/starter_project.png)
 
@@ -21,7 +21,7 @@ Let's give **character 1** a name.
 
 Select the **character 1** sprite.
 
-Click on the _dialogue box_ showing the sprite name, and replace **character 1** with the name of your choice, e.g. **Nadia**.
+Click on the _dialogue box_ showing the sprite name. We have named this sprite **Nadia**. Feel free to replace **character 1** with the name of your choice.
 
 ![select character 1 sprite name](images/select_character1_name2.png)
 
