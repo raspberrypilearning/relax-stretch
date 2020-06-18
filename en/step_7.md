@@ -4,13 +4,13 @@ Now you can control the number of times each exercise repeats, it is time to add
 
 --- task ---
 
-For this exercise, you will use `text to speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be said out loud by the computer.
+For this exercise, you will use `text to speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be spoken by the computer.
 
-Click on the 'Choose an Extensions' button in the bottom left of the Scratch window.
+Click on the **Choose an Extensions** button in the bottom left of the Scratch window.
 
 ![Extensions button](images/extensionsButton.png)
 
-Choose the `Text to Speech`{:class="block3extensions"} extension.
+Select the `Text to Speech`{:class="block3extensions"} extension.
 
 ![Text to speech extension](images/textToSpeechExtension.png)
 
@@ -20,11 +20,11 @@ A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
 
 --- /task ---
 
-Next, you'll code the head roll exercise as a separate code _snippet_ which you'll add to your main code right at the end.
+Next, you will create the head roll exercise as a separate code **snippet** which you'll add to your main code right at the end.
 
 --- task ---
 
-Select the **Nadia** sprite and grab a `repeat`{:class="block3control"} block.
+Choose the **Nadia** sprite and select a `repeat`{:class="block3control"} block.
 
 Add a rounded `repetitions`{:class="block3variables"} variable block to control the number of repetitions.
 
@@ -40,7 +40,7 @@ Now let's start adding the exercise instructions.
 
 --- task ---
 
-Add a `speak`{:class="block3extensions"} block from the new `Text to Speech`{:class="block3extensions"} blocks, setting the text to `roll your neck to the right`.
+From `Text to Speech`{:class="block3extensions"}, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
 
 Next, add a `change costume`{:class="block3looks"} block and switch the costume to `head right`.
 
@@ -58,13 +58,13 @@ end
 
 --- /task ---
 
-Each exercise step will use a `text to Speech`{:class="block3extensions"}, `switch costume`{:class="block3looks"} and `wait`{:class="control"} block.
+Each exercise step will use `text to Speech`{:class="block3extensions"}, `switch costume`{:class="block3looks"} and `wait`{:class="control"} blocks.
 
 --- task ---
 
 Add the following `Text to Speech`{:class="block3extensions"} instruction: `and around to the left`.
 
-`Switch the costume`{:class="block3looks"} to `head left` and `wait`{:class="control"} for half a second.
+`Switch the costume`{:class="block3looks"} to `head left` {:class="block3looks"} and `wait`{:class="control"} for 0.5 (half) a second.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -86,7 +86,7 @@ And the last step of the exercise.
 
 --- task ---
 
-Type in the instruction, `and back to centre` .Then add `switch the costume`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds.
+Type in the instruction, `and back to centre`. Then add `switch the costume`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
