@@ -7,6 +7,7 @@ Even whilst sitting you can keep yourself moving, flexible and alert by doing re
 You will create a program to demonstrate some mindful, relaxing exercises you can carry out while sitting down, and even add a new exercise of your own.
 
 --- no-print ---
+
 Click on the green flag to start the exercise routines.
 
 Click on the orange **up** or **down** arrows to change the number of times each exercise repeats.
@@ -22,14 +23,13 @@ Click on the orange **up** or **down** arrows to change the number of times each
 
 --- /print-only ---
 
-
 --- collapse ---
 ---
 title: What you will need
 ---
 ### Hardware
 
-+ A computer
++ A computer capable of running Scratch
 
 ### Software
 
@@ -48,7 +48,7 @@ title: What you will learn
 
 + How to use a `condition`{:class="block3control"} to control a `variable`{:class="block3variables"}
 + How to use a `variable`{:class="block3variables"} to control the number of `repetitions`{:class="block3control"}
-+ How to use the `Text to Speech`{:class="block3extensions"} extension
++ How to use the `Text to Speech`{:class="block3extensions"} extension block
 
 --- /collapse ---
 
