@@ -1,6 +1,6 @@
 ## Getting the arrows ready
 
-The next step is to *set up* the arrow button sprites in the same way you have just done for the **Nadia** sprite.
+The next step is to **set up** the arrow button sprites in the same way you have just done for the **Nadia** sprite.
 
 --- task ---
 
@@ -17,7 +17,7 @@ go to x: (-140) y: (30)
 
 --- /task ---
 
-When running the program, it is easy to accidentally drag the button instead of just clicking it! You could use a `forever`{:class="block3control"} loop around your `go to`{:class="block3motion"} block to make sure the sprite stays in its position.
+When running the program, it is easy to accidentally drag the button instead of just clicking it! To make sure the sprite stays in its position use a `forever`{:class="block3control"} loop around the `go to`{:class="block3motion"} block 
 
 --- task ---
 
@@ -51,4 +51,6 @@ end
 
 --- /task ---
 
-Later, you'll add code to make these two buttons control the number of exercise repetitions but next, you'll code your first exercise routine.
+In a later step, you will develop the code for the two buttons so that they control the number of times the exercises repeat themselves.
+
+Next, you will code your first exercise routine.
