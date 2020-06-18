@@ -4,17 +4,17 @@ Well done! You have programmed a healthy, sit and stretch exercise program to ke
 
 How would you like to improve your program? 
 
-Here is your chance to add some of your own details and ideas.
+Here is your chance to add some of your own ideas.
 
 **How about adding a new exercise routine?**
 
-You could use some of Nadia's currently unused costumes or even duplicate an existing costume and edit it to make a new position costume of your own!
+Using some of Nadia's currently unused costumes or even duplicate an existing costume, edit the costume to make a new position costume of your own!
 
 Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} for the instructions? It's completely up to you.
 
 **You could even add controls to change the speed of the routines.**
 
-You could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} instructions. You could make something similar to the arrows being used to control the number of repetitions.
+You could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} the instructions. You could create more buttons to control speed, like the arrows to control the number of repetitions.
 
 --- no-print ---
 
