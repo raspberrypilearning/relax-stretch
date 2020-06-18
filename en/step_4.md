@@ -25,11 +25,11 @@ wait (2) seconds
 
 --- /task ---
 
-Now add another costume change.
+Now add another costume change with some accompaning text.
 
 --- task ---
 
-`Switch costume`{:class="block3looks"} to `at rest`{:class="block3looks"}, and `say`{:class="block3looks"} `breathe out`.
+Select `Switch costume`{:class="block3looks"} to `at rest`{:class="block3looks"}, and type in to the `say`{:class="block3looks"} block the words `breathe out`.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
