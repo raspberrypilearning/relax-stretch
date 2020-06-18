@@ -4,7 +4,7 @@ Next, you'll create a variable that will eventually allow a _user_ to control th
 
 --- task ---
 
-Go to the `Variables`{:class="block3variables"} blocks, click `Make a Variable` and name it `repetitions`.
+Go to the `Variables`{:class="block3variables"} block, click `Make a Variable` and name it `repetitions`.
 
 ![Making a new variable dialogue box](images/createRepetitionsVariable.png)
 
@@ -40,7 +40,7 @@ Now let's use `repetitions`{:class="block3variables"} to control the number of t
 
 --- task ---
 
-Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} loop.  
+Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} block.  
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
