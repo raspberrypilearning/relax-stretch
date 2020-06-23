@@ -33,7 +33,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 (online at [scratch.mit.edu/](https://scratch.mit.edu/){:target="_blank"} or offline at [scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}
++ Scratch 3 (online at [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} or offline at [scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}
 
 ### Downloads
 
