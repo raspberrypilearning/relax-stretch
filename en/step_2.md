@@ -5,7 +5,7 @@ Open the project starter in Scratch.
 
 **Online**: Open the starter project at [rpf.io/sit-stretch-on](http://rpf.io/sit-stretch-on){:target="_blank"}.
 
-**Offline**: Open the [rpf.io/sit-stretch-get](http://rpf.io/sit-stretch-get){:target="_blank"} in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline**: Open the project starter file, [rpf.io/sit-stretch-get](http://rpf.io/sit-stretch-get){:target="_blank"} the offline editor. If you need to download and install the Scratch offline editor, you can find it at [scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
 
 You should see a character sprite along with two arrows: up and down.
 
