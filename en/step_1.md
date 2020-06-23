@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-+ Download this project's [starter files1](http://rpf.io/sit-stretch-go){:target="_blank"})
++ Download this project's [starter file](http://rpf.io/p/en/sit-stretch-go){:target="_blank"})
 
 --- /collapse ---
 
