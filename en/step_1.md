@@ -33,8 +33,9 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-  + online
++ Scratch 3
+  + online at [scratch.mit.edu/](https://scratch.mit.edu/){:target="_blank"}
+  + offline at [scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}
 
 ### Downloads
 
