@@ -33,11 +33,11 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 (online at [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} or offline at [scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}
++ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"}
 
 ### Downloads
 
-+ Download the starter file that you will need for this project from [rpf.io/sit-stretch-go](http://rpf.io/sit-stretch-go){:target="_blank"}.
++ Download the starter file that you will need for this project from [here](http://rpf.io/sit-stretch-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -57,34 +57,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can find the completed project at [here](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
+You can download the completed project from [here](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
-
---- /collapse ---
-
-**OR**
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can find the completed project at [rpf.io/p/en/sit-stretch-get](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
-
-If you need to print this project, please use the printer-friendly version at [projects.raspberrypi.org/en/projects/sit-stretch/print](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
-
---- /collapse ---
-
-**OR**
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project from [rpf.io/p/en/sit-stretch-get](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
-
-If you need to print this project, please download the printer-friendly version from [projects.raspberrypi.org/en/projects/sit-stretch/print](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
 
 --- /collapse ---
