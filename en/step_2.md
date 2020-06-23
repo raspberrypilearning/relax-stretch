@@ -33,7 +33,7 @@ Next, you will give **Nadia** setup blocks such as `position`{:class="block3moti
 
 With the **Nadia** sprite still selected, add a `when flag clicked`{:class="block3events"} block.
 
-Below that, add a `go to x: y:`{:class="block3motion"} block with **x** set to `70` and **y** to `-25`. 
+Below that, add a `go to x: y:`{:class="block3motion"} block with `x`{:class="block3motion"} set to `70` and `y`{:class="block3motion"} to `-25`. 
 
 Add a `switch costume to`{:class="block3looks"} block, setting the costume to `at rest`{:class="block3looks"}.
 
