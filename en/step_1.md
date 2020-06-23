@@ -34,6 +34,7 @@ title: What you will need
 ### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
+++ online
 
 ### Downloads
 
@@ -57,8 +58,21 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can find the completed project [here](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
+You can find the completed project at [here](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
+
+--- /collapse ---
+
+**OR**
+
+--- collapse ---
+---
+title: Additional information for educators
+---
+
+You can find the completed project at [rpf.io/p/en/sit-stretch-get](http://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
+
+If you need to print this project, please use the printer-friendly version at [projects.raspberrypi.org/en/projects/sit-stretch/print](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
 
 --- /collapse ---
