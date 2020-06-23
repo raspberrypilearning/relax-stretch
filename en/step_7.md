@@ -20,7 +20,7 @@ A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
 
 --- /task ---
 
-Next, you will create the head roll exercise as a separate code **snippet** which you'll add to your main code right at the end.
+Next, you will create the head roll exercise as a separate block of code which you'll add to your main code right at the end.
 
 --- task ---
 
@@ -64,7 +64,7 @@ Each exercise step will use `text to Speech`{:class="block3extensions"}, `switch
 
 Add the following `Text to Speech`{:class="block3extensions"} instruction: `and around to the left`.
 
-`Switch the costume`{:class="block3looks"} to `head left` {:class="block3looks"} and `wait`{:class="control"} for 0.5 (half) a second.
+`Switch the costume`{:class="block3looks"} to `head left`{:class="block3looks"} and `wait`{:class="control"} for 0.5 seconds.
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
