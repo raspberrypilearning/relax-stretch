@@ -44,7 +44,7 @@ From `Text to Speech`{:class="block3extensions"}, add a `speak`{:class="block3ex
 
 Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`.
 
-Lastly, add a short `wait`{:class="block3control"} block to the `text to speech`{:class="block3extensions"}. 
+Lastly, add a short `wait`{:class="block3control"} block. 
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
