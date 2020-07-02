@@ -12,11 +12,11 @@ Click on the **Choose an Extensions** button in the bottom left of the Scratch w
 
 Select the `Text to Speech`{:class="block3extensions"} extension.
 
-![Text to speech extension](images/textToSpeechExtension.png)
+![Text to Speech extension](images/textToSpeechExtension.png)
 
 A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
 
-![Text to speech blocks](images/textToSpeechBlocks.png)
+![Text to Speech blocks](images/textToSpeechBlocks.png)
 
 --- /task ---
 
