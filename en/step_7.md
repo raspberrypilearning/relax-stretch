@@ -4,7 +4,7 @@ Now you can control the number of times each exercise repeats, it is time to add
 
 --- task ---
 
-For this exercise, you will use `text to speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be spoken by the computer.
+For this exercise, you will use `Text to Speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be spoken by the computer.
 
 Click on the **Choose an Extensions** button in the bottom left of the Scratch window.
 
