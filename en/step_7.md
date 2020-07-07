@@ -26,7 +26,7 @@ Next, you will create the head roll exercise as a separate block of code which y
 
 Choose the **Nadia** sprite and select a `repeat`{:class="block3control"} block.
 
-Add a rounded `repetitions`{:class="block3variables"} variable block to control the number of repetitions.
+Add a rounded `repetitions`{:class="block3variables"} variable block to control the number of repetitions:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -44,7 +44,7 @@ From `Text to Speech`{:class="block3extensions"}, add a `speak`{:class="block3ex
 
 Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`.
 
-Lastly, add a short `wait`{:class="block3control"} block. 
+Lastly, add a short `wait`{:class="block3control"} block: 
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -64,7 +64,7 @@ Each exercise step will use `text to Speech`{:class="block3extensions"}, `switch
 
 Add the following `Text to Speech`{:class="block3extensions"} instruction: `and around to the left`.
 
-`switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="control"} for 0.5 seconds.
+`switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="control"} for 0.5 seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -86,7 +86,7 @@ And the last step of the exercise.
 
 --- task ---
 
-Type in the instruction, `and back to centre`. Then add `switch costume to`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds.
+Type in the instruction, `and back to centre`. Then add `switch costume to`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -108,7 +108,7 @@ end
 
 --- task ---
 
-Now add your new exercise routine to your exisiting code.
+Now add your new exercise routine to your exisiting code:
 
 --- no-print ---
 

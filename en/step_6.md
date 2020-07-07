@@ -6,7 +6,7 @@ Now let's code the arrow buttons to change the value of `repetitions`{:class="bl
 
 Leaving the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
 
-Add a `change repetitions by`{:class="block3variables"} variable block below which should have a value of `1`.
+Add a `change repetitions by`{:class="block3variables"} variable block below which should have a value of `1`:
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -25,7 +25,7 @@ You don't want the exercise repeating too many times, so let's add some code to 
 
 --- task ---
 
-From `Control`{:class="block3control"} select an `if... then... else...`{:class="block3control"} block, placing the `change repetitions by 1`{:class="block3variables"} in the space below `if... then`{:class="block3control"} . 
+From `Control`{:class="block3control"} select an `if... then... else...`{:class="block3control"} block, placing the `change repetitions by 1`{:class="block3variables"} in the space below `if... then`{:class="block3control"}:
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -43,7 +43,7 @@ You are going to add the **condition** `if`{:class="block3control"} `repetitions
 
 --- task ---
 
-From `Operators`{:class="block3operators"}, select a `less than`{:class="block3operators"} operator.
+From `Operators`{:class="block3operators"}, select a `less than`{:class="block3operators"} operator:
 
 ```blocks3
 []<[] ::operators
@@ -51,7 +51,7 @@ From `Operators`{:class="block3operators"}, select a `less than`{:class="block3o
 
 Place the block in to the top space of the `if... then... else...`{:class="block3control"} block.
 
-From `Variables`{:class="block3variables"}, select a rounded `repetitions`{:class="block3variables"} block and place it before the `<`{:class="block3operators"}. Type the number `5` after the `<`{:class="block3operators"}.
+From `Variables`{:class="block3variables"}, select a rounded `repetitions`{:class="block3variables"} block and place it before the `<`{:class="block3operators"}. Type the number `5` after the `<`{:class="block3operators"}:
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -71,7 +71,7 @@ What will happen if the user selects `repetitions`{:class="block3variables"} to 
 
 --- task ---
 
-Add a `say`{:class="block3looks"} block with the message `5 repetitons is the maximum` for `2` seconds below the `else`{:class="block3control"}.
+Add a `say`{:class="block3looks"} block with the message `5 repetitons is the maximum` for `2` seconds below the `else`{:class="block3control"}:
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -98,7 +98,7 @@ Add the **condition**, `if`{:class="block3control"} `repetitions`{:class="block3
 
 If the **condition** is **true**, `change repetitions by`{:class="block3variables"} `-1`
 
-If the **condition** is **false**, `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds.
+If the **condition** is **false**, `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 

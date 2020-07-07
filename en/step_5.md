@@ -16,7 +16,7 @@ The next step is to set the value of `repetitions`{:class="block3variables"} whe
 
 --- task ---
 
-With the **Nadia** sprite selected, add a `set repetitions to`{:class="block3variables"} block and set the value to `3`.
+With the **Nadia** sprite selected, add a `set repetitions to`{:class="block3variables"} block and set the value to `3`:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -40,7 +40,7 @@ Now let's use `repetitions`{:class="block3variables"} to control the number of t
 
 --- task ---
 
-Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} block.  
+Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} block:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
