@@ -1,6 +1,6 @@
 ## Prepare the arrows
 
-The next step is to **set up** the arrow button sprites in the same way you have just done for the **Nadia** sprite.
+The next step is to set up the arrow button sprites in the same way you have just done for the **Nadia** sprite.
 
 --- task ---
 

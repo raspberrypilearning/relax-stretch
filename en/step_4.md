@@ -25,6 +25,8 @@ wait (2) seconds
 
 --- /task ---
 
+The `2` in `say`{:class="block3looks"} `breathe in` `for`{:class="block3looks"} `2` `seconds`{:class="block3looks"}, tells Scratch how long to show the speech bubble on the Stage.
+
 Now add another costume change with some accompaning text.
 
 --- task ---

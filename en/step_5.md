@@ -1,6 +1,6 @@
 ## Repetitions
 
-Next, you'll create a variable that will eventually allow a _user_ to control the number of repetitions of each exercise.
+Next, you'll create a variable that will eventually allow a user to control the number of repetitions of each exercise.
 
 --- task ---
 

@@ -39,7 +39,7 @@ else
 
 --- /task ---
 
-You are going to add the **condition** `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+You are going to add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
 
 --- task ---
 
@@ -86,7 +86,7 @@ end
 
 --- /task ---
 
-Now you'll need to do the same for the **down arrow**, but using a different condition and **reducing** `repetitions`{:class="block3variables"} by 1 each time.
+Now you'll need to do the same for the **down arrow**, but using a different condition and reducing `repetitions`{:class="block3variables"} by 1 each time.
 
 Note that a way to say **reduce by 1** in Scratch is, `change by`{:class="block3variables"} `-1`.
 
@@ -94,11 +94,11 @@ Note that a way to say **reduce by 1** in Scratch is, `change by`{:class="block3
 
 Select the **down arrow** sprite, add a `when this sprite clicked`{:class="block3events"} and an `if... then... else...`{:class="block3control"} block.
 
-Add the **condition**, `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
+Add the condition, `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
 
-If the **condition** is **true**, `change repetitions by`{:class="block3variables"} `-1`
+If the condition is **true**, `change repetitions by`{:class="block3variables"} `-1`
 
-If the **condition** is **false**, `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
+If the condition is **false**, `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
