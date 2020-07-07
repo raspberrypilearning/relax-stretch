@@ -47,6 +47,11 @@ From `Operators`{:class="block3operators"}, select a `less than`{:class="block3o
 
 ```
 []<[] ::operators
+[]<[] ::operators
+```
+
+```
+[]<[] ::operators
 ```
 
 Place the block in to the top space of the `if... then... else...`{:class="block3control"} block.

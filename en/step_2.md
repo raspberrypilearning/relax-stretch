@@ -2,9 +2,9 @@
 
 --- task ---
 
-If working **online**, open the [starter project](http://rpf.io/p/en/sit-stretch-on){:target="_blank"} in Scratch.
+**Online:** open the [starter project](http://rpf.io/p/en/sit-stretch-on){:target="_blank"} in Scratch.
 
-If working **offline**, open the project [starter file](http://rpf.io/p/en/sit-stretch-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the project [starter file](http://rpf.io/p/en/sit-stretch-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
 You should see a character sprite along with two arrows: up and down.
 
