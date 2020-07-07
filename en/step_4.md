@@ -1,4 +1,4 @@
-## Breathing
+## Breathe
 
 Let's start coding a relaxing, breathing exercise using different sprite costumes.
 
