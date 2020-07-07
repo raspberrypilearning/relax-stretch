@@ -1,4 +1,4 @@
-## Get your character ready
+## Prepare your character
 
 --- task ---
 
