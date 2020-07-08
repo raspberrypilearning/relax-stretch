@@ -4,7 +4,7 @@ The next step is to set up the arrow button sprites in the same way as you have 
 
 --- task ---
 
-Select the **up arrow** sprite and give it a `when green flag clicked`{:class="block3events"} block.
+Select the **'up' arrow** sprite and add a `when green flag clicked`{:class="block3events"} block.
 
 Add a `go to`{:class="block3motion"} block, and set `x`{:class="block3motion"} to `-140` and `y`{:class="block3motion"} to `30`:
 
@@ -34,11 +34,11 @@ go to x: (-140) y: (30)
 
 --- /task ---
 
-Now, you will do the same for the **down arrow**, but in a different position.
+Now, you will do the same for the **'down' arrow**, but in a different position.
 
 --- task ---
 
-For the **down arrow** sprite, set the `go to`{:class="block3motion"} block values to `x`{:class="block3motion"} at `-140` and `y`{:class="block3motion"} at `-40`:
+For the **'down' arrow** sprite, set the `go to`{:class="block3motion"} block values to `x`{:class="block3motion"} at `-140` and `y`{:class="block3motion"} at `-40`:
 
 ![down arrow sprite icon](images/down_arrow_sprite.png)
 
