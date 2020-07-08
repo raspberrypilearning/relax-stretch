@@ -1,6 +1,6 @@
 ## Challenge: Add your own exercise routine
 
-Well done! You have programmed a healthy, sit and stretch exercise program to keep yourself and others moving.
+Well done! You have programmed a healthy 'sit and stretch' exercise program to keep yourself and others moving.
 
 How would you like to improve your program? 
 
@@ -8,9 +8,9 @@ Here is your chance to add some of your own ideas.
 
 **How about adding a new exercise routine?**
 
-Using some of Nadia's currently unused costumes or even duplicate an existing costume, edit the costume to make a new position costume of your own!
+You could use some of Nadia's currently unused costumes or even duplicate an existing costume, and edit the costume to make a new position costume of your own!
 
-Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} for the instructions? It's completely up to you.
+Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} block for the instructions? It's completely up to you.
 
 **You could even add controls to change the speed of the routines.**
 
