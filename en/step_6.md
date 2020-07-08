@@ -1,6 +1,6 @@
-## Add control to buttons
+## Add control to the buttons
 
-Now, you will code the arrow buttons to change the value of `repetitions`{:class="block3variables"} whenever the buttons are clicked.
+Now, you will code the arrow buttons to change the value of `repetitions`{:class="block3variables"} when the buttons are clicked.
 
 --- task ---
 
@@ -21,7 +21,7 @@ Click on the green flag to test that `repetitions`{:class="block3variables"} goe
 
 Keep going. Does `repetitions`{:class="block3variables"} stop going up?
 
-You don't want the exercise to repeat too many times, so next, you will add some code to stop `repetitions`{:class="block3variables"} from going higher than 5.
+You don't want the exercise to repeat too many times, so next, you will add some code to stop `repetitions`{:class="block3variables"} from going above 5.
 
 --- task ---
 
@@ -39,7 +39,7 @@ else
 
 --- /task ---
 
-You are going to add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+Now, you will add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
 
 --- task ---
 
@@ -86,13 +86,13 @@ end
 
 --- /task ---
 
-Now, you will need to do the same for the **down arrow**, but using a different condition and reducing `repetitions`{:class="block3variables"} by 1 each time.
+Now, you need to do the same for the **'down' arrow**, but you need to use a different condition and reduce `repetitions`{:class="block3variables"} by 1 each time.
 
 A way to say **reduce by 1** in Scratch is `change by`{:class="block3variables"} `-1`.
 
 --- task ---
 
-Select the **down arrow** sprite. Add a `when this sprite clicked`{:class="block3events"} block and an `if... then... else...`{:class="block3control"} block.
+Select the **'down' arrow** sprite. Add a `when this sprite clicked`{:class="block3events"} block and an `if... then... else...`{:class="block3control"} block.
 
 Add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
 
@@ -113,7 +113,7 @@ end
 
 --- /task ---
 
-To test the program, run it. Click the two arrows to raise or reduce the number of repetitions. 
+Run the program to test it. Click on the two arrows to raise or reduce the number of repetitions. 
 
 Does `repetitions`{:class="block3variables"} stay between 1 and 5?
 
