@@ -1,12 +1,12 @@
 ## Head roll
 
-Now you can control the number of times each exercise repeats, it is time to add a second exercise routine.
+Now that you can control the number of times that each exercise repeats, it is time to add a second exercise routine.
 
 --- task ---
 
 For this exercise, you will use `Text to Speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be spoken by the computer.
 
-Click on the Choose an Extensions button in the bottom left of the Scratch window.
+Click the **Add Extension** button in the bottom left-hand corner of the Scratch window.
 
 ![Extensions button](images/extensionsButton.png)
 
@@ -20,7 +20,7 @@ A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
 
 --- /task ---
 
-Next, you will create the head roll exercise as a separate block of code which you'll add to your main code right at the end.
+Next, you will create the head roll exercise as a separate block of code, which you will add to your main code at the end.
 
 --- task ---
 
@@ -36,11 +36,11 @@ repeat (repetitions)
 
 --- /task ---
 
-Now let's start adding the exercise instructions.
+Now, you will start adding the exercise instructions.
 
 --- task ---
 
-From `Text to Speech`{:class="block3extensions"}, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
+From the `Text to Speech`{:class="block3extensions"} menu, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
 
 Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`.
 
@@ -58,7 +58,7 @@ end
 
 --- /task ---
 
-Each exercise step will use `text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"} and `wait`{:class="control"} blocks.
+Each exercise step will use `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"}, and `wait`{:class="control"} blocks.
 
 --- task ---
 
@@ -82,11 +82,11 @@ end
 
 --- /task ---
 
-And the last step of the exercise.
+Now, you will add the last step of the exercise.
 
 --- task ---
 
-Type in the instruction, `and back to centre`. Then add `switch costume to`{:class="block3looks"} back to `at rest` and `wait`{:class="control"} for another 0.5 seconds:
+Type in the instruction `and back to centre`. Then, add `switch costume to`{:class="block3looks"} and set it back to `at rest`, and `wait`{:class="control"} for another 0.5 seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -108,7 +108,7 @@ end
 
 --- task ---
 
-Now add your new exercise routine to your exisiting code:
+Now, add your new exercise routine to your existing code:
 
 --- no-print ---
 
