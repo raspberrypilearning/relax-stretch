@@ -4,7 +4,7 @@
 
 **Online:** Open the [starter project](http://rpf.io/p/en/sit-stretch-on){:target="_blank"} in Scratch.
 
-**Offline:** Open the project [starter file](http://rpf.io/p/en/sit-stretch-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** Open the project [starter file](http://rpf.io/p/en/sit-stretch-get){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
 You should see a character sprite and two arrows: up and down.
 
@@ -28,13 +28,13 @@ Next, you will give **Nadia** setup blocks such as `position`{:class="block3moti
 
 --- task ---
 
-With the **Nadia** sprite still selected, add a `when flag clicked`{:class="block3events"} block.
+With the **Nadia** sprite still selected, add a `when green flag clicked`{:class="block3events"} block.
 
 Below that, add a `go to x: y:`{:class="block3motion"} block with `x`{:class="block3motion"} set to `70` and `y`{:class="block3motion"} set to `-25`. 
 
-Add a `switch costume to`{:class="block3looks"} block, setting the costume to `at rest`{:class="block3looks"}.
+Add a `switch costume to`{:class="block3looks"} block, and set the costume to `at rest`{:class="block3looks"}.
 
-Lastly, add a `wait 2 seconds`{:class="block3control"} block so that the first exercise doesn't begin too suddenly:
+Finally, add a `wait 2 seconds`{:class="block3control"} block so that the first exercise doesn't begin too suddenly:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
