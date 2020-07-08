@@ -44,7 +44,7 @@ From the `Text to Speech`{:class="block3extensions"} menu, add a `speak`{:class=
 
 Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`.
 
-Lastly, add a short `wait`{:class="block3control"} block: 
+Finally, add a short `wait`{:class="block3control"} block: 
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -62,7 +62,7 @@ Each exercise step will use `Text to Speech`{:class="block3extensions"}, `switch
 
 --- task ---
 
-Add the following `Text to Speech`{:class="block3extensions"} instruction: `and around to the left`.
+Add the following `Text to Speech`{:class="block3extensions"} instruction: `and round to the left`.
 
 `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="control"} for 0.5 seconds:
 
