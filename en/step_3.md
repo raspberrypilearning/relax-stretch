@@ -1,12 +1,12 @@
 ## Prepare the arrows
 
-The next step is to set up the arrow button sprites in the same way you have just done for the **Nadia** sprite.
+The next step is to set up the arrow button sprites in the same way as you have just done for the **Nadia** sprite.
 
 --- task ---
 
-Select the **up arrow** sprite and give it a `when flag clicked`{:class="block3events"} block.
+Select the **up arrow** sprite and give it a `when green flag clicked`{:class="block3events"} block.
 
-Add a `go to`{:class="block3motion"} block, setting `x`{:class="block3motion"} to `-140` and `y`{:class="block3motion"} to `30`:
+Add a `go to`{:class="block3motion"} block, and set `x`{:class="block3motion"} to `-140` and `y`{:class="block3motion"} to `30`:
 
 ![up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -17,11 +17,11 @@ go to x: (-140) y: (30)
 
 --- /task ---
 
-When running the program, it is easy to accidentally drag the button instead of just clicking it! To make sure the sprite stays in its position use a `forever`{:class="block3control"} loop around the `go to`{:class="block3motion"} block. 
+When running the program, it is easy to accidentally drag the button instead of clicking it! To make sure that the sprite stays in its position, use a `forever`{:class="block3control"} loop around the `go to`{:class="block3motion"} block. 
 
 --- task ---
 
-Grab a `forever`{:class="block3control"} loop and place it under the `green flag`{:class="block3events"} with the `go to`{:class="block3motion"} block inside:
+Take a `forever`{:class="block3control"} loop and place it under the `when green flag clicked`{:class="block3events"} block, with the `go to`{:class="block3motion"} block inside:
 
 ![up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -34,7 +34,7 @@ go to x: (-140) y: (30)
 
 --- /task ---
 
-Now do the same for the **down arrow** but in a different position.
+Now, you will do the same for the **down arrow**, but in a different position.
 
 --- task ---
 
@@ -51,7 +51,7 @@ end
 
 --- /task ---
 
-In a later step, you will develop the code for the two buttons so that they control the number of times the exercises repeat themselves.
+In a later step, you will develop the code for the two buttons so that they control the number of times that the exercises repeat themselves.
 
 Next, you will code your first exercise routine.
 
