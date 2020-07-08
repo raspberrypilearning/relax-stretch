@@ -1,14 +1,14 @@
 ## Repetitions
 
-Next, you'll create a variable that will eventually allow a user to control the number of repetitions of each exercise.
+Now, you will create a variable that will eventually allow a user to control the number of repetitions of each exercise.
 
 --- task ---
 
-Go to the `Variables`{:class="block3variables"} block, click `Make a Variable` and name it `repetitions`.
+Go to the `Variables`{:class="block3variables"} menu, click on `Make a Variable`, and name it `repetitions`.
 
 ![Making a new variable dialogue box](images/createRepetitionsVariable.png)
 
-The new variable will now appear in the `Variables`{:class="block3variables"} blocks section and also in the Stage. 
+The new variable will now appear in the `Variables`{:class="block3variables"} blocks section and also on the Stage. 
 
 --- /task ---
 
@@ -36,7 +36,7 @@ end
 
 --- /task ---
 
-Now let's use `repetitions`{:class="block3variables"} to control the number of times the exercise repeats. 
+Now, you will use `repetitions`{:class="block3variables"} to control the number of times that the exercise repeats. 
 
 --- task ---
 
@@ -60,6 +60,6 @@ end
 
 --- /task ---
 
-One way to check that this program works is by changing the value of `repetitions`{:class="block3variables"} and running the program.
+To check that this program works, you can change the value of `repetitions`{:class="block3variables"} and run the program.
 
 --- save ---
