@@ -1,16 +1,16 @@
 ## Introduction
 
-Even whilst sitting you can keep yourself moving, flexible and alert by doing regular and relaxing exercises. Write a program to help you and others stay healthy from a seated position.
+You can keep yourself moving, flexible, and alert by doing regular and relaxing exercises, including while you are seated. Write a program to help you and others stay healthy from a seated position.
 
 ### What you will make
 
-You will create a program to demonstrate some mindful, relaxing exercises you can carry out while sitting down, and even add a new exercise of your own.
+You will create a program to demonstrate some mindful, relaxing exercises that you can carry out while sitting down, and even add a new exercise of your own.
 
 --- no-print ---
 
 Click on the green flag to start the exercise routines.
 
-Click on the orange **up** or **down** arrows to change the number of times each exercise repeats.
+Click on the orange **up** or **down** arrows to change the number of times that each exercise repeats.
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/405322095/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -29,7 +29,7 @@ title: What you will need
 ---
 ### Hardware
 
-+ A Computer or tablet capable of running Scratch
++ A computer or tablet capable of running Scratch
 
 ### Software
 
@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/sit-stretch-go){:target="_blank"} if working offline
++ Download the project [starter file](http://rpf.io/p/en/sit-stretch-go){:target="_blank"} if you are working offline
 
 --- /collapse ---
 
