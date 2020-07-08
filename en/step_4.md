@@ -8,7 +8,7 @@ Select the **Nadia** sprite and add a `repeat`{:class="block3events"} loop to th
 
 Inside the `repeat`{:class="block3events"} loop, add a `switch costume to`{:class="block3looks"} block and a `say`{:class="block3looks"} block.
 
-Set the costume to `breathe in`{:class="block3looks"} and the `say`{:class="block3looks"} text to `breathe in`:
+Set the costume to `breathe in`{:class="block3looks"} and set the `say`{:class="block3looks"} text to `breathe in`:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -31,7 +31,7 @@ Now, add another costume change with some accompanying text.
 
 --- task ---
 
-Set `Switch costume`{:class="block3looks"} to `at rest`{:class="block3looks"}, and type `breathe out` in the `say`{:class="block3looks"} block:
+Set `switch costume`{:class="block3looks"} to `at rest`{:class="block3looks"}, and type `breathe out` in the `say`{:class="block3looks"} block:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -50,7 +50,7 @@ end
 
 --- /task ---
 
-That's the first exercise finished. 
+That's the first exercise finished! 
 
 To test your script so far, click on the green flag. 
 + Did the costume change to look like breathing? 
