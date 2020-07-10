@@ -1,6 +1,6 @@
 title: Relax and stretch
 hero_image: images/banner.png
-description: sit-stretch description
+description: Write a program to help you and others stay healthy while you are seated.
 version: 5
 listed: false
 copyedit: false
@@ -10,9 +10,9 @@ steps:
   - title: Prepare your character
   - title: Prepare the arrows 
   - title: Breathe
-  - title: Repetitions
+  - title: Control the repetitions
   - title: Add control to the buttons
-  - title: Head roll
+  - title: Add a head roll exercise
   - title: "Challenge: add your own exercise routine"
     challenge: true
   - title: Share your project
