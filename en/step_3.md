@@ -34,7 +34,7 @@ go to x: (-140) y: (30)
 
 --- /task ---
 
-Now, you will do the same for the **'down' arrow**, but in a different position.
+Now, do the same for the **'down' arrow**, but put it in a different position.
 
 --- task ---
 
