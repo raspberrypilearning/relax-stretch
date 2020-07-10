@@ -27,7 +27,7 @@ wait (2) seconds
 
 The `2` in `say`{:class="block3looks"} `breathe in` `for`{:class="block3looks"} `2` `seconds`{:class="block3looks"} tells Scratch how long to show the speech bubble on the Stage.
 
-Now, add another costume change with some accompanying text.
+Now, within the `repeat`{:class="block3events"} loop, add another costume change with some accompanying text.
 
 --- task ---
 
@@ -50,10 +50,10 @@ end
 
 --- /task ---
 
-That's the first exercise finished! 
+You have finished the first exercise! 
 
 To test your script so far, click on the green flag. 
-+ Did the costume change to look like breathing? 
-+ Did it repeat the routine twice?
++ Did the costume change to look like the sprite was breathing? 
++ Did your program repeat the routine twice?
 
 --- save ---
