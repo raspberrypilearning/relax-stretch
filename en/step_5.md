@@ -1,4 +1,4 @@
-## Repetitions
+## Control the repetitions
 
 Now, you will create a variable that will eventually allow a user to control the number of repetitions of each exercise.
 
