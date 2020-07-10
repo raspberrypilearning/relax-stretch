@@ -4,7 +4,7 @@ Now, you will code the arrow buttons to change the value of `repetitions`{:class
 
 --- task ---
 
-Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
+Click on the 'up' arrow sprite. Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
 
 Add a `change repetitions by`{:class="block3variables"} variable block below. This should have a value of `1`:
 
@@ -17,7 +17,7 @@ change [repetitions v] by (1)
 
 --- /task ---
 
-Click on the green flag to test that `repetitions`{:class="block3variables"} goes up each time you click it.
+Click on the green flag and test that `repetitions`{:class="block3variables"} goes up each time you click on the 'up' arrow.
 
 Keep going. Does `repetitions`{:class="block3variables"} stop going up?
 
@@ -49,7 +49,7 @@ From the `Operators`{:class="block3operators"} menu, select a `less than`{:class
 []<[] ::operators
 ```
 
-Place the block in the top space of the `if... then... else...`{:class="block3control"} block.
+Place the block in the top space of the `if... then... else...`{:class="block3control"} block, between `if`{:class="block3control"} and `then`{:class="block3control"}.
 
 From the `Variables`{:class="block3variables"} menu, take a rounded `repetitions`{:class="block3variables"} block and place it before the `<`{:class="block3operators"}. Type the number `5` after the `<`{:class="block3operators"}:
 
@@ -67,11 +67,11 @@ end
 
 Now, `repetitions`{:class="block3variables"} should only go up by `1` `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
 
-What will happen if the user selects `repetitions`{:class="block3variables"} to be `5 or more`?
+What will happen if the user sets `repetitions`{:class="block3variables"} to 5 or more?
 
 --- task ---
 
-Add a `say`{:class="block3looks"} block with the message `5 repetitions is the maximum` for `2` seconds below `else`{:class="block3control"}:
+Below `else`{:class="block3control"}, add a `say`{:class="block3looks"} block that will display the message `5 repetitions is the maximum` for `2` seconds:
 
 ![Up arrow sprite icon](images/up_arrow_sprite.png)
 
@@ -96,9 +96,9 @@ Select the **'down' arrow** sprite. Add a `when this sprite clicked`{:class="blo
 
 Add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
 
-If the condition is **true**, `change repetitions by`{:class="block3variables"} `-1`
+Add a block so that if the condition is **true**, your program will `change repetitions by`{:class="block3variables"} `-1`
 
-If the condition is **false**, `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
+Add a block so that if the condition is **false**, your program will `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
 
 ![Down arrow sprite icon](images/down_arrow_sprite.png)
 
