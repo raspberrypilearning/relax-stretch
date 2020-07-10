@@ -1,4 +1,4 @@
-## Head roll
+## Add a head roll exercise
 
 Now that you can control the number of times that each exercise repeats, it is time to add a second exercise routine.
 
