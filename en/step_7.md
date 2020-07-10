@@ -42,7 +42,7 @@ Now, you will start adding the exercise instructions.
 
 From the `Text to Speech`{:class="block3extensions"} menu, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
 
-Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`.
+Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`{:class="block3looks"}.
 
 Finally, add a short `wait`{:class="block3control"} block: 
 
@@ -58,13 +58,13 @@ end
 
 --- /task ---
 
-Each exercise step will use `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"}, and `wait`{:class="control"} blocks.
+Each exercise step will require `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"}, and `wait`{:class="block3control"} blocks.
 
 --- task ---
 
 Add the following `Text to Speech`{:class="block3extensions"} instruction: `and round to the left`.
 
-`switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="control"} for 0.5 seconds:
+Add blocks so that your **Nadia** sprite will `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="block3control"} for 0.5 seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -86,7 +86,7 @@ Now, you will add the last step of the exercise.
 
 --- task ---
 
-Type in the instruction `and back to centre`. Then, add `switch costume to`{:class="block3looks"} and set it back to `at rest`, and `wait`{:class="control"} for another 0.5 seconds:
+Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`, then set it to `wait`{:class="block3control"} for another 0.5 seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
