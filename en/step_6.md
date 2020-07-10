@@ -4,7 +4,7 @@ Now, you will code the arrow buttons to change the value of `repetitions`{:class
 
 --- task ---
 
-Click on the 'up' arrow sprite. Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
+Click on the **'up' arrow** sprite. Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
 
 Add a `change repetitions by`{:class="block3variables"} variable block below. This should have a value of `1`:
 
