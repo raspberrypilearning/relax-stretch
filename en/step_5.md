@@ -4,7 +4,7 @@ Now, you will create a variable that will eventually allow a user to control the
 
 --- task ---
 
-Go to the `Variables`{:class="block3variables"} menu, click on `Make a Variable`, and name it `repetitions`.
+Go to the `Variables`{:class="block3variables"} menu, click on Make a Variable, and name it `repetitions`.
 
 ![Making a new variable dialogue box](images/createRepetitionsVariable.png)
 
