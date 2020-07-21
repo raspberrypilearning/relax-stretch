@@ -1,58 +1,59 @@
-## Prepare the arrows
+## Breathe
 
-The next step is to set up the arrow button sprites in the same way as you have just done for the **Nadia** sprite.
-
---- task ---
-
-Select the **'up' arrow** sprite and add a `when green flag clicked`{:class="block3events"} block.
-
-Add a `go to`{:class="block3motion"} block, and set `x`{:class="block3motion"} to `-140` and `y`{:class="block3motion"} to `30`:
-
-![up arrow sprite icon](images/up_arrow_sprite.png)
-
-```blocks3
-when flag clicked
-go to x: (-140) y: (30)
-```
-
---- /task ---
-
-When running the program, it is easy to accidentally drag the button instead of clicking it! To make sure that the sprite stays in its position, use a `forever`{:class="block3control"} loop around the `go to`{:class="block3motion"} block. 
+Now, you will start coding a relaxing breathing exercise using different sprite costumes.
 
 --- task ---
 
-Take a `forever`{:class="block3control"} loop and place it under the `when green flag clicked`{:class="block3events"} block, with the `go to`{:class="block3motion"} block inside:
+Select the **Nadia** sprite and add a `repeat`{:class="block3events"} loop to the existing code. Set the number of `repeats`{:class="block3events"} to `2`.
 
-![up arrow sprite icon](images/up_arrow_sprite.png)
+Inside the `repeat`{:class="block3events"} loop, add a `switch costume to`{:class="block3looks"} block and a `say`{:class="block3looks"} block.
+
+Set the costume to `breathe in`{:class="block3looks"} and set the `say`{:class="block3looks"} text to `breathe in`:
+
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
-+ forever
-go to x: (-140) y: (30)
+go to x: (70) y: (-25)
+switch costume to (at rest v)
+wait (2) seconds
++ repeat (2)
+    switch costume to (breathe in v)
+    say [breathe in]  for (2) seconds
 + end
 ```
 
 --- /task ---
 
-Now, do the same for the **'down' arrow**, but put it in a different position.
+The `2` in `say`{:class="block3looks"} `breathe in` `for`{:class="block3looks"} `2` `seconds`{:class="block3looks"} tells Scratch how long to show the speech bubble on the Stage.
+
+Now, within the `repeat`{:class="block3events"} loop, add another costume change with some accompanying text.
 
 --- task ---
 
-For the **'down' arrow** sprite, set the `go to`{:class="block3motion"} block values to `x`{:class="block3motion"} at `-140` and `y`{:class="block3motion"} at `-40`:
+Set `switch costume`{:class="block3looks"} to `at rest`{:class="block3looks"}, and type `breathe out` in the `say`{:class="block3looks"} block:
 
-![down arrow sprite icon](images/down_arrow_sprite.png)
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
-forever
-    go to x: (-140) y: (-40)
+go to x: (70) y: (-25)
+switch costume to (at rest v)
+wait (2) seconds
+repeat (2)
+    switch costume to (breathe in v)
+    say [breathe in]  for (2) seconds
++     switch costume to (at rest v)
++     say [breathe out]  for (2) seconds
 end
 ```
 
 --- /task ---
 
-In a later step, you will develop the code for the two buttons so that they control the number of times that the exercises repeat themselves.
+You have finished the first exercise! 
 
-Next, you will code your first exercise routine.
+To test your script so far, click on the green flag. 
++ Did the costume change to look like the sprite was breathing? 
++ Did your program repeat the routine twice?
 
 --- save ---

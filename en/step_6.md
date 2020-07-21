@@ -1,120 +1,150 @@
-## Add control to the buttons
+## Add a head roll exercise
 
-Now, you will code the arrow buttons to change the value of `repetitions`{:class="block3variables"} when the buttons are clicked.
+Now that you can control the number of times that each exercise repeats, it is time to add a second exercise routine.
 
 --- task ---
 
-Click on the **'up' arrow** sprite. Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
+For this exercise, you will use `Text to Speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be spoken by the computer.
 
-Add a `change repetitions by`{:class="block3variables"} variable block below. This should have a value of `1`:
+Click the **Add Extension** button in the bottom left-hand corner of the Scratch window.
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Extensions button](images/extensionsButton.png)
+
+Select the `Text to Speech`{:class="block3extensions"} extension.
+
+![Text to Speech extension](images/textToSpeechExtension.png)
+
+A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
+
+![Text to Speech blocks](images/textToSpeechBlocks.png)
+
+--- /task ---
+
+Next, you will create the head roll exercise as a separate block of code, which you will add to your main code at the end.
+
+--- task ---
+
+Choose the **Nadia** sprite and select a `repeat`{:class="block3control"} block.
+
+Add a rounded `repetitions`{:class="block3variables"} variable block to control the number of repetitions:
+
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
-when this sprite clicked
-change [repetitions v] by (1)
+repeat (repetitions)
 ```
 
 --- /task ---
 
-Click on the green flag and test that `repetitions`{:class="block3variables"} goes up each time you click on the 'up' arrow.
-
-Keep going. Does `repetitions`{:class="block3variables"} stop going up?
-
-You don't want the exercise to repeat too many times, so next, you will add some code to stop `repetitions`{:class="block3variables"} from going above 5.
+Now, you will start adding the exercise instructions.
 
 --- task ---
 
-From the `Control`{:class="block3control"} menu, select an `if... then... else...`{:class="block3control"} block, and place the `change repetitions by 1`{:class="block3variables"} block in the space below `if... then`{:class="block3control"}:
+From the `Text to Speech`{:class="block3extensions"} menu, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`{:class="block3looks"}.
 
-```blocks3
-when this sprite clicked
-+ if <> then
-    change [repetitions v] by (1)
-else
-+ end
-```
+Finally, add a short `wait`{:class="block3control"} block: 
 
---- /task ---
-
-Now, you will add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
-
---- task ---
-
-From the `Operators`{:class="block3operators"} menu, select a `less than`{:class="block3operators"} operator:
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
-[]<[] ::operators
-```
-
-Place the block in the top space of the `if... then... else...`{:class="block3control"} block, between `if`{:class="block3control"} and `then`{:class="block3control"}.
-
-From the `Variables`{:class="block3variables"} menu, take a rounded `repetitions`{:class="block3variables"} block and place it before the `<`{:class="block3operators"}. Type the number `5` after the `<`{:class="block3operators"}:
-
-![Up arrow sprite icon](images/up_arrow_sprite.png)
-
-```blocks3
-when this sprite clicked
-if <(repetitions ::variables)<[5] ::operators +> then
-    change [repetitions v] by (1)
-else
+repeat (repetitions)
++     speak [roll your neck to the right] :: tts
++     switch costume to (head right v)
++     wait (0.5) seconds
 end
 ```
 
 --- /task ---
 
-Now, `repetitions`{:class="block3variables"} should only go up by `1` `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
-
-What will happen if the user sets `repetitions`{:class="block3variables"} to 5 or more?
+Each exercise step will require `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"}, and `wait`{:class="block3control"} blocks.
 
 --- task ---
 
-Below `else`{:class="block3control"}, add a `say`{:class="block3looks"} block that will display the message `5 repetitions is the maximum` for `2` seconds:
+Add the following `Text to Speech`{:class="block3extensions"} instruction: `and round to the left`.
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+Add blocks so that your **Nadia** sprite will `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="block3control"} for 0.5 seconds:
+
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(repetitions ::variables)<[5] ::operators> then
-    change [repetitions v] by (1)
-else
-+     say [5 repetitions is the maximum] for (2) seconds
+
+repeat (repetitions)
+    speak [roll your neck to the right] :: tts
+    switch costume to (head right v)
+    wait (0.5) seconds
++     speak [and round to the left] :: tts
++     switch costume to (head left v)
++     wait (0.5) seconds
 end
 ```
 
 --- /task ---
 
-Now, you need to do the same for the **'down' arrow**, but you need to use a different condition and reduce `repetitions`{:class="block3variables"} by 1 each time.
-
-A way to say **reduce by 1** in Scratch is `change by`{:class="block3variables"} `-1`.
+Now, you will add the last step of the exercise.
 
 --- task ---
 
-Select the **'down' arrow** sprite. Add a `when this sprite clicked`{:class="block3events"} block and an `if... then... else...`{:class="block3control"} block.
+Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`, then set it to `wait`{:class="block3control"} for another 0.5 seconds:
 
-Add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
-
-Add a block so that if the condition is **true**, your program will `change repetitions by`{:class="block3variables"} `-1`
-
-Add a block so that if the condition is **false**, your program will `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
-
-![Down arrow sprite icon](images/down_arrow_sprite.png)
+![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(repetitions)>[1]> then
-    change [repetitions v] by (-1)
-else
-    say [Repetitions can't be lower than 1] for (2) seconds
+repeat (repetitions)
+    speak [roll your neck to the right] :: tts 
+    switch costume to (head right v)
+    wait (0.5) seconds
+    speak [and round to the left] :: tts 
+    switch costume to (head left v)
+    wait (0.5) seconds
++     speak [and back to centre] :: tts 
++     switch costume to (at rest v)
++     wait (0.5) seconds
 end
 ```
 
 --- /task ---
 
-Run the program to test it. Click on the two arrows to raise or reduce the number of repetitions. 
+--- task ---
 
-Does `repetitions`{:class="block3variables"} stay between 1 and 5?
+Now, add your new exercise routine to your existing code:
+
+--- no-print ---
+
+![Joining new code to existing](images/joinCode.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+```blocks3
+when flag clicked
+set [repetitions v] to (3)
+go to x: (70) y: (-25)
+switch costume to (at rest v)
+wait (2) seconds
+repeat (repetitions ::variables)
+    switch costume to (breathe in v)
+    say [breathe in]  for (2) seconds
+    switch costume to (at rest v)
+    say [breathe out]  for (2) seconds
+end
++ repeat (repetitions)
+    speak [roll your neck to the right] :: tts 
+    switch costume to (head right v)
+    wait (0.5) seconds
+    speak [and round to the left] :: tts 
+    switch costume to (head left v)
+    wait (0.5) seconds
+    speak [and back to centre] :: tts 
+    switch costume to (at rest v)
+    wait (0.5) seconds
+end
+```
+
+--- /print-only ---
+
+--- /task ---
 
 --- save ---

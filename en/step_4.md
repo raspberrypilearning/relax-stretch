@@ -1,59 +1,65 @@
-## Breathe
+## Control the repetitions
 
-Now, you will start coding a relaxing breathing exercise using different sprite costumes.
+Now, you will create a variable that will eventually allow a user to control the number of repetitions of each exercise.
 
 --- task ---
 
-Select the **Nadia** sprite and add a `repeat`{:class="block3events"} loop to the existing code. Set the number of `repeats`{:class="block3events"} to `2`.
+Go to the `Variables`{:class="block3variables"} menu, click on Make a Variable, and name it `repetitions`.
 
-Inside the `repeat`{:class="block3events"} loop, add a `switch costume to`{:class="block3looks"} block and a `say`{:class="block3looks"} block.
+![Making a new variable dialogue box](images/createRepetitionsVariable.png){:width=“200px”}
 
-Set the costume to `breathe in`{:class="block3looks"} and set the `say`{:class="block3looks"} text to `breathe in`:
-
-![Nadia sprite icon](images/nadia_sprite.png)
-
-```blocks3
-when flag clicked
-go to x: (70) y: (-25)
-switch costume to (at rest v)
-wait (2) seconds
-+ repeat (2)
-    switch costume to (breathe in v)
-    say [breathe in]  for (2) seconds
-+ end
-```
+The new variable will now appear in the `Variables`{:class="block3variables"} blocks section and also on the Stage. 
 
 --- /task ---
 
-The `2` in `say`{:class="block3looks"} `breathe in` `for`{:class="block3looks"} `2` `seconds`{:class="block3looks"} tells Scratch how long to show the speech bubble on the Stage.
-
-Now, within the `repeat`{:class="block3events"} loop, add another costume change with some accompanying text.
+The next step is to set the value of `repetitions`{:class="block3variables"} when the program starts.
 
 --- task ---
 
-Set `switch costume`{:class="block3looks"} to `at rest`{:class="block3looks"}, and type `breathe out` in the `say`{:class="block3looks"} block:
+With the **Nadia** sprite selected, add a `set repetitions to`{:class="block3variables"} block and set the value to `3`:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
++ set [repetitions v] to (3)
 go to x: (70) y: (-25)
 switch costume to (at rest v)
 wait (2) seconds
 repeat (2)
     switch costume to (breathe in v)
     say [breathe in]  for (2) seconds
-+     switch costume to (at rest v)
-+     say [breathe out]  for (2) seconds
+    switch costume to (at rest v)
+    say [breathe out]  for (2) seconds
 end
 ```
 
 --- /task ---
 
-You have finished the first exercise! 
+Now, you will use `repetitions`{:class="block3variables"} to control the number of times that the exercise repeats. 
 
-To test your script so far, click on the green flag. 
-+ Did the costume change to look like the sprite was breathing? 
-+ Did your program repeat the routine twice?
+--- task ---
+
+Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} block:
+
+![Nadia sprite icon](images/nadia_sprite.png)
+
+```blocks3
+when flag clicked
+set [repetitions v] to (3)
+go to x: (70) y: (-25)
+switch costume to (at rest v)
+wait (2) seconds
+repeat (repetitions ::variables +)
+    switch costume to (breathe in v)
+    say [breathe in]  for (2) seconds
+    switch costume to (at rest v)
+    say [breathe out]  for (2) seconds
+end
+```
+
+--- /task ---
+
+To check that this program works, you can change the value of `repetitions`{:class="block3variables"} and run the program.
 
 --- save ---
