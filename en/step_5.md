@@ -6,7 +6,7 @@ Now, you will create a variable that will eventually allow a user to control the
 
 Go to the `Variables`{:class="block3variables"} menu, click on Make a Variable, and name it `repetitions`.
 
-![Making a new variable dialogue box](images/createRepetitionsVariable.png){:width=“300px”}
+![Making a new variable dialogue box](images/createRepetitionsVariable.png){:width=“200px”}
 
 The new variable will now appear in the `Variables`{:class="block3variables"} blocks section and also on the Stage. 
 
