@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-+ If you are working offline, download the project [starter file](http://rpf.io/p/en/sit-stretch-go){:target="_blank"} 
++ If you are working offline, download the project [starter file](http://rpf.io/p/en/relax-stretch-get){:target="_blank"} 
 
 --- /collapse ---
 
