@@ -4,7 +4,7 @@
 
 **Online:** open the [starter project](http://rpf.io/p/en/relax-stretch-on){:target="_blank"} in Scratch.
 
-**Offline:** open the project [starter file](http://rpf.io/p/en/relax-stretch-get){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the project [starter file](http://rpf.io/p/en/relax-stretch-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
 You should see a character sprite and two arrows: up and down.
 
