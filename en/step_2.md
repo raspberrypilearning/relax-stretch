@@ -24,7 +24,7 @@ Click on the **dialogue box** that shows the sprite's name. We have named this s
 
 --- /task ---
 
-Next, you will give **Nadia** setup blocks such as `position`{:class="block3motion"} on the Stage.
+Next, you will give the **Nadia** sprite setup blocks such as `position`{:class="block3motion"} on the Stage.
 
 --- task ---
 
