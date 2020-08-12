@@ -8,7 +8,7 @@ Here is your chance to add some of your own ideas.
 
 **How about adding a new exercise routine?**
 
-You could use some of Nadia's costumes that are currently unused, or even duplicate an existing costume, and edit the costume to make a new position costume of your own!
+You could use some of the **Nadia** sprite's costumes that are currently unused, or even duplicate an existing costume, and edit the costume to make a new position costume of your own!
 
 Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} block for the instructions? It's completely up to you.
 
