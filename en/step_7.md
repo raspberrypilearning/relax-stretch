@@ -1,6 +1,6 @@
 ## Challenge: add your own exercise routine
 
-Well done! You have programmed a healthy 'sit and stretch' exercise program to keep yourself and others moving.
+Well done! You have programmed a healthy 'relax and stretch' exercise program to keep yourself and others moving.
 
 How would you like to improve your program? 
 
