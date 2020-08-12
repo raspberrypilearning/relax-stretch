@@ -10,7 +10,7 @@ Click the **Add Extension** button in the bottom left-hand corner of the Scratch
 
 ![Extensions button](images/extensionsButton.png)
 
-Select the `Text to Speech`{:class="block3extensions"} extension.
+Select the **Text to Speech** extension.
 
 ![Text to Speech extension](images/textToSpeechExtension.png)
 
@@ -26,7 +26,7 @@ Next, you will create the head roll exercise as a separate block of code, which 
 
 Choose the **Nadia** sprite and select a `repeat`{:class="block3control"} block.
 
-Add a rounded `repetitions`{:class="block3variables"} variable block to control the number of repetitions:
+Add a rounded `repetitions`{:class="block3variables"} block from the `Variables`{:class="block3variables"} blocks menu to control the number of repetitions:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -36,11 +36,11 @@ repeat (repetitions)
 
 --- /task ---
 
-Now, you will start adding the exercise instructions.
+Now, you will start to add the exercise instructions.
 
 --- task ---
 
-From the `Text to Speech`{:class="block3extensions"} menu, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
+From the `Text to Speech`{:class="block3extensions"} blocks menu, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
 
 Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`{:class="block3looks"}.
 
@@ -64,7 +64,7 @@ Each exercise step will require `Text to Speech`{:class="block3extensions"}, `sw
 
 Add the following `Text to Speech`{:class="block3extensions"} instruction: `and round to the left`.
 
-Add blocks so that your **Nadia** sprite will `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="block3control"} for 0.5 seconds:
+Add blocks so that your **Nadia** sprite will `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="block3control"} for `0.5` seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
@@ -86,7 +86,7 @@ Now, you will add the last step of the exercise.
 
 --- task ---
 
-Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`, then set it to `wait`{:class="block3control"} for another 0.5 seconds:
+Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`, then set it to `wait`{:class="block3control"} for another `0.5` seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
