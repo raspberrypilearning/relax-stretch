@@ -1,6 +1,6 @@
-## Breathe
+## Add a breathing exercise
 
-Now, you will start coding a relaxing breathing exercise using different sprite costumes.
+Now, you will start to code a relaxing breathing exercise using different sprite costumes.
 
 --- task ---
 
