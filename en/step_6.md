@@ -86,7 +86,7 @@ Now, you will add the last step of the exercise.
 
 --- task ---
 
-Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`, then set it to `wait`{:class="block3control"} for another `0.5` seconds:
+Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`{:class="block3looks"}, then set it to `wait`{:class="block3control"} for another `0.5` seconds:
 
 ![Nadia sprite icon](images/nadia_sprite.png)
 
