@@ -7,4 +7,4 @@ In this project, you have:
 
 If you are following the [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects, then try out the next project, [Focus on the prize](https://projects.raspberrypi.org/en/projects/focus-on-the-prize).
 
-Spotted a mistake? Enjoyed the project? Please let us know! Click the Send feedback button below.
+Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
