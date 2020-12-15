@@ -41,6 +41,8 @@ else
 
 Now, you will add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
 
+**Note:** This sets the maximum number of repeats. You could choose a different number but the more repeats you allow, the longer the program takes to run.
+
 --- task ---
 
 From the `Operators`{:class="block3operators"} blocks menu, select a `less than`{:class="block3operators"} operator:
