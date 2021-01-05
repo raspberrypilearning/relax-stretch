@@ -1,4 +1,4 @@
-## Add control to the buttons
+## Code the buttons
 
 Now, you will code the arrow buttons to change the value of `repetitions`{:class="block3variables"} when the buttons are clicked.
 
