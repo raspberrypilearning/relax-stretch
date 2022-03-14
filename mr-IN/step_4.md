@@ -1,24 +1,24 @@
-## Control the repetitions
+## पुनरावृत्ती नियंत्रित करा
 
-Now, you will create a variable that will eventually allow a user to control the number of repetitions of each exercise.
+आता, तुम्ही एक व्हेरिएबल तयार कराल जे शेवटी यूजरला प्रत्येक व्यायामाच्या पुनरावृत्तीची संख्या नियंत्रित करण्यास अनुमती देईल.
 
 --- task ---
 
-Go to the `Variables`{:class="block3variables"} blocks menu, click on **Make a Variable**, and name it `repetitions`.
+`Variables`{:class="block3variables"} ब्लॉक मेनूवर जा, **Make a Variable** वर क्लिक करा,आणि त्याला `repetitions` असे नाव द्या.
 
-![Making a new variable dialogue box](images/createRepetitionsVariable.png){:width=“200px”}
+![नवीन व्हेरिएबल डायलॉग बॉक्स बनवत आहे](images/createRepetitionsVariable.png){:width=“200px”}
 
-The new variable will now appear in the `Variables`{:class="block3variables"} blocks menu and also on the Stage.
+नवीन व्हेरिएबल आता `Variables`{:class="block3variables"} ब्लॉक्स मेनूमध्ये आणि Stage वर सुद्धा दिसतील.
 
 --- /task ---
 
-The next step is to set the value of `repetitions`{:class="block3variables"} when the program starts.
+प्रोग्राम चालू झाल्यावर `repetitions`{:class="block3variables"} ची व्हॅल्यू सेट करणे हा पुढचा टप्पा आहे.
 
 --- task ---
 
-With the **Nadia** sprite selected, add a `set repetitions to`{:class="block3variables"} block and set the value to `3`:
+**Nadia** sprite निवडून, `set repetitions to`{:class="block3variables"} ब्लॉक जोडा आणि व्हॅल्यू `3` ला सेट करा:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite आयकॉन](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -36,13 +36,13 @@ end
 
 --- /task ---
 
-Now, you will use `repetitions`{:class="block3variables"} to control the number of times that the exercise repeats.
+आता, तुम्ही व्यायाम कितीवेळा रिपीट व्हावा ती संख्या नियंत्रीत करण्यासाठी `repetitions`{:class="block3variables"} वापराल.
 
 --- task ---
 
-Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} block:
+`repeat`{:class="block3control"} ब्लॉकची व्हॅल्यू म्हणून गोलाकार `repetitions`{:class="block3variables"} ब्लॉक जोडा:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite आयकॉन](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -60,6 +60,6 @@ end
 
 --- /task ---
 
-To check that this program works, you can change the value of `repetitions`{:class="block3variables"} and run the program.
+हा प्रोग्राम कार्य करतो का हे तपासण्यासाठी, तुम्ही `repetitions`{:class="block3variables"} ची व्हॅल्यू बदलू शकता आणि प्रोग्राम रन करू शकता.
 
 --- save ---
