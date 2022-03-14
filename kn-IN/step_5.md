@@ -1,33 +1,33 @@
-## Code the buttons
+## ಬಟನ್‌ಗಳನ್ನು ಕೋಡ್‌ ಮಾಡಿ
 
-Now, you will code the arrow buttons to change the value of `repetitions`{:class="block3variables"} when the buttons are clicked.
+ಈಗ, ನೀವು ಬಟನ್‌ಗಳನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ `repetitions`{:class="block3variables"} ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಲು ಬಾಣದ ಬಟನ್‌ಗಳನ್ನು ಕೋಡ್‌ ಮಾಡುತ್ತೀರಿ.
 
 --- task ---
 
-Click on the **up** sprite. Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
+**up** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಕೋಡ್‌ನ್ನು ಹಾಗೆಯೇ ಬಿಡಿ. `when this sprite clicked`{:class="block3events"} ಬ್ಲಾಕ್‌ನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.
 
-Add a `change repetitions by`{:class="block3variables"} block from the `Variables`{:class="block3variables"} blocks menu below. This should have a value of `1`:
+`change repetitions by`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ್ನು ಈ ಕೆಳಗಿನ `Variables`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಿಂದ ಸೇರಿಸಿ. ಇದರ ಮೌಲ್ಯ `1` ಆಗಿರಬೇಕು:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![ಅಪ್‌ ಬಾಣ ಸ್ಪ್ರೈಟ್‌ನ ಐಕಾನ್](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
 change [repetitions v] by (1)
 ```
 
---- /task ---
+--- /ಕಾರ್ಯ ---
 
-Click on the green flag and test that `repetitions`{:class="block3variables"} goes up each time you click on the **up** arrow.
+ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಪ್ರತಿಯೊಂದು ಬಾರಿ **up** ಬಾಣದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ `repetitions`{:class="block3variables"} ಮೇಲಕ್ಕೇರುತ್ತದೆಯೇ ಎಂದು ಪರೀಕ್ಷಿಸಿ.
 
-Keep going. Does `repetitions`{:class="block3variables"} stop going up?
+ಮುಂದುವರಿಸಿ. `repetitions`{:class="block3variables"} ಮೇಲಕ್ಕೇರುವುದನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆಯೇ?
 
-You don't want the exercise to repeat too many times, so next, you will add some code to stop `repetitions`{:class="block3variables"} from going above 5.
+ನಿಮಗೆ ವ್ಯಾಯಾಮವು ಬಹಳಷ್ಟು ಸಮಯ ಪುನರಾವರ್ತನೆಯಾಗಬಾರದು, ಆದುದರಿಂದ ನಂತರ, ನೀವು `repetitions`{:class="block3variables"} 5ಕ್ಕಿಂತ ಮೇಲಕ್ಕೇರುವುದನ್ನು ನಿಲ್ಲಿಸಲು ಯಾವುದಾದರೂ ಕೋಡ್‌ ಸೇರಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-From the `Control`{:class="block3control"} blocks menu, select an `if ... then ... else`{:class="block3control"} block, and place the `change repetitions by 1`{:class="block3variables"} block in the space below `if ... then`{:class="block3control"}:
+`Control`{:class="block3control"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಿಂದ, `if ... then ... else`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು `change repetitions by 1`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ್ನು `if ... then`{:class="block3control"}ರ ಕೆಳಗಿನ ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಇಡಿ:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![ಅಪ್‌ ಬಾಣ ಸ್ಪ್ರೈಟ್‌ನ ಐಕಾನ್](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -39,23 +39,23 @@ else
 
 --- /task ---
 
-Now, you will add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+ಈಗ, ನೀವು `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5` ಷರತ್ತನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
-**Note:** This sets the maximum number of repeats. You could choose a different number but the more repeats you allow, the longer the program takes to run.
+**ಸೂಚನೆ:** ಇದು ಪುನರಾವರ್ತನೆಯ ಗರಿಷ್ಢ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿಸುತ್ತದೆ. ನೀವು ಬೇರೆ ಸಂಖ್ಯೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಬಹುದು ಆದರೆ ನೀವು ಹೆಚ್ಚು ಪುನರಾವರ್ತನೆಗಳಿಗೆ ಅನುವುಮಾಡಿಕೊಟ್ಟರೆ, ಪ್ರೋಗ್ರಾಮ್‌ ರನ್‌ ಆಗಲು ಹೆಚ್ಚು ಸಮಯ ತೆಗದುಕೊಳ್ಳುತ್ತದೆ.
 
 --- task ---
 
-From the `Operators`{:class="block3operators"} blocks menu, select a `less than`{:class="block3operators"} operator:
+`Operators`{:class="block3operators"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಿಂದ, `less than`{:class="block3operators"} ಆಪರೇಟರ್‌ ಆಯ್ಕೆಮಾಡಿಕೊಳ್ಳಿ:
 
 ```blocks3
 []<[] ::operators
 ```
 
-Place the block in the top space of the `if ... then ... else`{:class="block3control"} block, between `if`{:class="block3control"} and `then`{:class="block3control"}.
+`if`{:class="block3control"} ಮತ್ತು `then`{:class="block3control"} ಗಳ ನಡುವೆ.`if ... then ... else`{:class="block3control"} ಬ್ಲಾಕ್‌ನ ಮೇಲಿನ ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಇಡಿ.
 
-From the `Variables`{:class="block3variables"} blocks menu, take a rounded `repetitions`{:class="block3variables"} block and place it before the `<`{:class="block3operators"}. Type the number `5` after the `<`{:class="block3operators"}:
+`Variables`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಿಂದ, ಪೂರ್ಣಾಂಕ `repetitions`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ್ನು ತೆಗದುಕೊಳ್ಳಿ ಮತ್ತು ಅದನ್ನು `<`{:class="block3operators"}ಕ್ಕಿಂತ ಮೊದಲು ಇಡಿ. `5` ಸಂಖ್ಯೆಯನ್ನು `<`{:class="block3operators"} ನಂತರ ಟೈಪ್‌ ಮಾಡಿ:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![ಅಪ್‌ ಬಾಣ ಸ್ಪ್ರೈಟ್‌ನ ಐಕಾನ್](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -65,17 +65,17 @@ else
 end
 ```
 
---- /task ---
+--- /ಕಾರ್ಯ ---
 
-Now, `repetitions`{:class="block3variables"} should only go up by `1` `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+ಈಗ, `repetitions`{:class="block3variables"} `1` `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`ಕ್ಕಿಂತ ಕಡಿಮೆ ಇದ್ದಾಗ ಮಾತ್ರ ಮೇಲಕ್ಕೇರಬೇಕು.
 
-What will happen if the user sets `repetitions`{:class="block3variables"} to 5 or more?
+ಬಳಕೆದಾರ `repetitions`{:class="block3variables"}ನ್ನು 5 ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನದಕ್ಕೆ ಹೊಂದಿಸಿದರೆ ಏನಾಗುತ್ತದೆ?
 
 --- task ---
 
-Below `else`{:class="block3control"}, add a `say`{:class="block3looks"} block that will display the message `5 repetitions is the maximum` for `2` seconds:
+`else`{:class="block3control"}ರ ಕೆಳಗೆ, ಗರಿಷ್ಠ `5 ಪುನರಾವರ್ತನೆಗಳು ಎಂದು <code>2` ಸೆಕೆಂಡುಗಳ </code> ವರೆಗೆ ಸಂದೇಶ ತೋರಿಸುವ `say`{:class="block3looks"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![ಅಪ್‌ ಬಾಣ ಸ್ಪ್ರೈಟ್‌ನ ಐಕಾನ್](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -88,21 +88,21 @@ end
 
 --- /task ---
 
-Now, you need to do the same for the **down** arrow, but you need to use a different condition and reduce `repetitions`{:class="block3variables"} by 1 each time.
+ಈಗ, ನೀವು **down** ಬಾಣಕ್ಕೂ ಸಹ ಅದನ್ನೆ ಮಾಡಬೇಕು, ಆದರೆ ನೀವು ಬೇರೆ ಷರತ್ತನ್ನು ಉಪಯೋಗಿಸಬೇಕು ಮತ್ತು `repetitions`{:class="block3variables"}ನ್ನು ಪ್ರತಿಬಾರಿ 1 ರಷ್ಟು ಕಡಿಮೆಮಾಡಬೇಕು.
 
-A way to say **reduce by 1** in Scratch is `change by`{:class="block3variables"} `-1`.
+Scratch ನಲ್ಲಿ **reduce by 1** ಎಂದು ಹೇಳುವ ವಿಧಾನ ಎಂದರೆ `change by`{:class="block3variables"} `-1`.
 
 --- task ---
 
-Select the **down** sprite. Add a `when this sprite clicked`{:class="block3events"} block and an `if ... then ... else`{:class="block3control"} block.
+**down** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ. `when this sprite clicked`{:class="block3events"} ಬ್ಲಾಕ್‌ನ್ನು ಮತ್ತು `if ... then ... else`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ.
 
-Add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
+`if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1` ಷರತ್ತನ್ನು ಸೇರಿಸಿ.
 
-Add a block so that if the condition is **true**, your program will `change repetitions by`{:class="block3variables"} `-1`.
+ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ಷರತ್ತು **true** ಆದರೆ, ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ `change repetitions by`{:class="block3variables"} `-1` ಮಾಡುತ್ತದೆ.
 
-Add a block so that if the condition is **false**, your program will `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
+ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ಷರತ್ತು **false** ಆದರೆ, ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ `say`{:class="block3looks"} `Repetitions can't be lower than 1` ಎಂದು `2` ಸೆಕೆಂಡುಗಳ ಕಾಲ ಹೇಳುತ್ತದೆ:
 
-![Down arrow sprite icon](images/down_arrow_sprite.png)
+![ಡೌನ್ ಬಾಣ ಸ್ಪ್ರೈಟ್‌ನ ಐಕಾನ್](images/down_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -115,8 +115,8 @@ end
 
 --- /task ---
 
-Run the program to test it. Click on the two arrows to increase or reduce the number of repetitions.
+ಅದನ್ನು ಪರೀಕ್ಷಿಸಲು ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ರನ್ ಮಾಡಿ. ಪುನರಾವರ್ತನೆಗಳ ಸಂಖ್ಯೆಯನ್ನು ಹೆಚ್ಚಿಸಲು ಅಥವಾ ಕಡಿಮೆ ಮಾಡಲು ಎರಡು ಬಾಣಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-Does `repetitions`{:class="block3variables"} stay between 1 and 5?
+`repetitions`{:class="block3variables"} 1 ಮತ್ತು 5ರ ನಡುವೆ ಇರುತ್ತದೆಯೇ?
 
 --- save ---
