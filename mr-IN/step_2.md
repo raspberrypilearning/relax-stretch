@@ -1,42 +1,42 @@
-## Prepare your character
+## तुमचे कॅरेक्टर तयार करा
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/relax-stretch-on){:target="_blank"} in Scratch.
+**ऑनलाईन:** Scratch मधील [स्टार्टर प्रोजेक्ट](http://rpf.io/relax-stretch-on){:target="_blank"} उघडा.
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/relax-stretch-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**ऑफलाईन:** Scratch ऑफलाईन एडिटर मध्ये [ प्रोजेक्ट स्टार्टर फाईल](http://rpf.io/p/en/relax-stretch-go){:target="_blank"} उघडा. तुम्हाला आवश्यक असल्यास, तुम्ही [येथे Scratch डाऊनलोड आणि इंस्टॉल करू शकता](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see a character sprite and two arrows: up and down.
+तुम्हाला कॅरेक्टर स्प्राईट आणि दोन ऍरोः वर आणि खाली दिसायला हवे.
 
-![starter project](images/starter_project.png)
+![स्टार्टर प्रोजेक्ट](images/starter_project.png)
 
 --- /task ---
 
-First, you will give **character 1** a name.
+प्रथम, तुम्ही **character 1** ला नाव द्याल.
 
 --- task ---
 
-Select the **character 1** sprite.
+**character 1** sprite निवडा.
 
-Click on the **dialogue box** that shows the sprite's name. We have named this sprite **Nadia**. Replace `character 1` with the name of your choice.
+स्प्राईटचे नाव दाखवणाऱ्या **डायलॉग बॉक्स** वर क्लिक करा. तुम्ही या sprite ला **Nadia** असे नाव दिलेत. तुमच्या आवडीच्या नावाने `character 1` बदला.
 
-![select character 1 sprite name](images/select_character1_name2.png)
+![character 1 sprite नाव निवडा](images/select_character1_name2.png)
 
 --- /task ---
 
-Next, you will give the **Nadia** sprite setup blocks such as `position`{:class="block3motion"} on the Stage.
+पुढे, तुम्ही **Nadia** sprite सेटअप ब्लॉक्स द्याल जसेकी Stage वर `position`{:class="block3motion"}.
 
 --- task ---
 
-With the **Nadia** sprite still selected, add a `when green flag clicked`{:class="block3events"} block.
+अजुनही **Nadia** sprite निवडलेले असतांनाच, `when green flag clicked`{:class="block3events"} ब्लॉक जोडा.
 
-Below that, add a `go to x: y:`{:class="block3motion"} block with `x`{:class="block3motion"} set to `70` and `y`{:class="block3motion"} set to `-25`.
+त्याखाली, `x`{:class="block3motion"} हे `70` ला सेट करून आणि `y`{:class="block3motion"} हे `-25` ला सेट करून `go to x: y:`{:class="block3motion"} ब्लॉक जोडा.
 
-Add a `switch costume to`{:class="block3looks"} block, and set the costume to `at rest`{:class="block3looks"}.
+`switch costume to`{:class="block3looks"} ब्लॉक जोडा, आणि कॉश्चुम `at rest`{:class="block3looks"} ला सेट करा.
 
-Finally, add a `wait`{:class="block3control"} block and set it to `2` seconds so that the first exercise doesn't begin too suddenly:
+शेवटी, `wait`{:class="block3control"} ब्लॉक जोडा आणि तो `2` सेकंदला जोडा जेणेकरून अचानकपणे पहिला व्यायाम चालू होणार नाही:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite आयकॉन](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
