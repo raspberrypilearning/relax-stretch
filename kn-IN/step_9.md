@@ -1,10 +1,10 @@
-## What next?
+## ಮುಂದೆ ಏನು?
 
-In this project, you have:
-+ Used a `variable`{:class="block3variables"} to store the number of repetitions
-+ Used a `repeat`{:class="block3control"} loop to repeat an exercise a set number of times
-+ Used the `Text to Speech`{:class="block3extensions"} extension blocks to make instructions audible
+ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ ನೀವು:
++ ಪುನರಾವರ್ತನೆಗಳ ಸಂಖ್ಯೆಯನ್ನು ಸಂಗ್ರಹಣೆ ಮಾಡಲು `variable`{:class="block3variables"} ಉಪಯೋಗಿಸಿದಿರಿ
++ ವ್ಯಾಯಾಮವನ್ನು ಹೊಂದಿಸಿರುವಷ್ಟು ಬಾರಿ ಪುನರಾವರ್ತಿಸಲು `repeat`{:class="block3control"} ಲೂಪ್‌ ಉಪಯೋಗಿಸಿದಿರಿ
++ ಸೂಚನೆಗಳು ಕೇಳುವಂತೆ ಮಾಡಲು `Text to Speech`{:class="block3extensions"} ವಿಸ್ತರಣಾ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿದಿರಿ
 
-If you are following the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects, then try out the next project, [Focus on the prize](https://projects.raspberrypi.org/en/projects/focus-on-the-prize).
+ನೀವು [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) ಪ್ರಾಜೆಕ್ಟ್‌ಗಳನ್ನು ಅನುಸರಿಸುತ್ತಿರುವಿರಾದರೆ, ಮುಂದಿನ ಪ್ರಾಜೆಕ್ಟ್‌, [Focus on the prize](https://projects.raspberrypi.org/en/projects/focus-on-the-prize) ಪ್ರಯತ್ನಿಸಿ.
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+ನೀವು ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಆನಂದಿಸಿದ್ದೀರಾ? ನೀವು ತಪ್ಪುನ್ನು ಪತ್ತೆ ಮಾಡಿದ್ದೀರಾ? ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ **Send feedback** ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಮಗೆ ತಿಳಿಸಿ!
