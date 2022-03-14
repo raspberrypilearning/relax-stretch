@@ -1,16 +1,16 @@
-## Introduction
+## परिचय
 
-You can keep yourself moving, flexible, and alert by doing regular and relaxing exercises, including while you are seated. Write a program to help you and others stay healthy from a seated position.
+आप नियमित और आरामदेह व्यायाम करके अपने आप को गतिशील, लचीला और सतर्क रख सकते हैं, बैठे रहते हुए भी। बैठी अवस्था से आपको और दूसरों को स्वस्थ रहने में मदद करने के लिए एक प्रोग्राम लिखें
 
-### What you will make
+### आप क्या बनाएँगे
 
-You will create a program to demonstrate some mindful, relaxing exercises that you can carry out while sitting down, and even add a new exercise of your own.
+आप कुछ ध्यानपूर्ण, आरामदेह व्यायामों को प्रदर्शित करने के लिए एक प्रोग्राम तैयार करेंगे जिन्हें आप बैठकर कर सकते हैं, और यहां तक कि अपना खुद का एक नया व्यायाम भी जोड़ सकते हैं।
 
 --- no-print ---
 
-Click on the green flag to start the exercise routines.
+व्यायाम दिनचर्या शुरू करने के लिए हरे झंडे पर क्लिक करें।
 
-Click on the orange **up** or **down** arrows to change the number of times that each exercise repeats.
+प्रत्येक व्यायाम के दोहराए जाने की संख्या को बदलने के **up** या **down** नारंगी रंग के तीरों पर क्लिक करें।
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/405322095/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -19,46 +19,46 @@ Click on the orange **up** or **down** arrows to change the number of times that
 
 --- print-only ---
 
-![completed project](images/finshed_project.png)
+![पूर्ण प्रोजेक्ट](images/finshed_project.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: आपको किन चीजों की आवश्यकता होगी
 ---
-### Hardware
+### हार्डवेयर
 
-+ A computer or tablet capable of running Scratch
++ Scratch चलाने में सक्षम कंप्यूटर या टैबलेट
 
-### Software
+### सॉफ्टवेयर
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Scratch 3 (या तो [ऑनलाइन](https://scratch.mit.edu/){:target="_blank"} या [ऑफलाइन](https://scratch.mit.edu/download){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
-+ If you are working offline, download the [project starter file](https://rpf.io/p/en/relax-stretch-go){:target="_blank"}
++ यदि आप ऑफ़लाइन काम कर रहे हैं, तो [प्रोजेक्ट स्टार्टर फ़ाइल](https://rpf.io/p/en/relax-stretch-go){:target="_blank"} डाउनलोड करें
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: आप क्या सीखेंगे
 ---
 
-+ How to use a `condition`{:class="block3control"} to control a `variable`{:class="block3variables"}
-+ How to use a `variable`{:class="block3variables"} to control the number of `repetitions`{:class="block3control"}
-+ How to use the `Text to Speech`{:class="block3extensions"} extension blocks
++ `variable` को नियंत्रित करने के लिए `condition`{:class="block3control"} का उपयोग कैसे करें {:class="block3variables"}
++ `repetitions`{:class="block3control"} की संख्या को नियंत्रित करने के लिए `variable`{:class="block3variables"} का उपयोग कैसे करें
++ `Text to Speech`{:class="block3extensions"} एक्सटेंशन ब्लॉक का उपयोग कैसे करें
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: शिक्षकों के लिए अतिरिक्त जानकारी
 ---
 
-You can [download the completed project here](https://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
+आप [ का उपयोग करके पूरे प्रॉजेक्ट को यहाँ डाउनलोड कर सकते हैं ](https://rpf.io/p/en/sit-stretch-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"}.
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/sit-stretch/print){:target="_blank"} का उपयोग करें।
 
---- /collapse ---
+--- /ढहने ---
