@@ -1,52 +1,52 @@
-## Add a head roll exercise
+## ಕತ್ತು ತಿರುಗಿಸುವ ವ್ಯಾಯಾಮವನ್ನು ಸೇರಿಸಿ
 
-Now that you can control the number of times that each exercise repeats, it is time to add a second exercise routine.
+ಈಗ ನೀವು ಪ್ರತಿಯೊಂದು ವ್ಯಾಯಾಮವು ಪುನರಾವರ್ತನೆಯಾಗುವ ಸಂಖ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಬಹುದಾದುದರಿಂದ, ಈಗ ಎರಡನೆಯ ವ್ಯಾಯಾಮದ ದಿನಚರಿ ಸೇರಿಸುವ ಸಮಯ.
 
 --- task ---
 
-For this exercise, you will use `Text to Speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be spoken by the computer.
+ಈ ವ್ಯಾಯಾಮಕ್ಕೆ, ನೀವು `say`{:class="block3looks"}ಬದಲು `Text to Speech`{:class="block3extensions"} ಉಪಯೋಗಿಸುತ್ತೀರಿ, ಅದರಿಂದ ವ್ಯಾಯಾಮದ ಸೂಚನೆಗಳನ್ನು ಕಂಪ್ಯೂಟರ್‌ ಮಾತಿನರೂಪದಲ್ಲಿ ಹೇಳುತ್ತದೆ.
 
-Click the **Add Extension** button in the bottom left-hand corner of the Scratch window.
+Scratch ವಿಂಡೋದ ಕೆಳ ಎಡಭಾಗದ ಮೂಲೆಯಲ್ಲಿರುವ **Add Extension** ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-![Extensions button](images/extensionsButton.png)
+![Extensions ಬಟನ್](images/extensionsButton.png)
 
-Select the **Text to Speech** extension.
+**Text to Speech** ವಿಸ್ತರಣೆ ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ.
 
-![Text to Speech extension](images/textToSpeechExtension.png)
+![Text to Speech ವಿಸ್ತರಣೆ](images/textToSpeechExtension.png)
 
-A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
+`Text to Speech`{:class="block3extensions"} ಬ್ಲಾಕ್‌ಗಳ ಹೊಸ ಸೆಟ್‌ ಕಾಣಿಸುತ್ತದೆ.
 
-![Text to Speech blocks](images/textToSpeechBlocks.png)
+![Text to Speech ಬ್ಲಾಕ್‌ಗಳು](images/textToSpeechBlocks.png)
 
 --- /task ---
 
-Next, you will create the head roll exercise as a separate block of code, which you will add to your main code at the end.
+ನಂತರ, ಕುತ್ತಿಗೆ ತಿರುಗಿಸುವ ವ್ಯಾಯಾಮವನ್ನು ಪ್ರತ್ಯೇಕ ಬ್ಲಾಕ್‌ ಕೋಡ್‌ ಆಗಿ ರಚಿಸುತ್ತೀರಿ, ಅದನ್ನು ನೀವು ನಿಮ್ಮ ಮುಖ್ಯ ಕೋಡ್‌ಗೆ ಕೊನೆಯಲ್ಲಿ ಸೇರಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-Choose the **Nadia** sprite and select a `repeat`{:class="block3control"} block.
+**Nadia** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ದುಕೊಳ್ಳಿ ಮತ್ತು `repeat`{:class="block3control"} ಬ್ಲಾಕ್‌ ಆಯ್ಕೆಮಾಡಿಕೊಳ್ಳಿ.
 
-Add a rounded `repetitions`{:class="block3variables"} block from the `Variables`{:class="block3variables"} blocks menu to control the number of repetitions:
+ಪುನರಾವರ್ತನೆಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು `Variables`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಿಂದ ಪೂರ್ಣಾಂಕ `repetitions`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia ಸ್ಪ್ರೈಟ್‌ ಐಕಾನ್](images/nadia_sprite.png)
 
 ```blocks3
 repeat (repetitions)
 ```
 
---- /task ---
+--- /ಕಾರ್ಯ ---
 
-Now, you will start to add the exercise instructions.
+ಈಗ, ನೀವು ವ್ಯಾಯಾಮದ ಸೂಚನೆಗಳನ್ನು ಸೇರಿಸಲು ಪ್ರಾರಂಭಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-From the `Text to Speech`{:class="block3extensions"} blocks menu, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
+`Text to Speech`{:class="block3extensions"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಿಂದ, `speak`{:class="block3extensions"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ ಮತ್ತು `roll your neck to the right` ಪಠ್ಯವನ್ನು ಟೈಪ್‌ ಮಾಡಿ.
 
-Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`{:class="block3looks"}.
+ನಂತರ, `switch costume to`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ ಮತ್ತು `head right`{:class="block3looks"} ಉಡುಪನ್ನು ಆಯ್ಕೆಮಾಡಿಕೊಳ್ಳಿ.
 
-Finally, add a short `wait`{:class="block3control"} block:
+ಅಂತಿಮವಾಗಿ, `wait`{:class="block3control"} ಚಿಕ್ಕ ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia ಸ್ಪ್ರೈಟ್‌ ಐಕಾನ್](images/nadia_sprite.png)
 
 ```blocks3
 repeat (repetitions)
@@ -58,15 +58,15 @@ end
 
 --- /task ---
 
-Each exercise step will require `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"}, and `wait`{:class="block3control"} blocks.
+ವ್ಯಾಯಾಮದ ಪ್ರತಿಯೊಂದು ಹಂತಕ್ಕೆ `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"}, ಮತ್ತು `wait`{:class="block3control"} ಬ್ಲಾಕ್‌ಗಳು ಬೇಕು.
 
 --- task ---
 
-Add the following `Text to Speech`{:class="block3extensions"} instruction: `and round to the left`.
+ಈ ಕೆಳಗಿನ `Text to Speech`{:class="block3extensions"} ಸೂಚನೆಗಳನ್ನು ಸೇರಿಸಿ: `and round to the left`.
 
-Add blocks so that your **Nadia** sprite will `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="block3control"} for `0.5` seconds:
+ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ **Nadia** ಸ್ಪ್ರೈಟ್ `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} ಮತ್ತು `wait`{:class="block3control"} `0.5` ಸೆಕೆಂಡುಗಳವರೆಗೆ ಮಾಡುತ್ತದೆ:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia ಸ್ಪ್ರೈಟ್‌ ಐಕಾನ್](images/nadia_sprite.png)
 
 ```blocks3
 
@@ -82,13 +82,13 @@ end
 
 --- /task ---
 
-Now, you will add the last step of the exercise.
+ಈಗ, ನೀವು ವ್ಯಾಯಾಮದ ಕೊನೆಯ ಹಂತವನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`{:class="block3looks"}, then set it to `wait`{:class="block3control"} for another `0.5` seconds:
+`and back to centre` ಸೂಚನೆಯನ್ನು ಟೈಪ್‌ ಮಾಡಿ. ನಂತರ, `switch costume to`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ ಮತ್ತು ಅದನ್ನು ಮತ್ತೆ `at rest`{:class="block3looks"}ಗೆ ಹೊಂದಿಸಿ, ನಂತರ ಅದನ್ನು `wait`{:class="block3control"} ಇನ್ನೂ `0.5` ಸೇಕೆಂಡುಗಳವರೆಗೆ ಹೊಂದಿಸಿ:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia ಸ್ಪ್ರೈಟ್‌ ಐಕಾನ್](images/nadia_sprite.png)
 
 ```blocks3
 repeat (repetitions)
@@ -108,11 +108,11 @@ end
 
 --- task ---
 
-Now, add your new exercise routine to your existing code:
+ಈಗ, ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ನಿಮ್ಮ ಕೋಡ್‌ಗೆ ನಿಮ್ಮ ಹೊಸ ವ್ಯಾಯಾಮದ ದಿನಚರಿಯನ್ನು ಸೇರಿಸಿ:
 
 --- no-print ---
 
-![Joining new code to existing](images/joinCode.gif)
+![ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಕೋಡ್‌ಗೆ ಹೊಸ ಕೋಡ್ ಜೋಡಿಸುವುದು](images/joinCode.gif)
 
 --- /no-print ---
 
