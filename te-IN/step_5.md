@@ -1,14 +1,14 @@
-## Code the buttons
+## బటన్లను కోడ్ చేయండి
 
-Now, you will code the arrow buttons to change the value of `repetitions`{:class="block3variables"} when the buttons are clicked.
+బటన్లు క్లిక్ చేసినపుడు `repetitions`{:class="block3variables"} విలువను మార్చడానికి బాణం గుర్తుల బటన్‌లను ఇప్పుడు మీరు కోడ్ చేస్తారు.
 
 --- task ---
 
-Click on the **up** sprite. Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
+**up** sprite పై క్లిక్ చేయండి. ఇప్పటికే ఉన్న కోడ్‌ని అలాగే వదిలేయండి. `when this sprite clicked`{:class="block3events"} బ్లాక్‌ని ఎంచుకోండి.
 
-Add a `change repetitions by`{:class="block3variables"} block from the `Variables`{:class="block3variables"} blocks menu below. This should have a value of `1`:
+`Variables`{:class="block3variables"} బ్లాక్‌ల మెను నుంచి, `change repetitions by`{:class="block3variables"} బ్లాక్ ని జోడించండి. దీని విలువ `1` ఉండాలి:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up బాణం sprite చిహ్నం](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -17,17 +17,17 @@ change [repetitions v] by (1)
 
 --- /task ---
 
-Click on the green flag and test that `repetitions`{:class="block3variables"} goes up each time you click on the **up** arrow.
+ఆకుపచ్చ జెండాపై క్లిక్ చేసి, **up** బాణంపై క్లిక్ చేసినప్పుడల్లా `repetitions`{:class="block3variables"} విలువ పెరుగుతుందో, లేదో పరీక్షించండి.
 
-Keep going. Does `repetitions`{:class="block3variables"} stop going up?
+ముందుకు వెళ్తూ ఉండండి. `repetitions`{:class="block3variables"} పెరగడం ఆగి పోయిందా?
 
-You don't want the exercise to repeat too many times, so next, you will add some code to stop `repetitions`{:class="block3variables"} from going above 5.
+మీరు వ్యాయామం చాలాసార్లు పునరావృతం చేయకూడదనుకుంటున్నారు, కాబట్టి తర్వాత, మీరు `repetitions`{:class="block3variables"} ని 5 కంటే పైకి వెళ్లకుండా ఆపడానికి కొంత కోడ్‌ని జోడిస్తారు.
 
 --- task ---
 
-From the `Control`{:class="block3control"} blocks menu, select an `if ... then ... else`{:class="block3control"} block, and place the `change repetitions by 1`{:class="block3variables"} block in the space below `if ... then`{:class="block3control"}:
+`Control`{:class="block3control"} బ్లాక్‌ల మెను నుండి, `if ... then ... else`{:class="block3control"} బ్లాక్‌ని ఎంచుకోండి మరియు `change repetitions by 1` {: class="block3variables"} ని, `if ... then`{:class="block3control"}: బ్లాక్ కింద ఉన్న స్పేస్‌లో ఉంచండి
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up బాణం sprite చిహ్నం](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -39,23 +39,22 @@ else
 
 --- /task ---
 
-Now, you will add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+ఇప్పుడు,`if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5` కండిషన్ ను జోడిస్తారు.
 
-**Note:** This sets the maximum number of repeats. You could choose a different number but the more repeats you allow, the longer the program takes to run.
+**గమనిక:** ఇది పునరావృతాల గరిష్ట సంఖ్యను సెట్ చేస్తుంది. మీరు వేరొక సంఖ్యను ఎంచుకోవచ్చు కానీ మీరు ఎక్కువ పునరావృతాలను అనుమతించినట్లయితే, ప్రోగ్రామ్ రన్ చేయడానికి ఎక్కువ సమయం పడుతుంది.
 
 --- task ---
 
-From the `Operators`{:class="block3operators"} blocks menu, select a `less than`{:class="block3operators"} operator:
+`Operators`{:class="block3operators"} బ్లాక్స్ మెను నుండి,</code>less than`{:class="block3operators"} ఆపరేటర్‌ని ఎంచుకోండి:</p>
 
-```blocks3
-[]<[] ::operators
-```
+<pre><code class="blocks3">[]<[] ::operators
+`</pre>
 
-Place the block in the top space of the `if ... then ... else`{:class="block3control"} block, between `if`{:class="block3control"} and `then`{:class="block3control"}.
+బ్లాక్‌ను `if ... then ... else`{:class="block3control"} బ్లాక్ లో పైన ఉన్న ఖాళీలో, `if`{:class="block3control"} మరియు `then`{:class= "block3control"} మధ్యలో ఉంచండి.
 
-From the `Variables`{:class="block3variables"} blocks menu, take a rounded `repetitions`{:class="block3variables"} block and place it before the `<`{:class="block3operators"}. Type the number `5` after the `<`{:class="block3operators"}:
+`Variables`{:class="block3variables"} బ్లాక్‌ల మెను నుండి, రౌండెడ్ `repetitions`{:class="block3variables"} బ్లాక్‌ని తీసుకుని, దానిని `<`{:class="block3operators"} ముందు ఉంచండి. `<`{:class="block3operators"} తర్వాత `5` సంఖ్యను టైప్ చేయండి:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up బాణం sprite చిహ్నం](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -67,15 +66,15 @@ end
 
 --- /task ---
 
-Now, `repetitions`{:class="block3variables"} should only go up by `1` `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+`if`{:class="block3control"} `repetitions`{:class="block3variables"} `5`.`is less than 1` {: class="block3operators"} ఇప్పుడు, `repetitions`{:class="block3variables"} `1` గా మాత్రమే పెరగాలి.
 
-What will happen if the user sets `repetitions`{:class="block3variables"} to 5 or more?
+`repetitions`{:class="block3variables"} విలువని 5 లేదా అంతకంటే ఎక్కువకు సెట్ చేస్తే ఏమి జరుగుతుంది?
 
 --- task ---
 
-Below `else`{:class="block3control"}, add a `say`{:class="block3looks"} block that will display the message `5 repetitions is the maximum` for `2` seconds:
+`else`{:class="block3control"} క్రింద, `say`{:class="block3looks"} బ్లాక్‌ను జోడించండి, అది `5 repetitions the maximum` `2` సెకండ్లకు అనే సందేశాన్ని ప్రదర్శిస్తుంది:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up బాణం sprite చిహ్నం](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -88,21 +87,21 @@ end
 
 --- /task ---
 
-Now, you need to do the same for the **down** arrow, but you need to use a different condition and reduce `repetitions`{:class="block3variables"} by 1 each time.
+**down** బాణం గుర్తు కోసం అదే విధంగా చేయాలి, కానీ మీరు వేరొక కండిషన్ ను ఉపయోగించి `repetitions`{:class="block3variables"} ను 1కి తగ్గించాలి.
 
-A way to say **reduce by 1** in Scratch is `change by`{:class="block3variables"} `-1`.
+Scratch లో **reduce by 1 ** చెప్పడానికి ఒక మార్గం `change by`{:class="block3variables"} `-1`.
 
 --- task ---
 
-Select the **down** sprite. Add a `when this sprite clicked`{:class="block3events"} block and an `if ... then ... else`{:class="block3control"} block.
+**down** sprite ని ఎంచుకోండి. `when this sprite clicked `{:class="block3events"} బ్లాక్‌ని మరియు `if ... then ...else`{:class="block3control"} బ్లాక్‌ని జోడించండి.
 
-Add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
+`if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1` కండిషన్ ను జోడించండి.
 
-Add a block so that if the condition is **true**, your program will `change repetitions by`{:class="block3variables"} `-1`.
+కండిషన్ **true** అయితే, మీ ప్రోగ్రామ్ `change repetitions by`{:class="block3variables"} `-1` గా మార్చేలా బ్లాక్ ను జోడించండి.
 
-Add a block so that if the condition is **false**, your program will `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
+కండిషన్ **false** అయితే, మీ ప్రోగ్రామ్ `Repetitions can't be lower than 1` ప్రతి `2` సెకండ్స్ కి అని చెప్పేలా `say `{:class="block3looks"} బ్లాక్‌ని జోడించండి:
 
-![Down arrow sprite icon](images/down_arrow_sprite.png)
+![Down బాణం sprite చిహ్నం](images/down_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -115,8 +114,8 @@ end
 
 --- /task ---
 
-Run the program to test it. Click on the two arrows to increase or reduce the number of repetitions.
+దీన్ని పరీక్షించడానికి ప్రోగ్రామ్‌ను అమలు చేయండి. repetitions సంఖ్యను పెంచడానికి లేదా తగ్గించడానికి రెండు బాణపు గుర్తులపై క్లిక్ చేయండి.
 
-Does `repetitions`{:class="block3variables"} stay between 1 and 5?
+`repetitions`{:class="block3variables"} 1 మరియు 5 మధ్య ఉంటాయా?
 
 --- save ---
