@@ -1,16 +1,16 @@
-## Add a breathing exercise
+## శ్వాస కోశ వ్యాయామాన్ని జోడించండి
 
-Now, you will start to code a relaxing breathing exercise using different sprite costumes.
+ఇప్పుడు, మీరు వివిధ sprite costume లను ఉపయోగించి రిలాక్సింగ్ శ్వాస వ్యాయామాన్ని కోడ్ చేయడం ప్రారంభిస్తారు.
 
 --- task ---
 
-Select the **Nadia** sprite and add a `repeat`{:class="block3events"} loop to the existing code. Set the number of `repeats`{:class="block3events"} to `2`.
+**Nadia** sprite ని సెలెక్ట్ చేసి `repeat`{:class="block3events"} లూప్‌ని కోడ్ కి జోడించండి. `repeats`{:class="block3events"} సంఖ్యని `2` కు సెట్ చేయండి.
 
-Inside the `repeat`{:class="block3events"} loop, add a `switch costume to`{:class="block3looks"} block and a `say`{:class="block3looks"} block.
+`repeat`{:class="block3events"} లూప్ లోపల,`switch costume`{:class="block3looks"} బ్లాక్‌కి మరియు `say`{:class="block3looks"} బ్లాక్‌ని జోడించండి.
 
-Set the costume to `breathe in`{:class="block3looks"} and set the `say`{:class="block3looks"} text to `breathe in`:
+Costume ని `breathe in`{:class="block3looks"} కి సెట్ చేయండి మరియు `say`{:class="block3looks"} టెక్స్ట్‌ని `breathe in` కి సెట్ చేయండి:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite చిహ్నం](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -25,15 +25,15 @@ wait (2) seconds
 
 --- /task ---
 
-The `2` in `say`{:class="block3looks"} `breathe in` `for`{:class="block3looks"} `2` `seconds`{:class="block3looks"} tells Scratch how long to show the speech bubble on the Stage.
+`say`{:class="block3looks"} లో `2` `breath in` `for`{:class="block3looks"} `2` `seconds`{:class="block3looks"} Scratch కి ఎంత సమయం Stage పై స్పీచ్ బబుల్ ను చూపించాలో చెబుతుంది.
 
-Now, within the `repeat`{:class="block3events"} loop, add another costume change with some accompanying text.
+ఇప్పుడు, `repeat`{:class="block3events"} లూప్‌లో, కొంత వచనంతో మరొక costume మార్పును జోడించండి.
 
 --- task ---
 
-Set `switch costume`{:class="block3looks"} to `at rest`{:class="block3looks"}, and type `breathe out` in the `say`{:class="block3looks"} block:
+`switch costume`{:class="block3looks"}ని `at rest`{:class="block3looks"} కి మార్చండి, మరియు `say`{:class="block3looks"} బ్లాక్‌లో `breathe out` అని టైపు చేయండి:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite చిహ్నం](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -50,10 +50,10 @@ end
 
 --- /task ---
 
-You have finished the first exercise!
+మీరు మొదటి వ్యాయామాన్ని పూర్తి చేసారు!
 
-To test your script so far, click on the green flag.
-+ Did the costume change to look like the sprite was breathing?
-+ Did your program repeat the routine twice?
+ఇప్పటివరకు మీ స్క్రిప్ట్‌ను పరీక్షించడానికి, ఆకుపచ్చ జెండాపై క్లిక్ చేయండి.
++ Sprite ఊపిరి పీల్చుకుంటున్నట్టు కనిపించేలా costume మారిందా?
++ మీ ప్రోగ్రామ్ రొటీన్‌ను రెండుసార్లు పునరావృతం చేసిందా?
 
 --- save ---
