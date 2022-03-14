@@ -1,14 +1,14 @@
-## Add more
+## మరిన్ని జోడించండి
 
-Well done! You have programmed a healthy 'relax and stretch' exercise program to keep yourself and others moving.
+బాగా చేసారు! మిమ్మల్ని మరియు ఇతరులను కదిలేలా చేయడానికి మీరు ఆరోగ్యకరమైన 'రిలాక్స్ అండ్ స్ట్రెచ్' వ్యాయామ కార్యక్రమాన్ని ప్రోగ్రామ్ చేసారు.
 
-How would you like to improve your program?
+మీరు మీ ప్రోగ్రామ్‌ను ఎలా మెరుగుపరచాలనుకుంటున్నారు?
 
-To create a new exercise routine you could use some of the **Nadia** sprite's costumes that are currently unused, or even duplicate an existing costume, and edit the costume to make a new position costume of your own!
+కొత్త వ్యాయామ దినచర్యను **Nadia** sprite costume లలో కొన్నింటిని ఉపయోగించవచ్చు లేదా ఇప్పటికే ఉన్న costumeని డూప్లికేట్ చేయవచ్చు మరియు మీ స్వంతంగా కొత్త పొజిషన్ costumeను తయారు చేసుకోవడానికి costume లను సవరించవచ్చు!
 
-Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} block for the instructions? It's completely up to you.
+మీరు `say`{:class="block3looks"} బ్లాక్‌ని ఉపయోగిస్తారా? లేదా `Text to Speech`{:class="block3extensions"} బ్లాక్‌ని ఉపయోగిస్తారా? ఇది పూర్తిగా మీ ఇష్టం.
 
-To add controls that change the speed of the routines you could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} the instructions. You could create more buttons to control speed, like the arrows to control the number of repetitions.
+రొటీన్‌ల వేగాన్ని మార్చే నియంత్రణలను జోడించడానికి మీరు `wait`{:class="block3control"} సమయం మరియు ఎంత సమయం తీపుకొంటుంది అని చెప్పే`say`{:class="block3looks"} బ్లాక్ యొక్క సూచనలను నియంత్రించే `variable`{:class="block3variables"} ను మీరు ఉపయోగించవచ్చు. మీరు వేగాన్ని నియంత్రించడానికి, repetitions సంఖ్యను నియంత్రించడానికి బాణపు గుర్తుల వంటి మరిన్ని బటన్‌లను సృష్టించవచ్చు.
 
 --- no-print ---
 
@@ -19,6 +19,6 @@ To add controls that change the speed of the routines you could use a new `varia
 
 --- print-only ---
 
-![completed challenge example](images/challenge_example.png)
+![పూర్తి సవాలు ఉదాహరణ](images/challenge_example.png)
 
 --- /print-only ---
