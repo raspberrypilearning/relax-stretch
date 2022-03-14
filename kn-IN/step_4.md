@@ -1,24 +1,24 @@
-## Control the repetitions
+## ಪುನರಾವರ್ತನೆಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ
 
-Now, you will create a variable that will eventually allow a user to control the number of repetitions of each exercise.
-
---- task ---
-
-Go to the `Variables`{:class="block3variables"} blocks menu, click on **Make a Variable**, and name it `repetitions`.
-
-![Making a new variable dialogue box](images/createRepetitionsVariable.png){:width=“200px”}
-
-The new variable will now appear in the `Variables`{:class="block3variables"} blocks menu and also on the Stage.
-
---- /task ---
-
-The next step is to set the value of `repetitions`{:class="block3variables"} when the program starts.
+ಈಗ, ಪ್ರತಿಯೊಂದು ವ್ಯಾಯಾಮದ ಪುನರಾವರ್ತನೆಯ ಸಂಖ್ಯೆಗಳನ್ನು ಬಳಕೆದಾರ ನಿಯಂತ್ರಿಸಲು ಅಂತಿಮವಾಗಿ ಅನುವುಮಾಡಿಕೊಡುವ ವೇರಿಯೇಬಲ್‌ನ್ನು ನೀವು ರಚಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-With the **Nadia** sprite selected, add a `set repetitions to`{:class="block3variables"} block and set the value to `3`:
+`Variables`{:class="block3variables"} ಬ್ಲಾಕ್‌ ಮೆನುಗೆ ಹೋಗಿ **Make a Variable** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ, ಮತ್ತು ಅದನ್ನು `repetitions` ಎಂದು ಹೆಸರಿಸಿ.
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![ಹೊಸ ವೇರಿಯೇಬಲ್‌ ಡೈಲಾಗ್‌ ಬಾಕ್ಸ್‌ ಮಾಡುವುದು](images/createRepetitionsVariable.png){:width=“200px”}
+
+ಹೊಸ ವೇರಿಯೇಬಲ್‌ ಈಗ `Variables`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಲ್ಲಿ ಮತ್ತು Stage ಮೇಲೂ ಸಹ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.
+
+--- /ಕಾರ್ಯ ---
+
+ಮುಂದಿನ ಹಂತವೆಂದರೆ ಪ್ರೋಗ್ರಾಮ್‌ ಶುರುವಾದಾಗ `repetitions`{:class="block3variables"}ನ ಮೌಲ್ಯವನ್ನು ಹೊಂದಿಸುವುದು.
+
+--- task ---
+
+**Nadia** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆಯಾಗಿರುವವಾಗ, `set repetitions to`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಮೌಲ್ಯವನ್ನು `3`ಕ್ಕೆ ಹೊಂದಿಸಿ:
+
+![Nadia ಸ್ಪ್ರೈಟ್‌ ಐಕಾನ್](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -36,13 +36,13 @@ end
 
 --- /task ---
 
-Now, you will use `repetitions`{:class="block3variables"} to control the number of times that the exercise repeats.
+ಈಗ, ನೀವು ಆ ವ್ಯಾಯಾಮವು ಪುನರಾವರ್ತನೆಯಾಗುವ ಸಂಖ್ಯೆಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು `repetitions`{:class="block3variables"} ಉಪಯೋಗಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-Add a rounded `repetitions`{:class="block3variables"} block as the value of the `repeat`{:class="block3control"} block:
+`repeat`{:class="block3control"} ಬ್ಲಾಕ್‌ನ ಮೌಲ್ಯವಾಗಿ ಪೂರ್ಣಾಂಕ `repetitions`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia ಸ್ಪ್ರೈಟ್‌ ಐಕಾನ್](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,8 +58,8 @@ repeat (repetitions ::variables +)
 end
 ```
 
---- /task ---
+--- /ಕಾರ್ಯ ---
 
-To check that this program works, you can change the value of `repetitions`{:class="block3variables"} and run the program.
+ಈ ಪ್ರೋಗ್ರಾಮ್‌ ಕೆಲಸಮಾಡುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಲು, ನೀವು `repetitions`{:class="block3variables"}ನ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಿ ರನ್‌ ಮಾಡಬಹುದು.
 
 --- save ---
