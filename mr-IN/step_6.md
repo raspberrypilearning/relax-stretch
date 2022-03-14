@@ -62,7 +62,7 @@ end
 
 --- task ---
 
-खालील `Text to Speech`{:class="block3extensions"} सूचना जोडा: `and round to the left.
+खालील `Text to Speech`{:class="block3extensions"} सूचना जोडा: `and round to the left`.
 
 ब्लॉक्स जोडा जेणेकरून तुमचा **Nadia** स्प्राईट हा `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} आणि `wait`{:class="block3control"} `0.5` सेकंदांसाठी:
 
