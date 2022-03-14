@@ -5,10 +5,11 @@ description: Write a program to help you and others stay healthy while you are s
 version: 5
 listed: true
 copyedit: true
-last_tested: "2020-09-01"
+last_tested: '2020-09-01'
 steps:
   - 
     title: Introduction
+    completion: engaged
   - 
     title: Prepare your character
   - 
@@ -19,6 +20,7 @@ steps:
     title: Code the buttons
   - 
     title: Add a head roll exercise
+    completion: internal
   - 
     title: Add more
   - 
