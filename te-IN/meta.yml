@@ -1,27 +1,29 @@
 ---
-title: Relax and stretch
+title: కాస్త విశ్రాంతిగా ఒళ్లు విరుచుకోండి
 hero_image: images/relax-banner.png
-description: Write a program to help you and others stay healthy while you are seated
+description: మీరు కూర్చుని ఉండగానే మీరు మరియు ఇతరులు ఆరోగ్యంగా ఉండటానికి సహాయపడే ప్రోగ్రామ్‌ను వ్రాయండి
 version: 5
 listed: true
 copyedit: true
-last_tested: "2020-09-01"
+last_tested: '2020-09-01'
 steps:
   - 
-    title: Introduction
+    title: పరిచయం
+    completion: engaged
   - 
-    title: Prepare your character
+    title: మీ కారెక్టర్ ను సిద్ధం చేసుకోండి
   - 
-    title: Add a breathing exercise
+    title: శ్వాస కోశ వ్యాయామాన్ని జోడించండి
   - 
-    title: Control the repetitions
+    title: పునరావృతాలను నియంత్రించండి
   - 
-    title: Code the buttons
+    title: బటన్లను కోడ్ చేయండి
   - 
-    title: Add a head roll exercise
+    title: హెడ్ రోల్ వ్యాయామాన్ని జోడించండి
+    completion: internal
   - 
-    title: Add more
+    title: మరిన్ని జోడించండి
   - 
-    title: Share
+    title: షేర్ చేయండి
   - 
-    title: What next?
+    title: తర్వాత ఏంటి?
