@@ -1,14 +1,14 @@
-## Code the buttons
+## बटन को कोड करें
 
-Now, you will code the arrow buttons to change the value of `repetitions`{:class="block3variables"} when the buttons are clicked.
+अब, जब आप बटन क्लिक करते हैं, तो आप `repetitions`{:class="block3variables"} के मान को बदलने के लिए तीर बटनों को कोड करेंगे।
 
 --- task ---
 
-Click on the **up** sprite. Leave the existing code as it is. Select a `when this sprite clicked`{:class="block3events"} block.
+**up** स्प्राइट पर क्लिक करें। मौजूदा कोड को वैसे ही छोड़ दें। `when this sprite clicked`{:class="block3events"} ब्लॉक चुनें।
 
-Add a `change repetitions by`{:class="block3variables"} block from the `Variables`{:class="block3variables"} blocks menu below. This should have a value of `1`:
+नीचे दिए गये `Variables`{:class="block3variables"} ब्लॉक मेनू में से `change repetitions by`{:class="block3variables"} जोड़ें। इसका मान `1`होना चाहिए:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up तीर स्प्राइट आइकन](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -17,17 +17,17 @@ change [repetitions v] by (1)
 
 --- /task ---
 
-Click on the green flag and test that `repetitions`{:class="block3variables"} goes up each time you click on the **up** arrow.
+हरे झंडे पर क्लिक करें और `repetitions`{:class="block3variables"} ऊपर जाता है, जब भी आप **up** तीर पर क्लिक करते हैं।
 
-Keep going. Does `repetitions`{:class="block3variables"} stop going up?
+आगे बढ़ते रहें क्या `repetitions`{:class="block3variables"} ऊपर जाना बंद कर देता है?
 
-You don't want the exercise to repeat too many times, so next, you will add some code to stop `repetitions`{:class="block3variables"} from going above 5.
+आप नहीं चाहते कि व्यायाम कई बार दोहराया जाए, इसलिए आगे, आप `repetitions`{:class="block3variables"} को 5 से ऊपर जाने से रोकने के लिए कुछ कोड जोड़ेंगे।
 
 --- task ---
 
-From the `Control`{:class="block3control"} blocks menu, select an `if ... then ... else`{:class="block3control"} block, and place the `change repetitions by 1`{:class="block3variables"} block in the space below `if ... then`{:class="block3control"}:
+`Control`{:class="block3control"} ब्लॉक मेन्यू से, एक `if ... then ... else`{:class="block3control"} ब्लॉक चुनें, और `if ... then`{:class="block3control"}: के नीचे के स्थान में `change repetitions by 1`{:class="block3variables"} ब्लॉक रखें
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up तीर स्प्राइट आइकन](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -39,23 +39,23 @@ else
 
 --- /task ---
 
-Now, you will add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+अब आप एक कंडीशन जोड़ देंगे, `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`।
 
-**Note:** This sets the maximum number of repeats. You could choose a different number but the more repeats you allow, the longer the program takes to run.
+**नोट:** यह दोहराव की अधिकतम संख्या निर्धारित करता है। आप एक अलग संख्या चुन सकते हैं लेकिन आप जितना अधिक दोहराव की अनुमति देते हैं, प्रोग्राम को चलने में उतना ही अधिक समय लगता है।
 
 --- task ---
 
-From the `Operators`{:class="block3operators"} blocks menu, select a `less than`{:class="block3operators"} operator:
+`Operators`{:class="block3operators"} ब्लॉक मेनू से, एक`less than`{:class="block3operators"} ऑपरेटर का चयन करें:
 
 ```blocks3
 []<[] ::operators
 ```
 
-Place the block in the top space of the `if ... then ... else`{:class="block3control"} block, between `if`{:class="block3control"} and `then`{:class="block3control"}.
+ब्लॉक को `if ... then ... else`{:class="block3control"} ब्लॉक के उपर की जगह पर रखें, `if`{:class="block3control"} और `then`{:class="block3control"} के बीच में।
 
-From the `Variables`{:class="block3variables"} blocks menu, take a rounded `repetitions`{:class="block3variables"} block and place it before the `<`{:class="block3operators"}. Type the number `5` after the `<`{:class="block3operators"}:
+`Variables`{:class="block3variables"} ब्लॉक मेनू से, एक गोल `repetitions`{:class="block3variables"} ब्लॉक लें और इसे `<`{:class="block3operators"} से पहले रखें। `<`{:class="block3operators"} के बाद `5` नंबर टाइप करें:
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up तीर स्प्राइट आइकन](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -67,15 +67,15 @@ end
 
 --- /task ---
 
-Now, `repetitions`{:class="block3variables"} should only go up by `1` `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is less than`{:class="block3operators"} `5`.
+अब, `repetitions`{:class="block3variables"} केवल `1` ऊपर जाना चाहिए यदि `if`{:class="block3control"} `repetitions`{:class="block3variables"} ` `{:class="block3operators"} `5` से कम है ।
 
-What will happen if the user sets `repetitions`{:class="block3variables"} to 5 or more?
+क्या होगा यदि उपयोगकर्ता `repetitions`{:class="block3variables"} को 5 या अधिक पर सेट करता है?
 
 --- task ---
 
-Below `else`{:class="block3control"}, add a `say`{:class="block3looks"} block that will display the message `5 repetitions is the maximum` for `2` seconds:
+`else`{:class="block3control"} के नीचे, एक `say`{:class="block3looks"} ब्लॉक जोड़ें जो `2` सेकंड के लिए संदेश प्रदर्शित करेगा `5 repetitions is the maximum`
 
-![Up arrow sprite icon](images/up_arrow_sprite.png)
+![Up तीर स्प्राइट आइकन](images/up_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -88,21 +88,21 @@ end
 
 --- /task ---
 
-Now, you need to do the same for the **down** arrow, but you need to use a different condition and reduce `repetitions`{:class="block3variables"} by 1 each time.
+**डाउन** तीर के लिए भी ऐसा ही करने की आवश्यकता है, लेकिन आपको एक अलग कंडीशन का उपयोग करने और `repetitions`{:class="block3variables"} को हर बार 1 से कम करने की आवश्यकता है।
 
-A way to say **reduce by 1** in Scratch is `change by`{:class="block3variables"} `-1`.
+Scratch में **reduce by 1** कहने का एक तरीका `change by`{:class="block3variables"} `-1` है
 
 --- task ---
 
-Select the **down** sprite. Add a `when this sprite clicked`{:class="block3events"} block and an `if ... then ... else`{:class="block3control"} block.
+**down** स्प्राइट चुनें। एक `when this sprite clicked`{:class="block3events"} ब्लॉक जोड़ें और एक `if ... then ... else`{:class="block3control"} ब्लॉक ।
 
-Add the condition `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`.
+कंडीशन जोड़ें `if`{:class="block3control"} `repetitions`{:class="block3variables"} `is more than`{:class="block3operators"} `1`।
 
-Add a block so that if the condition is **true**, your program will `change repetitions by`{:class="block3variables"} `-1`.
+एक ब्लॉक जोड़ें ताकि यदि कंडीशन **true** है, तो आपका प्रोग्राम `change repetitions by`{:class="block3variables"} `-1` करेगा।
 
-Add a block so that if the condition is **false**, your program will `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` seconds:
+एक ब्लॉक जोड़ें ताकि यदि कंडीशन **false** है, तो आपका प्रोग्राम `say`{:class="block3looks"} `Repetitions can't be lower than 1` for `2` से कम नहीं हो सकता:
 
-![Down arrow sprite icon](images/down_arrow_sprite.png)
+![Down तीर स्प्राइट आइकन](images/down_arrow_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -115,8 +115,8 @@ end
 
 --- /task ---
 
-Run the program to test it. Click on the two arrows to increase or reduce the number of repetitions.
+इसका परीक्षण करने के लिए प्रोग्राम चलाएँ। दोहराव की संख्या बढ़ाने या घटाने के लिए दो तीरों पर क्लिक करें।
 
-Does `repetitions`{:class="block3variables"} stay between 1 and 5?
+क्या `repetitions`{:class="block3variables"} 1 और 5 के बीच रहता है?
 
 --- save ---
