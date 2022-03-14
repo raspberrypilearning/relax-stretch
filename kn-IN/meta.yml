@@ -1,0 +1,20 @@
+---
+title: ವಿಶ್ರಮಿಸಿ ಮತ್ತು ಚಾಚಿರಿ
+hero_image: images/relax-banner.png
+description: ಕುಳಿತಿರುವಾಗ ನೀವು ಮತ್ತು ಇತರರು ಆರೋಗ್ಯವಾಗಿರಲು ಸಹಾಯ ಮಾಡಲು ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಬರೆಯಿರಿ
+version: 5
+listed: true
+copyedit: true
+last_tested: '2020-09-01'
+steps:
+  - title: ಪರಿಚಯ
+    completion: engaged
+  - title: ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಅಣಿಮಾಡಿ
+  - title: ಉಸಿರಾಟದ ವ್ಯಾಯಾಮವನ್ನು ಸೇರಿಸಿ
+  - title: ಪುನರಾವರ್ತನೆಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ
+  - title: ಬಟನ್‌ಗಳನ್ನು ಕೋಡ್‌ ಮಾಡಿ
+  - title: ಕತ್ತು ತಿರುಗಿಸುವ ವ್ಯಾಯಾಮವನ್ನು ಸೇರಿಸಿ
+    completion: internal
+  - title: ಇನ್ನಷ್ಟು ಸೇರಿಸಿ
+  - title: ಹಂಚಿಕೊಳ್ಳಿ
+  - title: ಮುಂದೆ ಏನು?
