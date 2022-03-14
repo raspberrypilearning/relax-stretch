@@ -1,14 +1,14 @@
-## Add more
+## आणखी जोडा
 
-Well done! You have programmed a healthy 'relax and stretch' exercise program to keep yourself and others moving.
+छान! तुम्ही स्वतःला आणि इतरांना चालते-फिरते ठेवण्यासाठी निरोगी 'रिलॅक्स आणि स्ट्रेच' व्यायामाचा प्रोग्राम केला आहे.
 
-How would you like to improve your program?
+तुम्हाला तुमचा प्रोग्राम कसा सुधारायला आवडेल?
 
-To create a new exercise routine you could use some of the **Nadia** sprite's costumes that are currently unused, or even duplicate an existing costume, and edit the costume to make a new position costume of your own!
+नवीन व्यायाम रूटीन तयार करण्यासाठी तुम्ही काही **Nadia** स्प्राईट कॉश्चुमचा वापर करू शकता जे सध्या वापरलेले नाहीत, किंवा आधीच्या कॉश्चुमचे डुप्लीकेट सुद्धा करू शकता, आणि तुमच्या स्वतःची नवीन पोजिशन कॉश्चुम तयार करण्यासाठी कॉश्चुम एडिट सुद्धा करू शकता!
 
-Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} block for the instructions? It's completely up to you.
+तुम्ही सूचनांसाठी `say`{:class="block3looks"} किंवा `Text to Speech`{:class="block3extensions"} ब्लॉक वापराल का? हे पूर्णपणे तुमच्यावर अवलंबून आहे.
 
-To add controls that change the speed of the routines you could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} the instructions. You could create more buttons to control speed, like the arrows to control the number of repetitions.
+रूटीनचा वेग बदलणारे कंट्रोल्स जोडण्यासाठी तुम्ही नवीन `variable`{:class="block3variables"} वापरू शकता `wait`{:class="block3control"} वेळा नियंत्रीत करण्यासाठी आणि सूचना `say`{:class="block3looks"} म्हणण्यासाठी किती वेळ लागतो त्यासाठी. वेग नियंत्रीत करण्यासाठी तुम्ही अधिक बटन तयार करू शकता, जसेकी पुनरावृत्तीची संख्या नियंत्रीत करण्यासाठी ऍरो.
 
 --- no-print ---
 
@@ -19,6 +19,6 @@ To add controls that change the speed of the routines you could use a new `varia
 
 --- print-only ---
 
-![completed challenge example](images/challenge_example.png)
+![पूर्ण केलेल्या आव्हानाचे उदाहरण](images/challenge_example.png)
 
 --- /print-only ---
