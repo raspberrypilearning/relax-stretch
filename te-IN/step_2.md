@@ -1,42 +1,42 @@
-## Prepare your character
+## మీ కారెక్టర్ ను సిద్ధం చేసుకోండి
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/relax-stretch-on){:target="_blank"} in Scratch.
+**Online:** Scratch లో [స్టార్టర్ ప్రాజెక్ట్ ](http://rpf.io/relax-stretch-on){:target="_blank"} ని తెరవండి.
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/relax-stretch-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** Scratch యొక్క ఆఫ్ లైన్ ఎడిటర్ లో [ప్రాజెక్టు స్టార్టర్ ఫైల్](http://rpf.io/p/en/relax-stretch-go){:target="_blank"} ని తెరవండి. మీకు అవసరమైతే, మీరు [ఇక్కడ Scratch ను డౌన్ లోడ్ చేసి ఇన్‌స్టాల్ చేయవచ్చు.](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see a character sprite and two arrows: up and down.
+మీరు ఒక క్యారెక్టర్ sprite మరియు పైకి క్రిందికి: రెండు బాణపు గుర్తులను చూడవచ్చు.
 
-![starter project](images/starter_project.png)
+![స్టార్టర్ ప్రాజెక్ట్](images/starter_project.png)
 
 --- /task ---
 
-First, you will give **character 1** a name.
+ముందుగా, మీరు **character 1** కి పేరు ఇస్తారు.
 
 --- task ---
 
-Select the **character 1** sprite.
+**character 1** sprite ని ఎంచుకోండి.
 
-Click on the **dialogue box** that shows the sprite's name. We have named this sprite **Nadia**. Replace `character 1` with the name of your choice.
+Sprite పేరును చూపే **dialogue box** పై క్లిక్ చేయండి. మనము ఈ sprite కి **Nadia** అని పేరు పెట్టాము. `character 1` ను మీరు ఎంచుకొన్న పేరుతో భర్తీ చేయండి.
 
-![select character 1 sprite name](images/select_character1_name2.png)
+![character 1 sprite పేరును ఎంచుకోండి](images/select_character1_name2.png)
 
 --- /task ---
 
-Next, you will give the **Nadia** sprite setup blocks such as `position`{:class="block3motion"} on the Stage.
+తర్వాత, మీరు **Nadia**sprite కి `position`{:class="block3motion"} వంటి సెటప్ బ్లాక్‌లను ఇస్తారు.
 
 --- task ---
 
-With the **Nadia** sprite still selected, add a `when green flag clicked`{:class="block3events"} block.
+ఇప్పటికీ ఎంచుకున్న **Nadia** sprite తో, `when green flag clicked`{:class="block3events"} బ్లాక్‌ని జోడించండి.
 
-Below that, add a `go to x: y:`{:class="block3motion"} block with `x`{:class="block3motion"} set to `70` and `y`{:class="block3motion"} set to `-25`.
+ఆ క్రింద, `go to x: y:`{: class = "block3motion"} బ్లాక్ ను `x`{: class = "block3motion"} విలువ `70` మరియు `y`{: class = "block3motion"} విలువ `-25`కి సెట్ చేసి జోడించండి.
 
-Add a `switch costume to`{:class="block3looks"} block, and set the costume to `at rest`{:class="block3looks"}.
+`switch costume to`{:class="block3looks"} బ్లాక్‌ ని జోడించి, కాస్ట్యూమ్‌ను `at rest`{:class="block3looks"} కి సెట్ చేయండి.
 
-Finally, add a `wait`{:class="block3control"} block and set it to `2` seconds so that the first exercise doesn't begin too suddenly:
+చివరగా, `wait`{:class="block3control"} బ్లాక్‌ని జోడించి, దానిని `2` సెకన్లకు సెట్ చేయండి, తద్వారా మొదటి వ్యాయామం అకస్మాత్తుగా ప్రారంభించబడదు:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite చిహ్నం](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
