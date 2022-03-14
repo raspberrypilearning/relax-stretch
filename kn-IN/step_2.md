@@ -1,42 +1,42 @@
-## Prepare your character
+## ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಅಣಿಮಾಡಿ
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/relax-stretch-on){:target="_blank"} in Scratch.
+**ಆನ್‌ಲೈನ್:** Scratch ನಲ್ಲಿ [ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್](http://rpf.io/relax-stretch-on){:target="_blank"} ತೆರೆಯಿರಿ.
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/relax-stretch-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**ಆಫ್‌ಲೈನ್:** Scratch ಆಫ್‌ಲೈನ್‌ ಎಡಿಟರ್‌ನಲ್ಲಿ [ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್](http://rpf.io/p/en/relax-stretch-go){:target="_blank"} ತೆರೆಯಿರಿ. ನಿಮಗೆ ಬೇಕಾದರೆ, ನೀವು [ಇಲ್ಲಿ Scratch ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಂಡು ಇನ್‌ಸ್ಟಾಲ್‌ ಮಾಡಬಹುದು](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see a character sprite and two arrows: up and down.
+ನೀವು ಸ್ಪ್ರೈಟ್‌ ಪಾತ್ರ ಮತ್ತು ಎರಡು ಬಾಣಗಳನ್ನು ನೋಡಬೇಕು: ಅಪ್‌ ಮತ್ತು ಡೌನ್.
 
-![starter project](images/starter_project.png)
+![ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್](images/starter_project.png)
+
+--- /ಕಾರ್ಯ ---
+
+ಮೊದಲಿಗೆ, ನೀವು **character 1** ಕ್ಕೆ ಹೆಸರು ಕೊಡುತ್ತೀರಿ.
+
+--- task ---
+
+**character 1** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ.
+
+ಸ್ಪ್ರೈಟ್‌ನ ಹೆಸರು ತೋರಿಸುವ **dialogue box** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ನಾವು ಈ ಸ್ಪ್ರೈಟ್‌ನ್ನು **Nadia** ಎಂದು ಹೆಸರಿಸಿದ್ದೇವೆ. `character 1` ನ್ನು ನಿಮ್ಮ ಆಯ್ಕೆಯ ಹೆಸರಿನಿಂದ ಬದಲಾಯಿಸಿ.
+
+![ಪಾತ್ರ 1 ಸ್ಪ್ರೈಟ್‌ಗೆ ಹೆಸರನ್ನು ಆಯ್ಕೆಮಾಡಿ](images/select_character1_name2.png)
 
 --- /task ---
 
-First, you will give **character 1** a name.
+ನಂತರ, ನೀವು **Nadia** ಸ್ಪ್ರೈಟ್‌ಗೆ Stage ಮೇಲೆ `position`{:class="block3motion"} ಸೆಟ್‌ಅಪ್‌ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಕೊಡುತ್ತೀರಿ.
 
---- task ---
+--- ಕಾರ್ಯ ---
 
-Select the **character 1** sprite.
+**Nadia** ಸ್ಪ್ರೈಟ್‌ ಇನ್ನೂ ಆಯ್ಕೆಯಾಗಿ ಇರುವಾಗ, `when green flag clicked`{:class="block3events"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ.
 
-Click on the **dialogue box** that shows the sprite's name. We have named this sprite **Nadia**. Replace `character 1` with the name of your choice.
+ಅದರ ಕೆಳಗೆ, `go to x: y:`{:class="block3motion"} ಬ್ಲಾಕ್‌ನ್ನು `70` ಗೆ ಹೊಂದಿಸಿರುವ `x`{:class="block3motion"} ಮತ್ತು `-25`ಗೆ ಹೊಂದಿಸಿರುವ `y`{:class="block3motion"}ನೊಂದಿಗೆ ಸೇರಿಸಿ.
 
-![select character 1 sprite name](images/select_character1_name2.png)
+`switch costume to`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ ಮತ್ತು ಉಡುಪನ್ನು `at rest`{:class="block3looks"}ಗೆ ಹೊಂದಿಸಿ.
 
---- /task ---
+ಅಂತಿಮವಾಗಿ, `wait`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಅದನ್ನು `2` ಸೆಕೆಂಡುಗಳಿಗೆ ಹೊಂದಿಸಿ, ಅದರಿಂದ ಮೊದಲನೆಯ ವ್ಯಾಯಾಮ ತಕ್ಷಣ ಪ್ರಾರಂಭವಾಗುವುದಿಲ್ಲ:
 
-Next, you will give the **Nadia** sprite setup blocks such as `position`{:class="block3motion"} on the Stage.
-
---- task ---
-
-With the **Nadia** sprite still selected, add a `when green flag clicked`{:class="block3events"} block.
-
-Below that, add a `go to x: y:`{:class="block3motion"} block with `x`{:class="block3motion"} set to `70` and `y`{:class="block3motion"} set to `-25`.
-
-Add a `switch costume to`{:class="block3looks"} block, and set the costume to `at rest`{:class="block3looks"}.
-
-Finally, add a `wait`{:class="block3control"} block and set it to `2` seconds so that the first exercise doesn't begin too suddenly:
-
-![Nadia sprite icon](images/nadia_sprite.png)
+![ನಾದಿಯಾ ಸ್ಪ್ರೈಟ್‌ ಐಕಾನ್](images/nadia_sprite.png)
 
 ```blocks3
 when flag clicked
