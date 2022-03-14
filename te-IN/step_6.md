@@ -1,34 +1,34 @@
-## Add a head roll exercise
+## హెడ్ రోల్ వ్యాయామాన్ని జోడించండి
 
-Now that you can control the number of times that each exercise repeats, it is time to add a second exercise routine.
+ఇప్పుడు మీరు ప్రతి వ్యాయామం పునరావృతమయ్యే సంఖ్యను నియంత్రించగలరు, కాబట్ది ఇప్పుడు రెండవ వ్యాయామ దినచర్యను జోడించాల్సిన సమయం.
 
 --- task ---
 
-For this exercise, you will use `Text to Speech`{:class="block3extensions"} instead of `say`{:class="block3looks"} so that the exercise instructions will be spoken by the computer.
+ఈ వ్యాయామం కోసం, మీరు `say`{:class="block3looks"} కి బదులుగా `Text to Speech`{:class="block3extensions"}ని ఉపయోగిస్తారు, తద్వారా వ్యాయామ సూచనలు కంప్యూటర్ ద్వారా మాట్లాడబడతాయి.
 
-Click the **Add Extension** button in the bottom left-hand corner of the Scratch window.
+Scratch విండో యొక్క దిగువ ఎడమ మూలలో ఉన్న **Add Extension** బటన్ ని క్లిక్ చేయండి.
 
-![Extensions button](images/extensionsButton.png)
+![Extensions బటన్](images/extensionsButton.png)
 
-Select the **Text to Speech** extension.
+**Text to Speech** పొడిగింపును ఎంచుకోండి.
 
-![Text to Speech extension](images/textToSpeechExtension.png)
+![Text to Speech ఎక్స్‌టెన్షన్](images/textToSpeechExtension.png)
 
-A new set of `Text to Speech`{:class="block3extensions"} blocks will appear.
+`Text to Speech`{:class="block3extensions"} బ్లాక్‌ల కొత్త సెట్ కనిపిస్తుంది.
 
-![Text to Speech blocks](images/textToSpeechBlocks.png)
+![Text to Speech బ్లాక్‌లు](images/textToSpeechBlocks.png)
 
 --- /task ---
 
-Next, you will create the head roll exercise as a separate block of code, which you will add to your main code at the end.
+తర్వాత, మీరు హెడ్ రోల్ ఎక్సర్‌సైజ్‌ని ప్రత్యేక కోడ్ బ్లాక్‌గా క్రియేట్ చేస్తారు, మీరు చివర్లో దానిని మీ ప్రధాన కోడ్‌కి జోడిస్తారు.
 
 --- task ---
 
-Choose the **Nadia** sprite and select a `repeat`{:class="block3control"} block.
+**Nadia** sprite ని ఎంచుకోండి మరియు `repeat`{:class="block3control"} బ్లాక్‌ని ఎంచుకోండి.
 
-Add a rounded `repetitions`{:class="block3variables"} block from the `Variables`{:class="block3variables"} blocks menu to control the number of repetitions:
+Repetitions నియంత్రించడానికి, `Variables`{:class="block3variables"} బ్లాక్‌ల మెను నుంచి, రౌండెడ్ `repetitions`{:class="block3variables"} బ్లాక్ ని జోడించండి:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite చిహ్నం](images/nadia_sprite.png)
 
 ```blocks3
 repeat (repetitions)
@@ -36,17 +36,17 @@ repeat (repetitions)
 
 --- /task ---
 
-Now, you will start to add the exercise instructions.
+ఇప్పుడు, మీరు వ్యాయామ సూచనలను జోడించడం ప్రారంభిస్తారు.
 
 --- task ---
 
-From the `Text to Speech`{:class="block3extensions"} blocks menu, add a `speak`{:class="block3extensions"} block and type in the text `roll your neck to the right`.
+`Text to Speech`{:class="block3extensions"} బ్లాక్‌ల మెను నుండి, `speak`{:class="block3extensions"} బ్లాక్‌ని జోడించి, `roll your neck to the right`కి అని టైప్ చేయండి.
 
-Next, add a `switch costume to`{:class="block3looks"} block and select the costume `head right`{:class="block3looks"}.
+తర్వాత, `switch costume to`{:class="block3looks"} బ్లాక్‌ ని జోడించండి మరియు `head right`{:class="block3looks"} costume ని ఎంచుకోండి.
 
-Finally, add a short `wait`{:class="block3control"} block:
+చివరగా, చిన్న `wait`{:class="block3control"} బ్లాక్‌ని జోడించండి:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite చిహ్నం](images/nadia_sprite.png)
 
 ```blocks3
 repeat (repetitions)
@@ -58,15 +58,15 @@ end
 
 --- /task ---
 
-Each exercise step will require `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"}, and `wait`{:class="block3control"} blocks.
+ప్రతి వ్యాయామ దశకు `Text to Speech`{:class="block3extensions"}, `switch costume to`{:class="block3looks"} మరియు `wait`{:class="block3control"} బ్లాక్‌లు అవసరం.
 
 --- task ---
 
-Add the following `Text to Speech`{:class="block3extensions"} instruction: `and round to the left`.
+కింది `Text to Speech`{:class="block3extensions"} సూచనను జోడించండి: `and round to the left`.
 
-Add blocks so that your **Nadia** sprite will `switch costume to`{:class="block3looks"} `head left`{:class="block3looks"} and `wait`{:class="block3control"} for `0.5` seconds:
+మీ **Nadia** sprite `switch costume to`{:class="block3looks"} ద్వారా `head left`{:class="block3looks"}కి మార్చేలా మరియు `0.5` సెకన్లు `wait`{:class="block3control"} చేసేలా బ్లాక్‌లను జోడించండి:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite చిహ్నం](images/nadia_sprite.png)
 
 ```blocks3
 
@@ -82,13 +82,13 @@ end
 
 --- /task ---
 
-Now, you will add the last step of the exercise.
+ఇప్పుడు, మీరు వ్యాయామం యొక్క చివరి దశను జోడిస్తారు.
 
 --- task ---
 
-Type in the instruction `and back to centre`. Then, add a `switch costume to`{:class="block3looks"} block and set it back to `at rest`{:class="block3looks"}, then set it to `wait`{:class="block3control"} for another `0.5` seconds:
+`and back to centre` సూచనని అమలు చేయండి. తర్వాత,`switch costume to`{:class="block3looks"} బ్లాక్‌ని జోడించండి. మరియు `at rest` {:class="block3looks"} కి తిరిగి సెట్ చేయండి, ఆపై దానిని మరో `0.5` సెకన్లు: `wait`{:class="block3control"} కి సెట్ చేయండి:
 
-![Nadia sprite icon](images/nadia_sprite.png)
+![Nadia sprite చిహ్నం](images/nadia_sprite.png)
 
 ```blocks3
 repeat (repetitions)
@@ -108,11 +108,11 @@ end
 
 --- task ---
 
-Now, add your new exercise routine to your existing code:
+ఇప్పుడు, మీ ప్రస్తుత కోడ్‌కి మీ కొత్త వ్యాయామ దినచర్యను జోడించండి:
 
 --- no-print ---
 
-![Joining new code to existing](images/joinCode.gif)
+![ఇప్పటికే ఉన్న కోడ్‌కి కొత్త కోడ్‌ను చేర్చడం](images/joinCode.gif)
 
 --- /no-print ---
 
