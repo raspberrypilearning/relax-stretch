@@ -1,14 +1,14 @@
-## Add more
+## ಇನ್ನಷ್ಟು ಸೇರಿಸಿ
 
-Well done! You have programmed a healthy 'relax and stretch' exercise program to keep yourself and others moving.
+ಭೇಷ್! ನಿಮ್ಮನ್ನು ಮತ್ತು ಇತರರನ್ನು ಚಲಿಸುವಂತೆ ಮಾಡಲು ನೀವು ಆರೋಗ್ಯಕರ 'ವಿಶ್ರಮಿಸಿ ಮತ್ತು ಚಾಚಿ' ವ್ಯಾಯಾಮ ಕಾರ್ಯಕ್ರಮವನ್ನು ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿದ್ದೀರಿ.
 
-How would you like to improve your program?
+ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಹೇಗೆ ಸುಧಾರಿಸಲು ಬಯಸುತ್ತೀರಿ?
 
-To create a new exercise routine you could use some of the **Nadia** sprite's costumes that are currently unused, or even duplicate an existing costume, and edit the costume to make a new position costume of your own!
+ನೀವು ಹೊಸ ವ್ಯಾಯಾಮದ ದಿನಚರಿಯನ್ನು ರಚಿಸಲು ಕೆಲವು ಈಗಾಗಲೇ ಉಪಯೋಗಿಸದೇ ಇರುವ **Nadia** ಸ್ಪ್ರೈಟ್‌ನ ಉಡುಪುಗಳನ್ನು ಉಪಯೋಗಿಸಬಹುದು, ಅಥವಾ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಉಡುಪನ್ನೇ ನಕಲು ಮಾಡಬಹುದು ಮತ್ತು ಹೊಸ ಸ್ಥಾನದ ನಿಮ್ಮದೇ ಸ್ವಂತ ಉಡುಪನ್ನು ಮಾಡಲು ಉಡುಪನ್ನು ಎಡಿಟ್‌ ಮಾಡಬಹುದು!
 
-Would you use the `say`{:class="block3looks"} or `Text to Speech`{:class="block3extensions"} block for the instructions? It's completely up to you.
+ಸೂಚನೆಗಳಿಗೆ ನೀವು `say`{:class="block3looks"}ನ್ನು ಉಪಯೋಗಿಸುತ್ತೀರಾ ಅಥವಾ `Text to Speech`{:class="block3extensions"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸುತ್ತೀರಾ? ಇದು ಸಂಪೂರ್ಣವಾಗಿ ನಿಮಗೆ ಬಿಟ್ಟದ್ದು.
 
-To add controls that change the speed of the routines you could use a new `variable`{:class="block3variables"} to control the `wait`{:class="block3control"} times and how long it takes to `say`{:class="block3looks"} the instructions. You could create more buttons to control speed, like the arrows to control the number of repetitions.
+ದಿನಚರಿಗಳ ವೇಗವನ್ನು ಬದಲಾಯಿಸುವ ನಿಯಂತ್ರಣಗಳನ್ನು ಸೇರಿಸಲು ನೀವು ಹೊಸ `variable`{:class="block3variables"}ನ್ನು `wait`{:class="block3control"} ಬಾರಿ ಮತ್ತು `say`{:class="block3looks"} ಸೂಚನೆಗಳನ್ನು ಹೇಳಲು ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಇವುಗಳನ್ನು ಉಪಯೋಗಿಸಬಹುದು. ಪುನರಾವರ್ತನೆಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಬಾಣಗಳನ್ನು ಉಪಯೋಗಿಸಿದಂತೆ ವೇಗವನ್ನು ನಿಯಂತ್ರಿಸಲು ನೀವು ಇನ್ನಷ್ಟು ಬಟನ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು.
 
 --- no-print ---
 
@@ -19,6 +19,6 @@ To add controls that change the speed of the routines you could use a new `varia
 
 --- print-only ---
 
-![completed challenge example](images/challenge_example.png)
+![ಪೂರ್ಣಗೊಂಡ ಸವಾಲಿನ ಉದಾಹರಣೆ](images/challenge_example.png)
 
 --- /print-only ---
