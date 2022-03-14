@@ -46,8 +46,8 @@ title: మీకు కావల్సినవి
 title: మీరు ఏమి నేర్చుకుంటారు
 ---
 
-+ `వేరియబుల్`{:class="block3variables"} ని నియంత్రించడానికి `condition`{:class="block3control"} ని ఎలా ఉపయోగించాలి
-+ `repetition`{:class="block3control"} ల సంఖ్యని నియంత్రించడానికి `వేరియబుల్`{:class="block3variables"}ని ఎలా ఉపయోగించాలి
++ `variable`{:class="block3variables"} ని నియంత్రించడానికి `condition`{:class="block3control"} ని ఎలా ఉపయోగించాలి
++ `repetition`{:class="block3control"} ల సంఖ్యని నియంత్రించడానికి `variable`{:class="block3variables"}ని ఎలా ఉపయోగించాలి
 + `Text to Speech`{:class="block3extensions"} ఎక్స్‌టెన్షన్ బ్లాక్‌లను ఎలా ఉపయోగించాలి
 
 --- /collapse ---

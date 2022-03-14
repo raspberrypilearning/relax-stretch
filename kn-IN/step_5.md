@@ -73,7 +73,7 @@ end
 
 --- task ---
 
-`else`{:class="block3control"}ರ ಕೆಳಗೆ, ಗರಿಷ್ಠ `5 ಪುನರಾವರ್ತನೆಗಳು ಎಂದು <code>2` ಸೆಕೆಂಡುಗಳ </code> ವರೆಗೆ ಸಂದೇಶ ತೋರಿಸುವ `say`{:class="block3looks"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
+`else`{:class="block3control"}ರ ಕೆಳಗೆ, ಗರಿಷ್ಠ `5 repetitions is the maximum` `2` ಸೆಕೆಂಡುಗಳ ವರೆಗೆ ಸಂದೇಶ ತೋರಿಸುವ `say`{:class="block3looks"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
 
 ![ಅಪ್‌ ಬಾಣ ಸ್ಪ್ರೈಟ್‌ನ ಐಕಾನ್](images/up_arrow_sprite.png)
 

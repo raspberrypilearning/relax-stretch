@@ -2,7 +2,7 @@
 
 --- task ---
 
-**ऑनलाइन**: Scratch में [स्टार्टर प्रोजेक्ट](http://rpf.io/relax-stretch-on){:target="_blank"} खोलें |
+**ऑनलाइन**: Scratch में [स्टार्टर प्रोजेक्ट](http://rpf.io/relax-stretch-on){:target="_blank"} खोलें ।
 
 **ऑफ़लाइन:** Scratch के ऑफ़लाइन संपादक में [प्रोजेक्ट स्टार्टर फ़ाइल](http://rpf.io/p/hi-IN/relax-stretch-go){:target="_blank"} खोलें। यदि आपको ज़रूरत है तो, आप [यहां Scratch डाउनलोड और इंस्टॉल ](https://scratch.mit.edu/download){:target="_blank"} कर सकते हैं
 

@@ -45,10 +45,11 @@ else
 
 --- task ---
 
-`Operators`{:class="block3operators"} బ్లాక్స్ మెను నుండి,</code>less than`{:class="block3operators"} ఆపరేటర్‌ని ఎంచుకోండి:</p>
+`Operators`{:class="block3operators"} బ్లాక్స్ మెను నుండి,`less than`{:class="block3operators"} ఆపరేటర్‌ని ఎంచుకోండి:
 
-<pre><code class="blocks3">[]<[] ::operators
-`</pre>
+```blocks3
+[]<[] ::operators
+```
 
 బ్లాక్‌ను `if ... then ... else`{:class="block3control"} బ్లాక్ లో పైన ఉన్న ఖాళీలో, `if`{:class="block3control"} మరియు `then`{:class="block3control"} మధ్యలో ఉంచండి.
 
