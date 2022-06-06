@@ -8,13 +8,15 @@ copyedit: true
 last_tested: '2020-09-01'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Prepare your character
 - title: Add a breathing exercise
+  completion:
+  - engaged
 - title: Control the repetitions
 - title: Code the buttons
 - title: Add a head roll exercise
-  completion: internal
+  completion:
+  - internal
 - title: Add more
 - title: Share
 - title: What next?

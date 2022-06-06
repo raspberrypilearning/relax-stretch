@@ -1,20 +1,23 @@
 ---
 title: आराम करें और अँगड़ाई लें
 hero_image: images/relax-banner.png
-description: बैठे रहने के दौरान आपको और दूसरों को स्वस्थ रहने में मदद करने के लिए एक प्रोग्राम लिखें
+description: बैठे रहने के दौरान आपको और दूसरों को स्वस्थ रहने में मदद करने के लिए
+  एक प्रोग्राम लिखें
 version: 5
 listed: true
 copyedit: true
 last_tested: '2020-09-01'
 steps:
-  - title: परिचय
-    completion: engaged
-  - title: अपना चरित्र तैयार करें
-  - title: श्वसन व्यायाम जोड़ें
-  - title: दोहराव को नियंत्रित करें
-  - title: बटन को कोड करें
-  - title: एक हेड रोल व्यायाम जोड़ें
-    completion: internal
-  - title: और जोड़ें
-  - title: साझा करना
-  - title: आगे क्या?
+- title: परिचय
+- title: अपना चरित्र तैयार करें
+- title: श्वसन व्यायाम जोड़ें
+  completion:
+  - engaged
+- title: दोहराव को नियंत्रित करें
+- title: बटन को कोड करें
+- title: एक हेड रोल व्यायाम जोड़ें
+  completion:
+  - internal
+- title: और जोड़ें
+- title: साझा करना
+- title: आगे क्या?
